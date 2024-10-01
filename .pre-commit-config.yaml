@@ -41,4 +41,3 @@ repos:
   hooks:
     - id: djade
       args: [--target-version, "5.1"]
-

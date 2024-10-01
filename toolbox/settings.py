@@ -1,10 +1,7 @@
 from pathlib import Path
 
-
 from decouple import Csv, config
 from dj_database_url import parse as dburl
-
-
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -24,16 +21,13 @@ INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
-    
     "django.contrib.staticfiles",
     "django_extensions",
-    
     "django_htmx",
 ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
-    
     "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -41,7 +35,6 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-    
     "django_htmx.middleware.HtmxMiddleware",
 ]
 
@@ -102,7 +95,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Auth
 AUTH_USER_MODEL = "users.User"
-
 
 
 # Static
