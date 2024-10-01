@@ -25,8 +25,6 @@ jobs:
         poetry run python manage.py distill-local --collectstatic --force ./docs
         echo 'toolbox.cezimbra.me' > docs/CNAME
     - name: Deploy
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config http.sslVerify false
         git config user.name "Automated Publisher"
