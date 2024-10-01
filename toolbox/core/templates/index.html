@@ -1,6 +1,66 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>Hello World</h1>
-    <div hx-get="/" hx-swap="outerHTML">Get Some HTML</div>
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-8">
+                <div class="hero-section p-4 mb-4">
+                    <h1 class="display-4">Welcome to my toolbox</h1>
+                    <p class="lead">Here is where I organize the development libraries, frameworks, tools, languages, etc. that I know</p>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">Recently Added Tools</h2>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li class="recent-tool p-3 mb-3">
+                                <span class="tool-name fw-bold">React Native</span> - <span class="tool-category">Mobile App Framework</span>
+                                <small class="d-block text-muted">Added on: Sept 25, 2024</small>
+                            </li>
+                            <li class="recent-tool p-3 mb-3">
+                                <span class="tool-name fw-bold">GraphQL</span> - <span class="tool-category">API Query Language</span>
+                                <small class="d-block text-muted">Added on: Sept 23, 2024</small>
+                            </li>
+                            <li class="recent-tool p-3 mb-3">
+                                <span class="tool-name fw-bold">Tailwind CSS</span> - <span class="tool-category">Utility-First CSS Framework</span>
+                                <small class="d-block text-muted">Added on: Sept 20, 2024</small>
+                            </li>
+                            <li class="recent-tool p-3 mb-3">
+                                <span class="tool-name fw-bold">Rust</span> - <span class="tool-category">Systems Programming Language</span>
+                                <small class="d-block text-muted">Added on: Sept 18, 2024</small>
+                            </li>
+                            <li class="recent-tool p-3">
+                                <span class="tool-name fw-bold">Prometheus</span> - <span class="tool-category">Monitoring System</span>
+                                <small class="d-block text-muted">Added on: Sept 15, 2024</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">Toolbox at a Glance</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row text-center">
+                            <div class="col-4">
+                                <div class="stat-number">42</div>
+                                <div>Total Tools</div>
+                            </div>
+                            <div class="col-4">
+                                <div class="stat-number">8</div>
+                                <div>Categories</div>
+                            </div>
+                            <div class="col-4">
+                                <div class="stat-number">15</div>
+                                <div>Tags</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock content %}
