@@ -35,4 +35,4 @@ jobs:
         git checkout test
         git add ./docs
         git commit --no-verify -m 'Deploy'
-        git push --force publisher tmp
+        git push publisher test
