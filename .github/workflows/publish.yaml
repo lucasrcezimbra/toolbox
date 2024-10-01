@@ -28,6 +28,7 @@ jobs:
       run: |
         git config user.name "Automated Publisher"
         git config user.email "actions@users.noreply.github.com"
+        git checkout -b gh-pages
         git add ./docs
         git commit --no-verify -m 'Deploy'
-        git push
+        git push --force origin gh-pages
