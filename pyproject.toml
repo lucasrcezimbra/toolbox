@@ -15,7 +15,7 @@ python-decouple = "3.8"
 whitenoise = {extras = ["brotli"], version = "6.7.0"}
 
 [tool.poetry.group.dev.dependencies]
-model-bakery = "1.18.2"
+model-bakery = "1.19.5"
 pre-commit = "3.7.1"
 pytest = "8.2.2"
 pytest-django = "4.8.0"
