@@ -1,6 +1,6 @@
 {
   "checkout": null,
-  "commit": "3ea8546d71632977b6f505b9f45c557ea4289fd2",
+  "commit": "ddd882d514661cc7256e79979412224c5492bd31",
   "context": {
     "cookiecutter": {
       "_template": "https://github.com/lucasrcezimbra/django-template",
