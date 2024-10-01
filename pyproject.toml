@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "toolbox"
+version = "0.0.0"
+description = ""
+authors = []
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dj-database-url = "2.2.0"
+django = "5.0.6"
+django-extensions = "3.2.3"
+django-htmx = "1.17.2"
+gunicorn = "22.0.0"
+python-decouple = "3.8"
+whitenoise = {extras = ["brotli"], version = "6.7.0"}
+
+[tool.poetry.group.dev.dependencies]
+model-bakery = "1.18.2"
+pre-commit = "3.7.1"
+pytest = "8.2.2"
+pytest-django = "4.8.0"
+pytest-mock = "3.14.0"
+
+
+[tool.djlint]
+blank_line_after_tag="endblock,extends"
+blank_line_before_tag="block"
+
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "toolbox.settings"
+python_files = "tests.py test_*.py *_tests.py"
+
+
+[tool.ruff]
+select = ["E", "F", "I", "S", "TRY"]
+ignore = ["E501"]
+line-length = 88
+
+[tool.ruff.per-file-ignores]
+"manage.py" = ["TRY003"]
+"**/tests/**" = ["S101"]

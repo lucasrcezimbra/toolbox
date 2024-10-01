@@ -1,0 +1,20 @@
+{
+  "template": "https://github.com/lucasrcezimbra/django-template",
+  "commit": "443b240443c7a4ad2e2e8e22f60949cbef12870a",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "Toolbox",
+      "project_slug": "toolbox",
+      "github_username": "lucasrcezimbra",
+      "database": "SQLite",
+      "api": "No",
+      "html": "HTMX",
+      "deploy": "No",
+      "use_sentry": false,
+      "staticfiles": true,
+      "_template": "https://github.com/lucasrcezimbra/django-template"
+    }
+  },
+  "directory": null
+}

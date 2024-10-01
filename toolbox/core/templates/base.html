@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Toolbox</title>
+  {% load static %}
+  
+  <script src="{% static 'htmx.min.js.gz' %}" defer></script>
+  
+</head>
+<body>
+  <div id="content">
+    {% block content %}{% endblock %}
+  </div>
+</body>
+</html>

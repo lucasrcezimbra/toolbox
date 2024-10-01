@@ -1,0 +1,5 @@
+ALLOWED_HOSTS=127.0.0.1, .localhost
+DATABASE_URL=sqlite:///db.sqlite3
+DEBUG=True
+ENV=local
+SECRET_KEY=THIS_IS_NOT_A_GOOD_SECRET
