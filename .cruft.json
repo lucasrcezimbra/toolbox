@@ -1,10 +1,11 @@
 {
   "checkout": null,
-  "commit": "443b240443c7a4ad2e2e8e22f60949cbef12870a",
+  "commit": "34354487ab4c043d78d5462af811f6d5b6f1055d",
   "context": {
     "cookiecutter": {
       "_template": "https://github.com/lucasrcezimbra/django-template",
       "api": "No",
+      "css": "Bootstrap",
       "database": "SQLite",
       "deploy": "No",
       "github_username": "lucasrcezimbra",
