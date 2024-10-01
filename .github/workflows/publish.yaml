@@ -32,7 +32,7 @@ jobs:
         git config user.name "Automated Publisher"
         git config user.email "actions@users.noreply.github.com"
         git remote add publisher "https://lucasrcezimbra:$GITHUB_TOKEN@github.com/lucasrcezimbra/toolbox.git"
-        git checkout -b tmp
+        git checkout test
         git add ./docs
         git commit --no-verify -m 'Deploy'
         git push --force publisher tmp
