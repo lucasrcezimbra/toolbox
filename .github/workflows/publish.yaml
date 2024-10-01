@@ -18,12 +18,16 @@ jobs:
       run: |
         poetry install
         cp contrib/env-sample .env
-    - name: Generate static and push
+    - name: Generate static
       run: |
         poetry run python manage.py migrate
         poetry run python manage.py loaddata ./toolbox/core/fixtures/core.json
         poetry run python manage.py distill-local --collectstatic --force ./docs
         echo 'toolbox.cezimbra.me' > docs/CNAME
+    - name: Deploy
+      run: |
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
         git checkout -b gh-pages
         git add ./docs
         git commit --no-verify -m 'Deploy'
