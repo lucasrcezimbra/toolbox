@@ -1,3 +1,5 @@
-from django.contrib import admin  # noqa
+from django.contrib import admin
 
-# Register your models here.
+from toolbox.core.models import Tool
+
+admin.site.register(Tool)
