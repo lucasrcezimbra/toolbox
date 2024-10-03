@@ -1,0 +1,274 @@
+[
+  {
+    "fields": {
+      "name": "Astro",
+      "slug": "astro"
+    },
+    "model": "taggit.tag",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "name": "C",
+      "slug": "c"
+    },
+    "model": "taggit.tag",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "name": "C#",
+      "slug": "c-sharp"
+    },
+    "model": "taggit.tag",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "name": "C++",
+      "slug": "c-plus-plus"
+    },
+    "model": "taggit.tag",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "name": "CSS",
+      "slug": "css"
+    },
+    "model": "taggit.tag",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "name": "Clojure",
+      "slug": "clojure"
+    },
+    "model": "taggit.tag",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "name": "Crystal",
+      "slug": "crystal"
+    },
+    "model": "taggit.tag",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "name": "Dart",
+      "slug": "dart"
+    },
+    "model": "taggit.tag",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "name": "Dockerfile",
+      "slug": "dockerfile"
+    },
+    "model": "taggit.tag",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "name": "Elixir",
+      "slug": "elixir"
+    },
+    "model": "taggit.tag",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "name": "Elm",
+      "slug": "elm"
+    },
+    "model": "taggit.tag",
+    "pk": 13
+  },
+  {
+    "fields": {
+      "name": "F#",
+      "slug": "f#"
+    },
+    "model": "taggit.tag",
+    "pk": 14
+  },
+  {
+    "fields": {
+      "name": "Gherkin",
+      "slug": "gherkin"
+    },
+    "model": "taggit.tag",
+    "pk": 15
+  },
+  {
+    "fields": {
+      "name": "Go",
+      "slug": "go"
+    },
+    "model": "taggit.tag",
+    "pk": 16
+  },
+  {
+    "fields": {
+      "name": "HTML",
+      "slug": "html"
+    },
+    "model": "taggit.tag",
+    "pk": 17
+  },
+  {
+    "fields": {
+      "name": "Haskell",
+      "slug": "haskell"
+    },
+    "model": "taggit.tag",
+    "pk": 18
+  },
+  {
+    "fields": {
+      "name": "Java",
+      "slug": "java"
+    },
+    "model": "taggit.tag",
+    "pk": 19
+  },
+  {
+    "fields": {
+      "name": "JavaScript",
+      "slug": "javascript"
+    },
+    "model": "taggit.tag",
+    "pk": 20
+  },
+  {
+    "fields": {
+      "name": "Jinja",
+      "slug": "jinja"
+    },
+    "model": "taggit.tag",
+    "pk": 21
+  },
+  {
+    "fields": {
+      "name": "Jupyter Notebook",
+      "slug": "jupyter-notebook"
+    },
+    "model": "taggit.tag",
+    "pk": 22
+  },
+  {
+    "fields": {
+      "name": "Kotlin",
+      "slug": "kotlin"
+    },
+    "model": "taggit.tag",
+    "pk": 23
+  },
+  {
+    "fields": {
+      "name": "Lua",
+      "slug": "lua"
+    },
+    "model": "taggit.tag",
+    "pk": 24
+  },
+  {
+    "fields": {
+      "name": "Markdown",
+      "slug": "markdown"
+    },
+    "model": "taggit.tag",
+    "pk": 25
+  },
+  {
+    "fields": {
+      "name": "PHP",
+      "slug": "php"
+    },
+    "model": "taggit.tag",
+    "pk": 26
+  },
+  {
+    "fields": {
+      "name": "Python",
+      "slug": "python"
+    },
+    "model": "taggit.tag",
+    "pk": 27
+  },
+  {
+    "fields": {
+      "name": "Roff",
+      "slug": "roff"
+    },
+    "model": "taggit.tag",
+    "pk": 28
+  },
+  {
+    "fields": {
+      "name": "Ruby",
+      "slug": "ruby"
+    },
+    "model": "taggit.tag",
+    "pk": 29
+  },
+  {
+    "fields": {
+      "name": "Rust",
+      "slug": "rust"
+    },
+    "model": "taggit.tag",
+    "pk": 30
+  },
+  {
+    "fields": {
+      "name": "SCSS",
+      "slug": "scss"
+    },
+    "model": "taggit.tag",
+    "pk": 31
+  },
+  {
+    "fields": {
+      "name": "Scala",
+      "slug": "scala"
+    },
+    "model": "taggit.tag",
+    "pk": 32
+  },
+  {
+    "fields": {
+      "name": "Shell",
+      "slug": "shell"
+    },
+    "model": "taggit.tag",
+    "pk": 33
+  },
+  {
+    "fields": {
+      "name": "Swift",
+      "slug": "swift"
+    },
+    "model": "taggit.tag",
+    "pk": 34
+  },
+  {
+    "fields": {
+      "name": "TypeScript",
+      "slug": "typescript"
+    },
+    "model": "taggit.tag",
+    "pk": 35
+  },
+  {
+    "fields": {
+      "name": "Vim Script",
+      "slug": "vim-script"
+    },
+    "model": "taggit.tag",
+    "pk": 36
+  }
+]
