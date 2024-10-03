@@ -31,16 +31,3 @@ def tags(request):
             "tags": tags,
         },
     )
-
-
-def tag(request, slug):
-    tags = Tag.objects.annotate(number_of_tools=Count("tool")).order_by(
-        "-number_of_tools"
-    )
-    return render(
-        request,
-        "tags.html",
-        {
-            "tags": tags,
-        },
-    )

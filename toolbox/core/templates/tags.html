@@ -15,8 +15,6 @@
                                     <div class="tag-card p-3">
                                         <h5 class="tag-name">#{{ tag.slug }}</h5>
                                         <span class="badge bg-primary">{{ tag.number_of_tools }} tools</span>
-                                        <a href="{% url 'tag' tag.slug %}"
-                                           class="btn btn-outline-primary btn-sm mt-2">View Tools</a>
                                     </div>
                                 </div>
                             {% endfor %}
