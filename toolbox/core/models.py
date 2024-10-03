@@ -10,3 +10,6 @@ class Tool(models.Model):
     notes = models.TextField(blank=True)
 
     tags = TaggableManager()
+
+    def __str__(self):
+        return self.name
