@@ -22,8 +22,8 @@
   },
   {
     "fields": {
-      "name": "c-plus-plus",
-      "slug": "c-plus-plus"
+      "name": "cpp",
+      "slug": "cpp"
     },
     "model": "taggit.tag"
   },
