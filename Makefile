@@ -1,4 +1,11 @@
-.PHONY: dev dbdump dbload dbnew install test
+.PHONY: build dev dbdump dbload dbnew install test
+
+build:
+		poetry run python manage.py distill-local --collectstatic --force ./docs
+		mv docs/tags docs/TEMP
+		mkdir docs/tags/
+		mv docs/TEMP docs/tags/index.html
+		echo 'toolbox.cezimbra.me' > docs/CNAME
 
 dev:
 		poetry run python manage.py runserver
