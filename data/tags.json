@@ -90,7 +90,7 @@
   {
     "fields": {
       "name": "F#",
-      "slug": "f#"
+      "slug": "f-sharp"
     },
     "model": "taggit.tag",
     "pk": 14
