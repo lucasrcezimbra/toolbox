@@ -16,7 +16,7 @@ dbnew:
 		poetry run python manage.py migrate
 
 datagen:
-	  poetry run github-to-sqlite starred github.db lucasrcezimbra
+	  poetry run github-to-sqlite starred github.sqlite3 lucasrcezimbra
 		poetry run sqlite-utils github.sqlite3 \
 			"SELECT \
 		      starred_at AS created_at, \
