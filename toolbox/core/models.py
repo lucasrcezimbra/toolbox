@@ -7,6 +7,6 @@ class Tool(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     url_github = models.URLField()
     name = models.CharField(max_length=254)
-    notes = models.TextField(null=True)
+    notes = models.TextField(blank=True)
 
     tags = TaggableManager()
