@@ -9,6 +9,7 @@ dbdump:
 
 dbload:
 		poetry run python manage.py loaddata data/github_stars.json data/tags.json
+		poetry run python data/tool_tags.py
 
 dbnew:
 		rm db.sqlite3
