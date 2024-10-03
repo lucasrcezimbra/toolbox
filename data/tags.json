@@ -1,7 +1,7 @@
 [
   {
     "fields": {
-      "name": "Astro",
+      "name": "astro",
       "slug": "astro"
     },
     "model": "taggit.tag",
@@ -9,7 +9,7 @@
   },
   {
     "fields": {
-      "name": "C",
+      "name": "c",
       "slug": "c"
     },
     "model": "taggit.tag",
@@ -17,7 +17,7 @@
   },
   {
     "fields": {
-      "name": "C#",
+      "name": "c-sharp",
       "slug": "c-sharp"
     },
     "model": "taggit.tag",
@@ -25,7 +25,7 @@
   },
   {
     "fields": {
-      "name": "C++",
+      "name": "c-plus-plus",
       "slug": "c-plus-plus"
     },
     "model": "taggit.tag",
@@ -33,7 +33,7 @@
   },
   {
     "fields": {
-      "name": "CSS",
+      "name": "css",
       "slug": "css"
     },
     "model": "taggit.tag",
@@ -41,7 +41,7 @@
   },
   {
     "fields": {
-      "name": "Clojure",
+      "name": "clojure",
       "slug": "clojure"
     },
     "model": "taggit.tag",
@@ -49,7 +49,7 @@
   },
   {
     "fields": {
-      "name": "Crystal",
+      "name": "crystal",
       "slug": "crystal"
     },
     "model": "taggit.tag",
@@ -57,7 +57,7 @@
   },
   {
     "fields": {
-      "name": "Dart",
+      "name": "dart",
       "slug": "dart"
     },
     "model": "taggit.tag",
@@ -65,7 +65,7 @@
   },
   {
     "fields": {
-      "name": "Dockerfile",
+      "name": "dockerfile",
       "slug": "dockerfile"
     },
     "model": "taggit.tag",
@@ -73,7 +73,7 @@
   },
   {
     "fields": {
-      "name": "Elixir",
+      "name": "elixir",
       "slug": "elixir"
     },
     "model": "taggit.tag",
@@ -81,7 +81,7 @@
   },
   {
     "fields": {
-      "name": "Elm",
+      "name": "elm",
       "slug": "elm"
     },
     "model": "taggit.tag",
@@ -89,7 +89,7 @@
   },
   {
     "fields": {
-      "name": "F#",
+      "name": "f-sharp",
       "slug": "f-sharp"
     },
     "model": "taggit.tag",
@@ -97,7 +97,7 @@
   },
   {
     "fields": {
-      "name": "Gherkin",
+      "name": "gherkin",
       "slug": "gherkin"
     },
     "model": "taggit.tag",
@@ -105,7 +105,7 @@
   },
   {
     "fields": {
-      "name": "Go",
+      "name": "go",
       "slug": "go"
     },
     "model": "taggit.tag",
@@ -113,7 +113,7 @@
   },
   {
     "fields": {
-      "name": "HTML",
+      "name": "html",
       "slug": "html"
     },
     "model": "taggit.tag",
@@ -121,7 +121,7 @@
   },
   {
     "fields": {
-      "name": "Haskell",
+      "name": "haskell",
       "slug": "haskell"
     },
     "model": "taggit.tag",
@@ -129,7 +129,7 @@
   },
   {
     "fields": {
-      "name": "Java",
+      "name": "java",
       "slug": "java"
     },
     "model": "taggit.tag",
@@ -137,7 +137,7 @@
   },
   {
     "fields": {
-      "name": "JavaScript",
+      "name": "javascript",
       "slug": "javascript"
     },
     "model": "taggit.tag",
@@ -145,7 +145,7 @@
   },
   {
     "fields": {
-      "name": "Jinja",
+      "name": "jinja",
       "slug": "jinja"
     },
     "model": "taggit.tag",
@@ -153,7 +153,7 @@
   },
   {
     "fields": {
-      "name": "Jupyter Notebook",
+      "name": "jupyter-notebook",
       "slug": "jupyter-notebook"
     },
     "model": "taggit.tag",
@@ -161,7 +161,7 @@
   },
   {
     "fields": {
-      "name": "Kotlin",
+      "name": "kotlin",
       "slug": "kotlin"
     },
     "model": "taggit.tag",
@@ -169,7 +169,7 @@
   },
   {
     "fields": {
-      "name": "Lua",
+      "name": "lua",
       "slug": "lua"
     },
     "model": "taggit.tag",
@@ -177,7 +177,7 @@
   },
   {
     "fields": {
-      "name": "Markdown",
+      "name": "markdown",
       "slug": "markdown"
     },
     "model": "taggit.tag",
@@ -185,7 +185,7 @@
   },
   {
     "fields": {
-      "name": "PHP",
+      "name": "php",
       "slug": "php"
     },
     "model": "taggit.tag",
@@ -193,7 +193,7 @@
   },
   {
     "fields": {
-      "name": "Python",
+      "name": "python",
       "slug": "python"
     },
     "model": "taggit.tag",
@@ -201,7 +201,7 @@
   },
   {
     "fields": {
-      "name": "Roff",
+      "name": "roff",
       "slug": "roff"
     },
     "model": "taggit.tag",
@@ -209,7 +209,7 @@
   },
   {
     "fields": {
-      "name": "Ruby",
+      "name": "ruby",
       "slug": "ruby"
     },
     "model": "taggit.tag",
@@ -217,7 +217,7 @@
   },
   {
     "fields": {
-      "name": "Rust",
+      "name": "rust",
       "slug": "rust"
     },
     "model": "taggit.tag",
@@ -225,7 +225,7 @@
   },
   {
     "fields": {
-      "name": "SCSS",
+      "name": "scss",
       "slug": "scss"
     },
     "model": "taggit.tag",
@@ -233,7 +233,7 @@
   },
   {
     "fields": {
-      "name": "Scala",
+      "name": "scala",
       "slug": "scala"
     },
     "model": "taggit.tag",
@@ -241,7 +241,7 @@
   },
   {
     "fields": {
-      "name": "Shell",
+      "name": "shell",
       "slug": "shell"
     },
     "model": "taggit.tag",
@@ -249,7 +249,7 @@
   },
   {
     "fields": {
-      "name": "Swift",
+      "name": "swift",
       "slug": "swift"
     },
     "model": "taggit.tag",
@@ -257,7 +257,7 @@
   },
   {
     "fields": {
-      "name": "TypeScript",
+      "name": "typescript",
       "slug": "typescript"
     },
     "model": "taggit.tag",
@@ -265,7 +265,7 @@
   },
   {
     "fields": {
-      "name": "Vim Script",
+      "name": "vim-script",
       "slug": "vim-script"
     },
     "model": "taggit.tag",
