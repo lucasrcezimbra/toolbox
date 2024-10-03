@@ -16,6 +16,10 @@ gunicorn = "23.0.0"
 python-decouple = "3.8"
 whitenoise = {extras = ["brotli"], version = "6.7.0"}
 
+[tool.poetry.group.data.dependencies]
+github-to-sqlite = "2.9"
+sqlite-utils = "3.37"
+
 [tool.poetry.group.dev.dependencies]
 model-bakery = "1.19.5"
 pre-commit = "3.8.0"

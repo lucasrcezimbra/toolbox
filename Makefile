@@ -1,4 +1,7 @@
-.PHONY: dbdump dbload dbnew
+.PHONY: dev dbdump dbload dbnew install test
+
+dev:
+		poetry run python manage.py runserver
 
 dbdump:
 		poetry run python manage.py dumpdata core --natural-primary --natural-foreign --indent 4 -o data/github_stars.json
@@ -10,3 +13,28 @@ dbload:
 dbnew:
 		rm db.sqlite3
 		poetry run python manage.py migrate
+
+datagen:
+	  poetry run github-to-sqlite starred github.db lucasrcezimbra
+		poetry run sqlite-utils github.sqlite3 \
+			"SELECT \
+		      starred_at AS created_at, \
+					starred_at AS updated_at, \
+					repos.html_url as url_github, \
+					repos.name, \
+					'' as notes \
+			 FROM \
+			 		stars \
+					JOIN repos ON \
+	 					  stars.repo = repos.id \
+			 ORDER BY starred_at" \
+			| sqlite-utils insert db.sqlite3 core_tool -
+
+install:
+		poetry install
+		poetry run pre-commit install
+		cp contrib/env-sample .env
+		poetry run python manage.py migrate
+
+test:
+	  poetry run pytest
