@@ -1,5 +1,6 @@
 # Toolbox
 
+![](./contrib/screenshot.png)
 
 ## Installation
 ```bash
