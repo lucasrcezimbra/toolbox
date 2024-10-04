@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     "django_extensions",
     "django_htmx",
     "django_distill",
+    "taggit",
 ]
 
 MIDDLEWARE = [

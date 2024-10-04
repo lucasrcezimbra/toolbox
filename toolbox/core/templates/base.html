@@ -8,22 +8,19 @@
         <link href="{% static 'bootstrap.min.css' %}" rel="stylesheet" async>
         <script src="{% static 'htmx.min.js.gz' %}" defer></script>
         <style>
-        /* Custom styles to enhance Bootstrap */
         .navbar-brand {
             font-size: 1.5rem;
             font-weight: 300;
             letter-spacing: 2px;
         }
+
+        /* index.html */
         .hero-section {
             background-color: rgba(13, 110, 253, 0.1);
             border-radius: 0.5rem;
         }
         .card {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
         }
         .stat-number {
             font-size: 2.5rem;
@@ -51,7 +48,7 @@
         <div id="content">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container">
-                    <a class="navbar-brand" href="#">Lucas Cezimbra Toolbox</a>
+                    <a class="navbar-brand" href="{% url 'index' %}">Lucas Cezimbra Toolbox</a>
                     <button class="navbar-toggler"
                             type="button"
                             data-bs-toggle="collapse"
@@ -64,7 +61,10 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav me-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Home</a>
+                                <a class="nav-link" href="{% url 'index' %}">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% url 'tags' %}">Tags</a>
                             </li>
                         </ul>
                     </div>

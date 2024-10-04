@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">All Tags</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-3">
+                            {% for tag in tags %}
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <h5 class="tag-name">#{{ tag.slug }}</h5>
+                                        <span class="badge bg-primary">{{ tag.number_of_tools }} tools</span>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
