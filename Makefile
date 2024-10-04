@@ -14,8 +14,7 @@ dbdump:
 	poetry run python manage.py dumpdata core --natural-primary --natural-foreign --indent 4 -o data/github_stars.json
 
 dbload:
-	poetry run python manage.py loaddata data/github_stars.json
-	poetry run python data/tool_tags.py
+	poetry run python manage.py runscript import_from_github
 
 dbnew:
 	rm db.sqlite3
@@ -23,19 +22,6 @@ dbnew:
 
 datagen:
 	poetry run github-to-sqlite starred github.sqlite3 lucasrcezimbra
-	poetry run sqlite-utils github.sqlite3 \
-		"SELECT \
-				starred_at AS created_at, \
-				starred_at AS updated_at, \
-				repos.html_url as url_github, \
-				repos.name, \
-				'' as notes \
-		 FROM \
-				stars \
-				JOIN repos ON \
-						stars.repo = repos.id \
-		 ORDER BY starred_at" \
-		| sqlite-utils insert db.sqlite3 core_tool -
 
 install:
 	poetry install
