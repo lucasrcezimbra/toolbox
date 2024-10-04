@@ -10,9 +10,6 @@ build:
 dev:
 	poetry run python manage.py runserver
 
-dbdump:
-	poetry run python manage.py dumpdata core --natural-primary --natural-foreign --indent 4 -o data/github_stars.json
-
 dbload:
 	poetry run python manage.py runscript import_from_github
 
@@ -20,8 +17,8 @@ dbnew:
 	rm db.sqlite3
 	poetry run python manage.py migrate
 
-datagen:
-	poetry run github-to-sqlite starred github.sqlite3 lucasrcezimbra
+collectdata:
+	poetry run github-to-sqlite starred github.sqlite3 $(github)
 
 install:
 	poetry install

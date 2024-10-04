@@ -19,7 +19,7 @@ make test
 make dev
 ```
 
-### Generate the database
+### Collect data
 ```bash
-make datagen
+make collectdata github=<your-github-username>
 ```
