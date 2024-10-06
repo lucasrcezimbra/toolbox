@@ -28,7 +28,7 @@ def run():
         )
         t.save()
         if language:
-            t.tags.add(tagify(language))
+            t.tags.add(tagify(language), "opensource")
 
 
 def tagify(s):
