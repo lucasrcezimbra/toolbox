@@ -32,6 +32,7 @@ def run():
             tags.append(tagify(language))
         t.tags.add(*tags)
 
+
 def tagify(s):
     s = s.lower()
     s = s.replace("#", "-sharp")

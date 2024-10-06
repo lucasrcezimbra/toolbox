@@ -1,4 +1,4 @@
-.PHONY: build dev dbdump dbload dbnew install test
+.PHONY: build dev dbdump dbload dbnew install lint test
 
 build:
 	poetry run python manage.py distill-local --collectstatic --force ./docs
@@ -25,6 +25,9 @@ install:
 	poetry run pre-commit install
 	cp contrib/env-sample .env
 	poetry run python manage.py migrate
+
+lint:
+	poetry run pre-commit run -a
 
 test:
 	poetry run pytest
