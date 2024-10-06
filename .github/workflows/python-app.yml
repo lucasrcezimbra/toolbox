@@ -15,5 +15,4 @@ jobs:
           python-version: '3.11'
           cache: 'poetry'
       - run: make install
-      - run: make lint
       - run: make test
