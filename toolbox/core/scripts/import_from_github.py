@@ -27,9 +27,10 @@ def run():
             created_at=starred_at, updated_at=starred_at, url_github=html_url, name=name
         )
         t.save()
+        tags = ["opensource"]
         if language:
-            t.tags.add(tagify(language), "opensource")
-
+            tags.append(tagify(language))
+        t.tags.add(*tags)
 
 def tagify(s):
     s = s.lower()
