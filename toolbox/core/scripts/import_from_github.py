@@ -23,9 +23,7 @@ def run():
     rows = cursor.fetchall()
 
     for starred_at, html_url, name, language in rows:
-        t = Tool(
-            created_at=starred_at, updated_at=starred_at, url_github=html_url, name=name
-        )
+        t = Tool(added_at=starred_at, url_github=html_url, name=name)
         t.save()
         tags = ["opensource"]
         if language:

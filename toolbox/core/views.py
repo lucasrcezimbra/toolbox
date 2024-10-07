@@ -8,7 +8,7 @@ from toolbox.core.models import Tool
 def index(request):
     number_of_tools = Tool.objects.count()
     number_of_tags = Tag.objects.count()
-    tools = Tool.objects.order_by("-created_at")[:20]
+    tools = Tool.objects.order_by("-added_at")[:20]
     return render(
         request,
         "index.html",

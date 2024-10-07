@@ -18,7 +18,7 @@
                                 <li class="recent-tool p-3 mb-3">
                                     <span class="tool-name fw-bold">{{ tool.name }}</span> - <span class="tool-category">{{ tool.url_github }}</span> -
                                     {% for tag in tool.tags.all %}<span>#{{ tag.slug }}</span>{% endfor %}
-                                    <small class="d-block text-muted">Added on: {{ tool.created_at|date:'Y-m-d' }}</small>
+                                    <small class="d-block text-muted">Added on: {{ tool.added_at|date:'Y-m-d' }}</small>
                                 </li>
                             {% endfor %}
                         </ul>
