@@ -2,9 +2,6 @@
 
 build:
 	poetry run python manage.py distill-local --collectstatic --force ./docs
-	mv docs/tags docs/TEMP
-	mkdir docs/tags/
-	mv docs/TEMP docs/tags/index.html
 	echo 'toolbox.cezimbra.me' > docs/CNAME
 
 dev:

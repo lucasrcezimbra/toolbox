@@ -7,5 +7,5 @@ from toolbox.core.views import index, tags
 urlpatterns = [
     path("admin/", admin.site.urls),
     distill_path("", index, name="index"),
-    distill_path("tags", tags, name="tags"),
+    distill_path("tags/", tags, name="tags"),
 ]
