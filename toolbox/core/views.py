@@ -9,7 +9,7 @@ def index(request):
     number_of_lists = List.objects.count()
     number_of_tools = Tool.objects.count()
     number_of_tags = Tag.objects.count()
-    tools = Tool.objects.order_by("-added_at")[:20]
+    tools = Tool.objects.all()[:20]
     return render(
         request,
         "index.html",
@@ -29,7 +29,7 @@ def lists(request):
 
 def list_detail(request, slug):
     list = List.objects.get(slug=slug)
-    tools = list.tools.order_by("-added_at").all()
+    tools = list.tools.all()
     return render(request, "list.html", {"list": list, "tools": tools})
 
 
