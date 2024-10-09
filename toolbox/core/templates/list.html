@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">{{ list.name }}</h2>
+                    </div>
+                    <div class="card-body">
+                        {% for tool in tools %}
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">{{ tool.name }}</span> - <span class="tool-category">{{ tool.url_github }}</span> -
+                                    {% for tag in tool.tags.all %}<span>#{{ tag.slug }}</span>{% endfor %}
+                                    <small class="d-block text-muted">Added on: {{ tool.added_at|date:'Y-m-d' }}</small>
+                                </li>
+                            </ul>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

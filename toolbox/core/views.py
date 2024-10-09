@@ -25,6 +25,12 @@ def lists(request):
     return render(request, "lists.html", {"lists": lists})
 
 
+def list_detail(request, slug):
+    list = List.objects.get(slug=slug)
+    tools = list.tools.order_by("-added_at").all()
+    return render(request, "list.html", {"list": list, "tools": tools})
+
+
 def tags(request):
     tags = Tag.objects.annotate(number_of_tools=Count("tool")).order_by(
         "-number_of_tools"
