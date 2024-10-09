@@ -13,7 +13,10 @@
                             {% for list in lists %}
                                 <div class="col-md-3 col-sm-6">
                                     <div class="tag-card p-3">
-                                        <h5 class="tag-name">{{ list.name }}</h5>
+                                        <a href="{% url 'list-detail' list.slug %}">
+                                            <h5 class="tag-name">{{ list.name }}</h5>
+                                        </a>
+                                        <span class="badge bg-primary">{{ list.number_of_tools }} tools</span>
                                     </div>
                                 </div>
                             {% endfor %}

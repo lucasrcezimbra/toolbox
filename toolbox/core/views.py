@@ -21,7 +21,7 @@ def index(request):
 
 
 def lists(request):
-    lists = List.objects.all()
+    lists = List.objects.annotate(number_of_tools=Count("tools")).all()
     return render(request, "lists.html", {"lists": lists})
 
 
