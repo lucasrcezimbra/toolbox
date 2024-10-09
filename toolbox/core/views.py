@@ -42,3 +42,14 @@ def tags(request):
             "tags": tags,
         },
     )
+
+
+def tag_detail(request, slug):
+    tag = Tag.objects.get(slug=slug)
+    tools = Tool.objects.filter(tags__slug=slug)
+    number_of_tools = tools.count()
+    return render(
+        request,
+        "tag.html",
+        {"tag": tag, "number_of_tools": number_of_tools, "tools": tools[:100]},
+    )

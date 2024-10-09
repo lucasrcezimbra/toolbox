@@ -1,9 +1,10 @@
 from django.contrib import admin
 from django.urls import path
 from django_distill import distill_path
+from taggit.models import Tag
 
 from toolbox.core.models import List
-from toolbox.core.views import index, list_detail, lists, tags
+from toolbox.core.views import index, list_detail, lists, tag_detail, tags
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -16,4 +17,10 @@ urlpatterns = [
         distill_func=lambda: (x.slug for x in List.objects.all()),
     ),
     distill_path("tags/", tags, name="tags"),
+    distill_path(
+        "tags/<str:slug>/",
+        tag_detail,
+        name="tag-detail",
+        distill_func=lambda: (t.slug for t in Tag.objects.all()),
+    ),
 ]

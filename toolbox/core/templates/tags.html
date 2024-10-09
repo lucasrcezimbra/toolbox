@@ -13,7 +13,9 @@
                             {% for tag in tags %}
                                 <div class="col-md-3 col-sm-6">
                                     <div class="tag-card p-3">
-                                        <h5 class="tag-name">#{{ tag.slug }}</h5>
+                                        <a href="{% url 'tag-detail' tag.slug %}">
+                                            <h5 class="tag-name">#{{ tag.slug }}</h5>
+                                        </a>
                                         <span class="badge bg-primary">{{ tag.number_of_tools }} tools</span>
                                     </div>
                                 </div>

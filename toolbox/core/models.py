@@ -18,6 +18,9 @@ class Tool(models.Model):
     objects = ToolManager()
     tags = TaggableManager()
 
+    class Meta:
+        ordering = ["-added_at"]
+
     def __str__(self):
         return self.name
 
