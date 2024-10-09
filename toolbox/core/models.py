@@ -22,6 +22,7 @@ class Tool(models.Model):
 class List(models.Model):
     name = models.CharField(max_length=100)
     slug = models.SlugField(unique=True)
+    tools = models.ManyToManyField(Tool)
 
     def __str__(self):
         return self.name
