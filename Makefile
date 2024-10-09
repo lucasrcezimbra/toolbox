@@ -7,8 +7,12 @@ build:
 dev:
 	poetry run python manage.py runserver
 
+dbdump:
+	poetry run python manage.py dumpdata core.list --natural-primary --natural-foreign  --indent 4 -o data/lists.json
+
 dbload:
 	poetry run python manage.py runscript import_from_github
+	poetry run python manage.py loaddata data/lists.json
 
 dbnew:
 	rm db.sqlite3
