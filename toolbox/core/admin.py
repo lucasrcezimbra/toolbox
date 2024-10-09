@@ -12,3 +12,4 @@ class ListAdmin(admin.ModelAdmin):
 @admin.register(Tool)
 class ToolAdmin(admin.ModelAdmin):
     search_fields = ("name",)
+    ordering = ["-added_at"]
