@@ -25,5 +25,41 @@
       ]
     },
     "model": "core.list"
+  },
+  {
+    "fields": {
+      "name": "nostr - relays",
+      "slug": "nostr-relays",
+      "tools": [
+        [
+          "https://github.com/mikedilger/chorus"
+        ],
+        [
+          "https://github.com/dtonon/chronicle"
+        ],
+        [
+          "https://github.com/fiatjaf/jingle"
+        ],
+        [
+          "https://github.com/bitvora/haven"
+        ],
+        [
+          "https://github.com/Spl0itable/nosflare"
+        ],
+        [
+          "https://github.com/Cameri/nostream"
+        ],
+        [
+          "https://github.com/scsibug/nostr-rs-relay"
+        ],
+        [
+          "https://github.com/hoytech/strfry"
+        ],
+        [
+          "https://github.com/bitvora/wot-relay"
+        ]
+      ]
+    },
+    "model": "core.list"
   }
 ]
