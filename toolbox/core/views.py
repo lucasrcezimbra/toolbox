@@ -2,7 +2,7 @@ from django.db.models import Count
 from django.shortcuts import render
 from taggit.models import Tag
 
-from toolbox.core.models import Tool
+from toolbox.core.models import List, Tool
 
 
 def index(request):
@@ -18,6 +18,11 @@ def index(request):
             "tools": tools,
         },
     )
+
+
+def lists(request):
+    lists = List.objects.all()
+    return render(request, "lists.html", {"lists": lists})
 
 
 def tags(request):
