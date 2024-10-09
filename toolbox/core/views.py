@@ -6,6 +6,7 @@ from toolbox.core.models import List, Tool
 
 
 def index(request):
+    number_of_lists = List.objects.count()
     number_of_tools = Tool.objects.count()
     number_of_tags = Tag.objects.count()
     tools = Tool.objects.order_by("-added_at")[:20]
@@ -13,6 +14,7 @@ def index(request):
         request,
         "index.html",
         {
+            "number_of_lists": number_of_lists,
             "number_of_tags": number_of_tags,
             "number_of_tools": number_of_tools,
             "tools": tools,
