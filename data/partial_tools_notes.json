@@ -8,8 +8,43 @@
   },
   {
     "fields": {
-      "notes": "Private, Chat, Inbox, and Outbox relay",
+      "notes": "Friendly customizable relay",
+      "url_github": "https://github.com/fiatjaf/jingle"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "from https://mikedilger.com/gossip-model/",
+      "url_github": "https://github.com/mikedilger/chorus"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Supports Outbox, and WoT",
+      "url_github": "https://github.com/dtonon/chronicle"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Private, Chat, Inbox, and Outbox relays",
       "url_github": "https://github.com/bitvora/haven"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Serverless relay for Cloudflare Workers and R2 bucket",
+      "url_github": "https://github.com/Spl0itable/nosflare"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "WoT = Web of Trust; saves all notes from people you follow, and people they follow",
+      "url_github": "https://github.com/bitvora/wot-relay"
     },
     "model": "core.tool"
   }
