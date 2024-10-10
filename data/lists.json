@@ -112,5 +112,17 @@
       ]
     },
     "model": "core.list"
+  },
+  {
+    "fields": {
+      "name": "Django - Permissions",
+      "slug": "django-permissions",
+      "tools": [
+        [
+          "https://github.com/django-guardian/django-guardian"
+        ]
+      ]
+    },
+    "model": "core.list"
   }
 ]

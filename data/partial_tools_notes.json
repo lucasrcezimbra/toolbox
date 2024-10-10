@@ -82,5 +82,12 @@
       "url_github": "https://github.com/unclebob/more-speech"
     },
     "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Permissions per object/Row-level",
+      "url_github": "https://github.com/django-guardian/django-guardian"
+    },
+    "model": "core.tool"
   }
 ]
