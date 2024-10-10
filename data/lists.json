@@ -97,5 +97,20 @@
       ]
     },
     "model": "core.list"
+  },
+  {
+    "fields": {
+      "name": "Django - Healthcheck",
+      "slug": "django-healthcheck",
+      "tools": [
+        [
+          "https://github.com/mwarkentin/django-watchman"
+        ],
+        [
+          "https://github.com/revsys/django-health-check"
+        ]
+      ]
+    },
+    "model": "core.list"
   }
 ]
