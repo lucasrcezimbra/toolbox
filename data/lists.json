@@ -61,5 +61,20 @@
       ]
     },
     "model": "core.list"
+  },
+  {
+    "fields": {
+      "name": "nostr - clients",
+      "slug": "nostr-clients",
+      "tools": [
+        [
+          "https://github.com/lumehq/coop"
+        ],
+        [
+          "https://github.com/unclebob/more-speech"
+        ]
+      ]
+    },
+    "model": "core.list"
   }
 ]
