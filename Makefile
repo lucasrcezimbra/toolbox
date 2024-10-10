@@ -9,9 +9,11 @@ dev:
 
 dbdump:
 	poetry run python manage.py dumpdata core.list --natural-primary --natural-foreign  --indent 4 -o data/lists.json
+	poetry run python manage.py runscript dumpnotes
 
 dbload:
 	poetry run python manage.py runscript import_from_github
+	poetry run python manage.py runscript loadnotes
 	poetry run python manage.py loaddata data/lists.json
 
 dbnew:

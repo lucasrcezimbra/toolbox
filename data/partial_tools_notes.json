@@ -1,0 +1,9 @@
+[
+  {
+    "fields": {
+      "notes": "Private, Chat, Inbox, and Outbox relay",
+      "url_github": "https://github.com/bitvora/haven"
+    },
+    "model": "core.tool"
+  }
+]
