@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lucas Cezimbra Toolbox</title>
+        
+        <link href="/static/bootstrap.min.css" rel="stylesheet" async>
+        <script src="/static/htmx.min.js.gz" defer></script>
+        <style>
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        /* index.html */
+        .hero-section {
+            background-color: rgba(13, 110, 253, 0.1);
+            border-radius: 0.5rem;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #0d6efd;
+        }
+        .recent-tool {
+            border-left: 3px solid #0d6efd;
+            background-color: rgba(13, 110, 253, 0.1);
+            transition: transform 0.2s ease;
+        }
+        .recent-tool:hover {
+            transform: translateX(5px);
+            background-color: rgba(13, 110, 253, 0.2);
+        }
+        .tool-name {
+            color: #0d6efd;
+        }
+        .tool-category {
+            color: #6c757d;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Lucas Cezimbra Toolbox</a>
+                    <button class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/lists/">Lists</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/tags/">Tags</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">#go</h2>
+                    </div>
+                    <div class="card-body">
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">algia</span> - <span class="tool-category">https://github.com/mattn/algia</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-10</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">khatru</span> - <span class="tool-category">https://github.com/fiatjaf/khatru</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-10</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">relaywizard</span> - <span class="tool-category">https://github.com/nodetec/relaywizard</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    <span class="d-block"><span class="text-muted">My notes:</span> Wizard to install and manage relays</span>
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-09</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">jingle</span> - <span class="tool-category">https://github.com/fiatjaf/jingle</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    <span class="d-block"><span class="text-muted">My notes:</span> Friendly customizable relay</span>
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-09</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">chronicle</span> - <span class="tool-category">https://github.com/dtonon/chronicle</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    <span class="d-block"><span class="text-muted">My notes:</span> Supports Outbox, and WoT</span>
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-09-23</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">haven</span> - <span class="tool-category">https://github.com/bitvora/haven</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    <span class="d-block"><span class="text-muted">My notes:</span> Private, Chat, Inbox, and Outbox relays</span>
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-09-23</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">sidekick</span> - <span class="tool-category">https://github.com/MightyMoud/sidekick</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-09-23</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">afx</span> - <span class="tool-category">https://github.com/babarot/afx</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-09-22</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">wot-relay</span> - <span class="tool-category">https://github.com/bitvora/wot-relay</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    <span class="d-block"><span class="text-muted">My notes:</span> WoT = Web of Trust; saves all notes from people you follow, and people they follow</span>
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-09-18</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">nak</span> - <span class="tool-category">https://github.com/fiatjaf/nak</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-09-18</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">tsui</span> - <span class="tool-category">https://github.com/neuralinkcorp/tsui</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-09-05</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">filebrowser</span> - <span class="tool-category">https://github.com/filebrowser/filebrowser</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-08-26</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">dasel</span> - <span class="tool-category">https://github.com/TomWright/dasel</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-08-19</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">telltail-center</span> - <span class="tool-category">https://github.com/ajitid/telltail-center</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-08-06</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">headscale</span> - <span class="tool-category">https://github.com/juanfont/headscale</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-08-05</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">dice</span> - <span class="tool-category">https://github.com/DiceDB/dice</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-08-01</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">semantic-grep</span> - <span class="tool-category">https://github.com/arunsupe/semantic-grep</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-07-29</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">tau</span> - <span class="tool-category">https://github.com/taubyte/tau</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-07-15</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">klotho</span> - <span class="tool-category">https://github.com/klothoplatform/klotho</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-07-09</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">hatchet</span> - <span class="tool-category">https://github.com/hatchet-dev/hatchet</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-03-11</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">cli</span> - <span class="tool-category">https://github.com/cli/cli</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-01-23</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">dnote</span> - <span class="tool-category">https://github.com/dnote/dnote</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-01-23</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">transfer.sh</span> - <span class="tool-category">https://github.com/dutchcoders/transfer.sh</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-01-22</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">watchtower</span> - <span class="tool-category">https://github.com/containrrr/watchtower</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-12-18</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">actionlint</span> - <span class="tool-category">https://github.com/rhysd/actionlint</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-12-12</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">process-compose</span> - <span class="tool-category">https://github.com/F1bonacc1/process-compose</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-11-29</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">hugo-htmx-go-template</span> - <span class="tool-category">https://github.com/acaloiaro/hugo-htmx-go-template</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-11-15</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">aperture</span> - <span class="tool-category">https://github.com/fluxninja/aperture</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-10-23</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">ollama</span> - <span class="tool-category">https://github.com/ollama/ollama</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-10-04</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">CasaOS</span> - <span class="tool-category">https://github.com/IceWhaleTech/CasaOS</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-09-05</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">keyring</span> - <span class="tool-category">https://github.com/99designs/keyring</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-09-01</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">infracost</span> - <span class="tool-category">https://github.com/infracost/infracost</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-08-23</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">tyk</span> - <span class="tool-category">https://github.com/TykTechnologies/tyk</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-07-28</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">hey</span> - <span class="tool-category">https://github.com/rakyll/hey</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-05-26</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">mermerd</span> - <span class="tool-category">https://github.com/KarnerTh/mermerd</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-05-22</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">terraformer</span> - <span class="tool-category">https://github.com/GoogleCloudPlatform/terraformer</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2022-11-14</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">hasura-auth</span> - <span class="tool-category">https://github.com/nhost/hasura-auth</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2022-07-29</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">goatcounter</span> - <span class="tool-category">https://github.com/arp242/goatcounter</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2022-04-13</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">hugo</span> - <span class="tool-category">https://github.com/gohugoio/hugo</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2022-04-02</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">k3s</span> - <span class="tool-category">https://github.com/k3s-io/k3s</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2022-03-21</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">NoiseTorch</span> - <span class="tool-category">https://github.com/noisetorch/NoiseTorch</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2022-02-09</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">captive-browser</span> - <span class="tool-category">https://github.com/FiloSottile/captive-browser</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2021-12-22</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">abc</span> - <span class="tool-category">https://github.com/appbaseio/abc</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2020-05-06</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">monstache</span> - <span class="tool-category">https://github.com/rwynn/monstache</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2020-05-06</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">traefik</span> - <span class="tool-category">https://github.com/traefik/traefik</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2019-08-17</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">piknik</span> - <span class="tool-category">https://github.com/jedisct1/piknik</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2018-01-23</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">integram</span> - <span class="tool-category">https://github.com/requilence/integram</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2017-06-27</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">prest</span> - <span class="tool-category">https://github.com/prest/prest</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2017-02-02</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">hub</span> - <span class="tool-category">https://github.com/mislav/hub</span> -
+                                    <span>#opensource</span><span>#go</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2015-05-14</small>
+                                </li>
+                            </ul>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        </div>
+        <script src="/static/bootstrap.min.js" defer></script>
+    </body>
+</html>

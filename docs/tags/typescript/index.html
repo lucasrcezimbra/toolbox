@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lucas Cezimbra Toolbox</title>
+        
+        <link href="/static/bootstrap.min.css" rel="stylesheet" async>
+        <script src="/static/htmx.min.js.gz" defer></script>
+        <style>
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        /* index.html */
+        .hero-section {
+            background-color: rgba(13, 110, 253, 0.1);
+            border-radius: 0.5rem;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #0d6efd;
+        }
+        .recent-tool {
+            border-left: 3px solid #0d6efd;
+            background-color: rgba(13, 110, 253, 0.1);
+            transition: transform 0.2s ease;
+        }
+        .recent-tool:hover {
+            transform: translateX(5px);
+            background-color: rgba(13, 110, 253, 0.2);
+        }
+        .tool-name {
+            color: #0d6efd;
+        }
+        .tool-category {
+            color: #6c757d;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Lucas Cezimbra Toolbox</a>
+                    <button class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/lists/">Lists</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/tags/">Tags</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">#typescript</h2>
+                    </div>
+                    <div class="card-body">
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">nostream</span> - <span class="tool-category">https://github.com/cameri/nostream</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-09</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">comet</span> - <span class="tool-category">https://github.com/nodetec/comet</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-02</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">sourcebot</span> - <span class="tool-category">https://github.com/sourcebot-dev/sourcebot</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-02</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">coop</span> - <span class="tool-category">https://github.com/lumehq/coop</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    <span class="d-block"><span class="text-muted">My notes:</span> for direct messages</span>
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-09-27</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">BetterChatGPT</span> - <span class="tool-category">https://github.com/ztjhz/BetterChatGPT</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-09-05</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">open-access-gpt</span> - <span class="tool-category">https://github.com/openhubgpt/open-access-gpt</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-09-04</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">lobe-chat</span> - <span class="tool-category">https://github.com/lobehub/lobe-chat</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-09-04</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">plasmo</span> - <span class="tool-category">https://github.com/PlasmoHQ/plasmo</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-08-22</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">dify</span> - <span class="tool-category">https://github.com/langgenius/dify</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-08-13</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">renovate</span> - <span class="tool-category">https://github.com/renovatebot/renovate</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-08-06</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">tinkerbird</span> - <span class="tool-category">https://github.com/wizenheimer/tinkerbird</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-07-23</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">trpc</span> - <span class="tool-category">https://github.com/trpc/trpc</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-07-03</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">nlux</span> - <span class="tool-category">https://github.com/nlkitai/nlux</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-06-17</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">magicui</span> - <span class="tool-category">https://github.com/magicuidesign/magicui</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-05-24</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">teable</span> - <span class="tool-category">https://github.com/teableio/teable</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-03-21</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">reor</span> - <span class="tool-category">https://github.com/reorproject/reor</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-02-28</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">pglite</span> - <span class="tool-category">https://github.com/electric-sql/pglite</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-02-23</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">langfuse</span> - <span class="tool-category">https://github.com/langfuse/langfuse</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-02-15</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">touitomamout</span> - <span class="tool-category">https://github.com/louisgrasset/touitomamout</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-02-03</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">n8n</span> - <span class="tool-category">https://github.com/n8n-io/n8n</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-01-11</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">activepieces</span> - <span class="tool-category">https://github.com/activepieces/activepieces</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-01-11</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">gateway</span> - <span class="tool-category">https://github.com/Portkey-AI/gateway</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-01-10</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">ohmyform</span> - <span class="tool-category">https://github.com/ohmyform/ohmyform</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-12-12</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">plane</span> - <span class="tool-category">https://github.com/makeplane/plane</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-11-29</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">cal.com</span> - <span class="tool-category">https://github.com/calcom/cal.com</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-10-15</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">TypeChat</span> - <span class="tool-category">https://github.com/microsoft/TypeChat</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-10-12</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">gputopia</span> - <span class="tool-category">https://github.com/OpenAgentsInc/gputopia</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-10-05</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">appwrite</span> - <span class="tool-category">https://github.com/appwrite/appwrite</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-09-29</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">zustand</span> - <span class="tool-category">https://github.com/pmndrs/zustand</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-09-02</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">fern</span> - <span class="tool-category">https://github.com/fern-api/fern</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-07-31</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">anytype-ts</span> - <span class="tool-category">https://github.com/anyproto/anytype-ts</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-07-30</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">advanced-tables-obsidian</span> - <span class="tool-category">https://github.com/tgrosinger/advanced-tables-obsidian</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-05-24</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">joplin-exports-to-ssg</span> - <span class="tool-category">https://github.com/aman-d-1-n-only/joplin-exports-to-ssg</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-04-24</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">joplin</span> - <span class="tool-category">https://github.com/laurent22/joplin</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-04-21</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">graphql-inspector</span> - <span class="tool-category">https://github.com/kamilkisiela/graphql-inspector</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2022-12-22</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">openreplay</span> - <span class="tool-category">https://github.com/openreplay/openreplay</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2022-07-21</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">zero-width-detection</span> - <span class="tool-category">https://github.com/umpox/zero-width-detection</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2021-02-22</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">turbolinks</span> - <span class="tool-category">https://github.com/turbolinks/turbolinks</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2016-06-21</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">sweetalert</span> - <span class="tool-category">https://github.com/t4t5/sweetalert</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2015-12-02</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">socket.io</span> - <span class="tool-category">https://github.com/socketio/socket.io</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2015-05-11</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">chartist</span> - <span class="tool-category">https://github.com/chartist-js/chartist</span> -
+                                    <span>#opensource</span><span>#typescript</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2015-01-24</small>
+                                </li>
+                            </ul>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        </div>
+        <script src="/static/bootstrap.min.js" defer></script>
+    </body>
+</html>

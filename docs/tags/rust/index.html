@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lucas Cezimbra Toolbox</title>
+        
+        <link href="/static/bootstrap.min.css" rel="stylesheet" async>
+        <script src="/static/htmx.min.js.gz" defer></script>
+        <style>
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        /* index.html */
+        .hero-section {
+            background-color: rgba(13, 110, 253, 0.1);
+            border-radius: 0.5rem;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #0d6efd;
+        }
+        .recent-tool {
+            border-left: 3px solid #0d6efd;
+            background-color: rgba(13, 110, 253, 0.1);
+            transition: transform 0.2s ease;
+        }
+        .recent-tool:hover {
+            transform: translateX(5px);
+            background-color: rgba(13, 110, 253, 0.2);
+        }
+        .tool-name {
+            color: #0d6efd;
+        }
+        .tool-category {
+            color: #6c757d;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Lucas Cezimbra Toolbox</a>
+                    <button class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/lists/">Lists</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/tags/">Tags</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">#rust</h2>
+                    </div>
+                    <div class="card-body">
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">nostr-rs-relay</span> - <span class="tool-category">https://github.com/scsibug/nostr-rs-relay</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-09</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">gossip</span> - <span class="tool-category">https://github.com/mikedilger/gossip</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-08</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">uv</span> - <span class="tool-category">https://github.com/astral-sh/uv</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-09-30</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">chorus</span> - <span class="tool-category">https://github.com/mikedilger/chorus</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    <span class="d-block"><span class="text-muted">My notes:</span> from https://mikedilger.com/gossip-model/</span>
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-09-27</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">djade</span> - <span class="tool-category">https://github.com/adamchainz/djade</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-09-22</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">ast-grep</span> - <span class="tool-category">https://github.com/ast-grep/ast-grep</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-09-20</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">nushell</span> - <span class="tool-category">https://github.com/nushell/nushell</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-08-26</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">just</span> - <span class="tool-category">https://github.com/casey/just</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-08-26</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">napkin-math</span> - <span class="tool-category">https://github.com/sirupsen/napkin-math</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-07-29</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">Bend</span> - <span class="tool-category">https://github.com/HigherOrderCO/Bend</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-05-20</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">monolith</span> - <span class="tool-category">https://github.com/Y2Z/monolith</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-04-05</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">atuin</span> - <span class="tool-category">https://github.com/atuinsh/atuin</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-03-07</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">wezterm</span> - <span class="tool-category">https://github.com/wez/wezterm</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-03-06</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">readyset</span> - <span class="tool-category">https://github.com/readysettech/readyset</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-02-22</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">mise</span> - <span class="tool-category">https://github.com/jdx/mise</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-01-05</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">paradedb</span> - <span class="tool-category">https://github.com/paradedb/paradedb</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2024-01-03</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">hurl</span> - <span class="tool-category">https://github.com/Orange-OpenSource/hurl</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-12-16</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">GQL</span> - <span class="tool-category">https://github.com/AmrDeveloper/GQL</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-12-04</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">bat</span> - <span class="tool-category">https://github.com/sharkdp/bat</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-10-09</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">exa</span> - <span class="tool-category">https://github.com/ogham/exa</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-10-09</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">lancedb</span> - <span class="tool-category">https://github.com/lancedb/lancedb</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2023-08-03</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">ruff</span> - <span class="tool-category">https://github.com/astral-sh/ruff</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2022-12-22</small>
+                                </li>
+                            </ul>
+                        
+                            <ul class="list-unstyled">
+                                <li class="recent-tool p-3 mb-3">
+                                    <span class="tool-name fw-bold">createnv</span> - <span class="tool-category">https://github.com/cuducos/createnv</span> -
+                                    <span>#opensource</span><span>#rust</span>
+                                    
+                                    <small class="d-block"><span class="text-muted">Added on:</span> 2020-07-30</small>
+                                </li>
+                            </ul>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        </div>
+        <script src="/static/bootstrap.min.js" defer></script>
+    </body>
+</html>
