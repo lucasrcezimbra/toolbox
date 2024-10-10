@@ -76,5 +76,26 @@
       ]
     },
     "model": "core.list"
+  },
+  {
+    "fields": {
+      "name": "Django - GraphQL",
+      "slug": "django-graphql",
+      "tools": [
+        [
+          "https://github.com/tartiflette/tartiflette-aiohttp"
+        ],
+        [
+          "https://github.com/strawberry-graphql/strawberry-django"
+        ],
+        [
+          "https://github.com/graphql-python/graphene-django"
+        ],
+        [
+          "https://github.com/mirumee/ariadne-django"
+        ]
+      ]
+    },
+    "model": "core.list"
   }
 ]

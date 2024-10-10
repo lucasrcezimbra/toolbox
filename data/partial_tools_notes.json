@@ -1,6 +1,27 @@
 [
   {
     "fields": {
+      "notes": "Requires to define a schema class for each Django Model",
+      "url_github": "https://github.com/strawberry-graphql/strawberry-django"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Poor integration between Django Models and Queries",
+      "url_github": "https://github.com/graphql-python/graphene-django"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Missing maintainer",
+      "url_github": "https://github.com/mirumee/ariadne-django"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "Wizard to install and manage relays",
       "url_github": "https://github.com/nodetec/relaywizard"
     },
