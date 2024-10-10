@@ -1,6 +1,13 @@
 [
   {
     "fields": {
+      "notes": "Wizard to install and manage relays",
+      "url_github": "https://github.com/nodetec/relaywizard"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "Private, Chat, Inbox, and Outbox relay",
       "url_github": "https://github.com/bitvora/haven"
     },
