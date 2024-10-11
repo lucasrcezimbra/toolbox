@@ -309,5 +309,22 @@
       "updated_at": "2024-10-11"
     },
     "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-10-11",
+      "name": "Python - RPC",
+      "slug": "python-rpc",
+      "tools": [
+        [
+          "https://github.com/grpc/grpc"
+        ],
+        [
+          "https://github.com/tomerfiliba-org/rpyc"
+        ]
+      ],
+      "updated_at": "2024-10-11"
+    },
+    "model": "core.list"
   }
 ]

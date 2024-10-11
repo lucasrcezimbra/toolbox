@@ -176,6 +176,13 @@
   },
   {
     "fields": {
+      "notes": "Symmetrical RPC, clustering, and distributed-computing",
+      "url_github": "https://github.com/tomerfiliba-org/rpyc"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "PostgreSQL-based Task Queue",
       "url_github": "https://github.com/procrastinate-org/procrastinate"
     },
