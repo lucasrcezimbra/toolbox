@@ -1,6 +1,20 @@
 [
   {
     "fields": {
+      "notes": "Task queue; Supports Redis, SQLite, file-system, or in-memory storage.",
+      "url_github": "https://github.com/coleifer/huey"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "RQ (Redis Queue)",
+      "url_github": "https://github.com/rq/rq"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "WSGI only",
       "url_github": "https://github.com/benoitc/gunicorn"
     },
@@ -150,6 +164,13 @@
     "fields": {
       "notes": "Server to run ASGI in AWS Lambda",
       "url_github": "https://github.com/Kludex/mangum"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "PostgreSQL-based Task Queue",
+      "url_github": "https://github.com/procrastinate-org/procrastinate"
     },
     "model": "core.tool"
   },
