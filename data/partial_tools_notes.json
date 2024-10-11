@@ -1,6 +1,34 @@
 [
   {
     "fields": {
+      "notes": "WSGI only",
+      "url_github": "https://github.com/benoitc/gunicorn"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "ASGI only; supports HTTP/1.1 and WebSockets.",
+      "url_github": "https://github.com/encode/uvicorn"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "ASGI and WSGI. Supports HTTP/1, HTTP/2, WebSockets (over HTTP/1 and HTTP/2). Can utilise asyncio, uvloop, or trio.",
+      "url_github": "https://github.com/pgjones/hypercorn"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Django Channels HTTP/WebSocket server",
+      "url_github": "https://github.com/django/daphne"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "Permissions per object/Row-level",
       "url_github": "https://github.com/django-guardian/django-guardian"
     },
@@ -71,6 +99,13 @@
   },
   {
     "fields": {
+      "notes": "Currently unmaintained",
+      "url_github": "https://github.com/django-mptt/django-mptt"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "from https://mikedilger.com/gossip-model/",
       "url_github": "https://github.com/mikedilger/chorus"
     },
@@ -108,6 +143,13 @@
     "fields": {
       "notes": "WoT = Web of Trust; saves all notes from people you follow, and people they follow",
       "url_github": "https://github.com/bitvora/wot-relay"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Server to run ASGI in AWS Lambda",
+      "url_github": "https://github.com/Kludex/mangum"
     },
     "model": "core.tool"
   },

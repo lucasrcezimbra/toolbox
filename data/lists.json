@@ -188,5 +188,31 @@
       "updated_at": "2024-10-11"
     },
     "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-10-11",
+      "name": "Django - Servers",
+      "slug": "django-servers",
+      "tools": [
+        [
+          "https://github.com/benoitc/gunicorn"
+        ],
+        [
+          "https://github.com/encode/uvicorn"
+        ],
+        [
+          "https://github.com/pgjones/hypercorn"
+        ],
+        [
+          "https://github.com/django/daphne"
+        ],
+        [
+          "https://github.com/Kludex/mangum"
+        ]
+      ],
+      "updated_at": "2024-10-11"
+    },
+    "model": "core.list"
   }
 ]
