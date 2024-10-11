@@ -8,6 +8,34 @@
   },
   {
     "fields": {
+      "notes": "Based on Bootstrap 5",
+      "url_github": "https://github.com/app-generator/django-admin-volt"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "HTMX, Alpine.js and TailwindCSS",
+      "url_github": "https://github.com/unfoldadmin/django-unfold"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "AdminLTE 3 & Bootstrap 4",
+      "url_github": "https://github.com/farridav/django-jazzmin"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Admin dashboard template based on Bootstrap",
+      "url_github": "https://github.com/wuyue92tree/django-adminlte-ui"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "Requires to define a schema class for each Django Model",
       "url_github": "https://github.com/strawberry-graphql/strawberry-django"
     },
