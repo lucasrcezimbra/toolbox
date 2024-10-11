@@ -225,7 +225,7 @@
           "https://github.com/pallets/click"
         ],
         [
-          "https://github.com/tiangolo/typer"
+          "https://github.com/fastapi/typer"
         ],
         [
           "https://github.com/google/python-fire"
