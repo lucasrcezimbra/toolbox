@@ -34,6 +34,8 @@ class ListManager(models.Manager):
 
 
 class List(models.Model):
+    created_at = models.DateField(auto_now_add=True)
+    updated_at = models.DateField(auto_now=True)
     name = models.CharField(max_length=100)
     slug = models.SlugField(unique=True)
     tools = models.ManyToManyField(Tool)

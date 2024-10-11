@@ -1,6 +1,7 @@
 [
   {
     "fields": {
+      "created_at": "2024-10-11",
       "name": "Django - Saving Trees",
       "slug": "django-saving-trees",
       "tools": [
@@ -22,12 +23,14 @@
         [
           "https://github.com/django-mptt/django-mptt"
         ]
-      ]
+      ],
+      "updated_at": "2024-10-11"
     },
     "model": "core.list"
   },
   {
     "fields": {
+      "created_at": "2024-10-11",
       "name": "nostr - relays",
       "slug": "nostr-relays",
       "tools": [
@@ -58,12 +61,14 @@
         [
           "https://github.com/bitvora/wot-relay"
         ]
-      ]
+      ],
+      "updated_at": "2024-10-11"
     },
     "model": "core.list"
   },
   {
     "fields": {
+      "created_at": "2024-10-11",
       "name": "nostr - clients",
       "slug": "nostr-clients",
       "tools": [
@@ -73,12 +78,14 @@
         [
           "https://github.com/unclebob/more-speech"
         ]
-      ]
+      ],
+      "updated_at": "2024-10-11"
     },
     "model": "core.list"
   },
   {
     "fields": {
+      "created_at": "2024-10-11",
       "name": "Django - GraphQL",
       "slug": "django-graphql",
       "tools": [
@@ -94,12 +101,14 @@
         [
           "https://github.com/mirumee/ariadne-django"
         ]
-      ]
+      ],
+      "updated_at": "2024-10-11"
     },
     "model": "core.list"
   },
   {
     "fields": {
+      "created_at": "2024-10-11",
       "name": "Django - Healthcheck",
       "slug": "django-healthcheck",
       "tools": [
@@ -109,19 +118,22 @@
         [
           "https://github.com/revsys/django-health-check"
         ]
-      ]
+      ],
+      "updated_at": "2024-10-11"
     },
     "model": "core.list"
   },
   {
     "fields": {
+      "created_at": "2024-10-11",
       "name": "Django - Permissions",
       "slug": "django-permissions",
       "tools": [
         [
           "https://github.com/django-guardian/django-guardian"
         ]
-      ]
+      ],
+      "updated_at": "2024-10-11"
     },
     "model": "core.list"
   }

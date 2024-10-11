@@ -7,6 +7,10 @@
                 <div class="card">
                     <div class="card-header">
                         <h2 class="card-title">{{ list.name }}</h2>
+                        <div class="list-info">
+                            <span class="me-3">Created: <time datetime="{{ list.created_at|date:'Y-m-d' }}">{{ list.created_at|date:'Y-m-d' }}</time></span>
+                            <span>Last Updated: <time datetime="{{ list.updated_at|date:'Y-m-d' }}">{{ list.updated_at|date:'Y-m-d' }}</time></span>
+                        </div>
                     </div>
                     <div class="card-body">
                         {% for tool in tools %}
