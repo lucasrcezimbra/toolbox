@@ -1,6 +1,13 @@
 [
   {
     "fields": {
+      "notes": "Extism Python SDK",
+      "url_github": "https://github.com/extism/python-sdk"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "RQ (Redis Queue)",
       "url_github": "https://github.com/rq/rq"
     },
