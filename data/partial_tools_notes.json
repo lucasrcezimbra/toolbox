@@ -155,6 +155,41 @@
   },
   {
     "fields": {
+      "notes": "UltraJSON is an ultra fast JSON encoder and decoder written in pure C with bindings for Python.",
+      "url_github": "https://github.com/ultrajson/ultrajson"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Python bindings for the simdjson using Cython. SIMDJSON is C++ JSON parser, reportedly the fastest JSON parser on the planet.",
+      "url_github": "https://github.com/TeskaLabs/cysimdjson"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "iterative JSON",
+      "url_github": "https://github.com/ICRAR/ijson"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Python bindings for RapidJSON; RapidJSON is an extremely fast C++ JSON parser and serialization library.",
+      "url_github": "https://github.com/python-rapidjson/python-rapidjson"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "fast, supports NumPy",
+      "url_github": "https://github.com/ijl/orjson"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "Desktop client by Uncle Bob",
       "url_github": "https://github.com/unclebob/more-speech"
     },

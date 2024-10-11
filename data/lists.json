@@ -214,5 +214,57 @@
       "updated_at": "2024-10-11"
     },
     "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-10-11",
+      "name": "Python - CLI",
+      "slug": "python-cli",
+      "tools": [
+        [
+          "https://github.com/pallets/click"
+        ],
+        [
+          "https://github.com/tiangolo/typer"
+        ],
+        [
+          "https://github.com/google/python-fire"
+        ]
+      ],
+      "updated_at": "2024-10-11"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-10-11",
+      "name": "Python - JSON",
+      "slug": "python-json",
+      "tools": [
+        [
+          "https://github.com/henriquebastos/python-jsonstar"
+        ],
+        [
+          "https://github.com/routablehq/python-jsonstar"
+        ],
+        [
+          "https://github.com/ultrajson/ultrajson"
+        ],
+        [
+          "https://github.com/TeskaLabs/cysimdjson"
+        ],
+        [
+          "https://github.com/ICRAR/ijson"
+        ],
+        [
+          "https://github.com/python-rapidjson/python-rapidjson"
+        ],
+        [
+          "https://github.com/ijl/orjson"
+        ]
+      ],
+      "updated_at": "2024-10-11"
+    },
+    "model": "core.list"
   }
 ]
