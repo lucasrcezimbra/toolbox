@@ -229,5 +229,19 @@
       "url_github": "https://github.com/unclebob/more-speech"
     },
     "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "extends parse",
+      "url_github": "https://github.com/jenisys/parse_type"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "the opposite of str.format",
+      "url_github": "https://github.com/r1chardj0n3s/parse"
+    },
+    "model": "core.tool"
   }
 ]
