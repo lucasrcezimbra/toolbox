@@ -222,10 +222,10 @@
       "slug": "python-cli",
       "tools": [
         [
-          "https://github.com/pallets/click"
+          "https://github.com/fastapi/typer"
         ],
         [
-          "https://github.com/fastapi/typer"
+          "https://github.com/pallets/click"
         ],
         [
           "https://github.com/google/python-fire"
@@ -274,10 +274,10 @@
       "slug": "python-background-tasks",
       "tools": [
         [
-          "https://github.com/coleifer/huey"
+          "https://github.com/rq/rq"
         ],
         [
-          "https://github.com/rq/rq"
+          "https://github.com/coleifer/huey"
         ],
         [
           "https://github.com/celery/celery"
