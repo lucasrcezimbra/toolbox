@@ -1,6 +1,13 @@
 [
   {
     "fields": {
+      "notes": "Python ORM; simple interface for using parameterized SQL",
+      "url_github": "https://github.com/mcfunley/pugsql"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "Task queue; Supports Redis, SQLite, file-system, or in-memory storage.",
       "url_github": "https://github.com/coleifer/huey"
     },

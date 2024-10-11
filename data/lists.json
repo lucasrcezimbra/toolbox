@@ -292,5 +292,22 @@
       "updated_at": "2024-10-11"
     },
     "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-10-11",
+      "name": "Python - ORMs",
+      "slug": "python-orms",
+      "tools": [
+        [
+          "https://github.com/mcfunley/pugsql"
+        ],
+        [
+          "https://github.com/sqlalchemy/sqlalchemy"
+        ]
+      ],
+      "updated_at": "2024-10-11"
+    },
+    "model": "core.list"
   }
 ]
