@@ -1,13 +1,6 @@
 [
   {
     "fields": {
-      "notes": "Beancount SQL queries examples",
-      "url_github": "http://aumayr.github.io/beancount-sql-queries/"
-    },
-    "model": "core.tool"
-  },
-  {
-    "fields": {
       "notes": "importers, plugins and price fetchers; Examples consuming API: https://github.com/tarioch/beancounttools/blob/master/src/tariochbctools/importers/quickfile/importer.py and https://github.com/tarioch/beancounttools/blob/master/src/tariochbctools/importers/transferwise/importer.py",
       "url_github": "https://github.com/tarioch/beancounttools"
     },
@@ -23,14 +16,14 @@
   {
     "fields": {
       "notes": "fully static search library that aims to perform well on large sites, while using as little of your users\u2019 bandwidth as possible, and without hosting any infrastructure",
-      "url_github": "https://github.com/cloudcannon/pagefind"
+      "url_github": "https://github.com/CloudCannon/pagefind"
     },
     "model": "core.tool"
   },
   {
     "fields": {
       "notes": "full-text and vector search in the browser",
-      "url_github": "https://github.com/oramasearch/orama"
+      "url_github": "https://github.com/askorama/orama"
     },
     "model": "core.tool"
   },
@@ -44,7 +37,7 @@
   {
     "fields": {
       "notes": "lightweight fuzzy-search in the browser",
-      "url_github": "https://github.com/krisk/fuse"
+      "url_github": "https://github.com/krisk/Fuse"
     },
     "model": "core.tool"
   },

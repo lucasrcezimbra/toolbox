@@ -411,16 +411,16 @@
       "slug": "full-text-search-in-the-browser",
       "tools": [
         [
-          "https://github.com/cloudcannon/pagefind"
+          "https://github.com/CloudCannon/pagefind"
         ],
         [
-          "https://github.com/oramasearch/orama"
+          "https://github.com/askorama/orama"
         ],
         [
           "https://github.com/olivernn/lunr.js"
         ],
         [
-          "https://github.com/krisk/fuse"
+          "https://github.com/krisk/Fuse"
         ]
       ],
       "updated_at": "2024-10-13"
@@ -435,9 +435,6 @@
       "tools": [
         [
           "https://github.com/nathangrigg/vim-beancount"
-        ],
-        [
-          "http://aumayr.github.io/beancount-sql-queries/"
         ],
         [
           "https://github.com/tarioch/beancounttools"
