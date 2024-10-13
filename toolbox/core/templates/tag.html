@@ -9,16 +9,7 @@
                         <h2 class="card-title">#{{ tag.name }}</h2>
                     </div>
                     <div class="card-body">
-                        {% for tool in tools %}
-                            <ul class="list-unstyled">
-                                <li class="recent-tool p-3 mb-3">
-                                    <span class="tool-name fw-bold">{{ tool.name }}</span> - <span class="tool-category">{{ tool.url_github }}</span> -
-                                    {% for tag in tool.tags.all %}<span>#{{ tag.slug }}</span>{% endfor %}
-                                    {% if tool.notes %}<span class="d-block"><span class="text-muted">My notes:</span> {{ tool.notes }}</span>{% endif %}
-                                    <small class="d-block"><span class="text-muted">Added on:</span> {{ tool.added_at|date:'Y-m-d' }}</small>
-                                </li>
-                            </ul>
-                        {% endfor %}
+                        {% include "components/tools.html" with tools=tools %}
                         {% if number_of_tools > 100 %}<span>Showing 100 of {{ number_of_tools }} tools</span>{% endif %}
                     </div>
                 </div>
