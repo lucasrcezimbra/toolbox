@@ -411,6 +411,16 @@ testing = ["covdefaults (>=2.3)", "coverage (>=7.6.1)", "diff-cover (>=9.2)", "p
 typing = ["typing-extensions (>=4.12.2)"]
 
 [[package]]
+name = "fontawesomefree"
+version = "6.6.0"
+description = "Font Awesome Free"
+optional = false
+python-versions = "*"
+files = [
+    {file = "fontawesomefree-6.6.0-py3-none-any.whl", hash = "sha256:599b574431c9bd92ed5fc054d1045a07c42335da36c17884f2b934755eef9089"},
+]
+
+[[package]]
 name = "github-to-sqlite"
 version = "2.9"
 description = "Save data from GitHub to a SQLite database"
@@ -913,4 +923,4 @@ brotli = ["brotli"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10"
-content-hash = "0fda7dcdb933ce5970123dce9804ca50e03bc75271fdf6ef8cf8f7730e576a92"
+content-hash = "c0e460e967de65afe747a7bfa255ebbf1b88da51cdea8d6512a8cb1503a07de6"
