@@ -15,6 +15,7 @@ class Tool(models.Model):
     url_docs = models.URLField(blank=True)
     name = models.CharField(max_length=254)
     notes = models.TextField(blank=True)
+    slug = models.SlugField(unique=True)
 
     objects = ToolManager()
     tags = TaggableManager()

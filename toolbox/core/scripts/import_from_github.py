@@ -1,5 +1,7 @@
 import sqlite3
 
+from django.db.utils import IntegrityError
+
 from toolbox.core.models import Tool
 
 SQL = """
@@ -37,12 +39,21 @@ def run():
     rows = cursor.fetchall()
 
     for starred_at, url_github, name, language, homepage in rows:
-        t = Tool.objects.create(
+        t = Tool(
             added_at=starred_at,
             name=name,
             url_docs=homepage if is_url_docs(homepage) else "",
             url_github=url_github,
+            slug=name,
         )
+        try:
+            t.save()
+        except IntegrityError:
+            # TODO; improve this; it will not work when the user has more than 2
+            #       tools with the same name
+            t.slug = f"{name}2"
+            t.save()
+
         tags = ["opensource"]
         if language:
             tags.append(tagify(language))
