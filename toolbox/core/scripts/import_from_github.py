@@ -43,7 +43,7 @@ def run():
             added_at=starred_at,
             name=name,
             url_docs=homepage if is_url_docs(homepage) else "",
-            url_github=url_github,
+            url_github=url_github.lower(),
             slug=name,
         )
         try:

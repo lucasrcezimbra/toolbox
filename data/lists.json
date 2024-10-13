@@ -6,7 +6,7 @@
       "slug": "django-saving-trees",
       "tools": [
         [
-          "https://github.com/TimurKady/django-fast-treenode"
+          "https://github.com/timurkady/django-fast-treenode"
         ],
         [
           "https://github.com/baseplate-admin/django-ltree-2"
@@ -56,7 +56,7 @@
           "https://github.com/bitvora/haven"
         ],
         [
-          "https://github.com/Spl0itable/nosflare"
+          "https://github.com/spl0itable/nosflare"
         ],
         [
           "https://github.com/bitvora/wot-relay"
@@ -161,7 +161,7 @@
       "slug": "django-admin",
       "tools": [
         [
-          "https://github.com/iamfoysal/Best-Django-Admin-interface"
+          "https://github.com/iamfoysal/best-django-admin-interface"
         ],
         [
           "https://github.com/originalankur/awesome-django-admin"
@@ -208,7 +208,7 @@
           "https://github.com/django/daphne"
         ],
         [
-          "https://github.com/Kludex/mangum"
+          "https://github.com/kludex/mangum"
         ]
       ],
       "updated_at": "2024-10-11"
@@ -251,10 +251,10 @@
           "https://github.com/ultrajson/ultrajson"
         ],
         [
-          "https://github.com/TeskaLabs/cysimdjson"
+          "https://github.com/teskalabs/cysimdjson"
         ],
         [
-          "https://github.com/ICRAR/ijson"
+          "https://github.com/icrar/ijson"
         ],
         [
           "https://github.com/python-rapidjson/python-rapidjson"
@@ -286,7 +286,7 @@
           "https://github.com/procrastinate-org/procrastinate"
         ],
         [
-          "https://github.com/Bogdanp/dramatiq"
+          "https://github.com/bogdanp/dramatiq"
         ]
       ],
       "updated_at": "2024-10-11"
@@ -411,7 +411,7 @@
       "slug": "full-text-search-in-the-browser",
       "tools": [
         [
-          "https://github.com/CloudCannon/pagefind"
+          "https://github.com/cloudcannon/pagefind"
         ],
         [
           "https://github.com/askorama/orama"
@@ -420,7 +420,7 @@
           "https://github.com/olivernn/lunr.js"
         ],
         [
-          "https://github.com/krisk/Fuse"
+          "https://github.com/krisk/fuse"
         ]
       ],
       "updated_at": "2024-10-13"

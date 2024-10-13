@@ -16,7 +16,7 @@
   {
     "fields": {
       "notes": "fully static search library that aims to perform well on large sites, while using as little of your users\u2019 bandwidth as possible, and without hosting any infrastructure",
-      "url_github": "https://github.com/CloudCannon/pagefind"
+      "url_github": "https://github.com/cloudcannon/pagefind"
     },
     "model": "core.tool"
   },
@@ -37,7 +37,7 @@
   {
     "fields": {
       "notes": "lightweight fuzzy-search in the browser",
-      "url_github": "https://github.com/krisk/Fuse"
+      "url_github": "https://github.com/krisk/fuse"
     },
     "model": "core.tool"
   },
@@ -233,7 +233,7 @@
   {
     "fields": {
       "notes": "Serverless relay for Cloudflare Workers and R2 bucket",
-      "url_github": "https://github.com/Spl0itable/nosflare"
+      "url_github": "https://github.com/spl0itable/nosflare"
     },
     "model": "core.tool"
   },
@@ -247,7 +247,7 @@
   {
     "fields": {
       "notes": "Server to run ASGI in AWS Lambda",
-      "url_github": "https://github.com/Kludex/mangum"
+      "url_github": "https://github.com/kludex/mangum"
     },
     "model": "core.tool"
   },
@@ -282,14 +282,14 @@
   {
     "fields": {
       "notes": "Python bindings for the simdjson using Cython. SIMDJSON is C++ JSON parser, reportedly the fastest JSON parser on the planet.",
-      "url_github": "https://github.com/TeskaLabs/cysimdjson"
+      "url_github": "https://github.com/teskalabs/cysimdjson"
     },
     "model": "core.tool"
   },
   {
     "fields": {
       "notes": "iterative JSON",
-      "url_github": "https://github.com/ICRAR/ijson"
+      "url_github": "https://github.com/icrar/ijson"
     },
     "model": "core.tool"
   },
