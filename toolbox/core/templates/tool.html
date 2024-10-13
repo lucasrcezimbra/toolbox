@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-8">
+                <div class="tool-header p-4 mb-4">
+                    <h1 class="tool-name display-4">{{ tool.name }}</h1>
+                    <div class="mb-3">
+                        <a href="{{ tool.url_github }}"
+                           class="tool-link"
+                           target="_blank"
+                           rel="noopener noreferrer">GitHub</a>
+                        {% if tool.url_docs %}
+                            <a href="{{ tool.url_docs }}"
+                               class="tool-link"
+                               target="_blank"
+                               rel="noopener noreferrer">Documentation</a>
+                        {% endif %}
+                    </div>
+                    <div class="mb-3">
+                        {% for tag in tool.tags.all %}
+                            <a href="{% url 'tag-detail' tag.slug %}"><span class="tool-tag">#{{ tag.slug }}</span></a>
+                        {% endfor %}
+                    </div>
+                    <div class="tool-info">
+                        <span class="me-3">Added on: <time datetime="{{ tool.added_at|date:'Y-m-d' }}">{{ tool.added_at|date:'Y-m-d' }}</time></span>
+                    </div>
+                </div>
+                {% if tool.notes %}
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h2 class="card-title">My Notes</h2>
+                        </div>
+                        <div class="card-body">
+                            <p>{{ tool.notes }}</p>
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h2 class="card-title">Lists</h2>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            {% for list in tool.lists.all %}
+                                <li class="list-group-item">
+                                    <a href="{% url 'list-detail' list.slug %}">{{ list.name }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">Related Tools</h2>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            {% for list in tool.lists.all %}
+                                {% for related_tool in list.tools.all %}
+                                    <li class="list-group-item">
+                                        <a href="{% url 'tool-detail' related_tool.slug %}">{{ related_tool.name }}</a>
+                                    </li>
+                                {% endfor %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

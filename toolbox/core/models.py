@@ -40,7 +40,7 @@ class List(models.Model):
     updated_at = models.DateField(auto_now=True)
     name = models.CharField(max_length=100)
     slug = models.SlugField(unique=True)
-    tools = models.ManyToManyField(Tool)
+    tools = models.ManyToManyField(Tool, related_name="lists")
 
     objects = ListManager()
 

@@ -55,3 +55,8 @@ def tag_detail(request, slug):
         "tag.html",
         {"tag": tag, "number_of_tools": number_of_tools, "tools": tools[:100]},
     )
+
+
+def tool_detail(request, slug):
+    tool = Tool.objects.get(slug=slug)
+    return render(request, "tool.html", {"tool": tool})
