@@ -366,5 +366,65 @@
       "updated_at": "2024-10-11"
     },
     "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-10-13",
+      "name": "Command-line",
+      "slug": "command-line",
+      "tools": [
+        [
+          "https://github.com/chmln/sd"
+        ],
+        [
+          "https://github.com/pemistahl/grex"
+        ],
+        [
+          "https://github.com/bootandy/dust"
+        ],
+        [
+          "https://github.com/dandavison/delta"
+        ]
+      ],
+      "updated_at": "2024-10-13"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-10-13",
+      "name": "Shells",
+      "slug": "shells",
+      "tools": [
+        [
+          "https://github.com/nushell/nushell"
+        ]
+      ],
+      "updated_at": "2024-10-13"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-10-13",
+      "name": "Full-text search in the browser",
+      "slug": "full-text-search-in-the-browser",
+      "tools": [
+        [
+          "https://github.com/cloudcannon/pagefind"
+        ],
+        [
+          "https://github.com/oramasearch/orama"
+        ],
+        [
+          "https://github.com/olivernn/lunr.js"
+        ],
+        [
+          "https://github.com/krisk/fuse"
+        ]
+      ],
+      "updated_at": "2024-10-13"
+    },
+    "model": "core.list"
   }
 ]

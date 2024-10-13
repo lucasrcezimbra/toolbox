@@ -1,6 +1,62 @@
 [
   {
     "fields": {
+      "notes": "fully static search library that aims to perform well on large sites, while using as little of your users\u2019 bandwidth as possible, and without hosting any infrastructure",
+      "url_github": "https://github.com/cloudcannon/pagefind"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "full-text and vector search in the browser",
+      "url_github": "https://github.com/oramasearch/orama"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "full-text search in the browser",
+      "url_github": "https://github.com/olivernn/lunr.js"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "lightweight fuzzy-search in the browser",
+      "url_github": "https://github.com/krisk/fuse"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Alternative to sed",
+      "url_github": "https://github.com/chmln/sd"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "CLI for generating regular expressions",
+      "url_github": "https://github.com/pemistahl/grex"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Alternative to du",
+      "url_github": "https://github.com/bootandy/dust"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Alternative to diff; syntax-highlighting for git, diff, and grep output.",
+      "url_github": "https://github.com/dandavison/delta"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "Extism Python SDK",
       "url_github": "https://github.com/extism/python-sdk"
     },
