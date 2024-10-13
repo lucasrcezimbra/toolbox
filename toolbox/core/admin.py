@@ -11,5 +11,6 @@ class ListAdmin(admin.ModelAdmin):
 
 @admin.register(Tool)
 class ToolAdmin(admin.ModelAdmin):
-    search_fields = ("name",)
+    list_display = ("name", "added_at", "url_github", "url_docs", "notes")
     ordering = ["-added_at"]
+    search_fields = ("name",)
