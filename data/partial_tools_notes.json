@@ -1,6 +1,27 @@
 [
   {
     "fields": {
+      "notes": "Beancount SQL queries examples",
+      "url_github": "http://aumayr.github.io/beancount-sql-queries/"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "importers, plugins and price fetchers; Examples consuming API: https://github.com/tarioch/beancounttools/blob/master/src/tariochbctools/importers/quickfile/importer.py and https://github.com/tarioch/beancounttools/blob/master/src/tariochbctools/importers/transferwise/importer.py",
+      "url_github": "https://github.com/tarioch/beancounttools"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "importers with machine learning - status: beta",
+      "url_github": "https://github.com/beancount/smart_importer"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "fully static search library that aims to perform well on large sites, while using as little of your users\u2019 bandwidth as possible, and without hosting any infrastructure",
       "url_github": "https://github.com/cloudcannon/pagefind"
     },
@@ -290,6 +311,13 @@
     "fields": {
       "notes": "fast, supports NumPy",
       "url_github": "https://github.com/ijl/orjson"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Web UI for semi-automatically importing",
+      "url_github": "https://github.com/jbms/beancount-import"
     },
     "model": "core.tool"
   },

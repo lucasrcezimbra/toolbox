@@ -426,5 +426,37 @@
       "updated_at": "2024-10-13"
     },
     "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-10-13",
+      "name": "Beancount",
+      "slug": "beancount",
+      "tools": [
+        [
+          "https://github.com/nathangrigg/vim-beancount"
+        ],
+        [
+          "http://aumayr.github.io/beancount-sql-queries/"
+        ],
+        [
+          "https://github.com/tarioch/beancounttools"
+        ],
+        [
+          "https://github.com/beancount/smart_importer"
+        ],
+        [
+          "https://github.com/redstreet/beancount_reds_importers"
+        ],
+        [
+          "https://github.com/jbms/beancount-import"
+        ],
+        [
+          "https://github.com/beancount/beancount"
+        ]
+      ],
+      "updated_at": "2024-10-13"
+    },
+    "model": "core.list"
   }
 ]
