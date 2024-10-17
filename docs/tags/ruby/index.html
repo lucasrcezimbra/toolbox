@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lucas Cezimbra Toolbox</title>
+        
+        <link href="/static/bootstrap.min.css" rel="stylesheet" async>
+        <script src="/static/htmx.min.js.gz" defer></script>
+        <link href="/static/fontawesomefree/css/fontawesome.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <link href="/static/fontawesomefree/css/solid.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <link href="/static/fontawesomefree/css/brands.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <style>
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        /* index.html */
+        .hero-section {
+            background-color: rgba(13, 110, 253, 0.1);
+            border-radius: 0.5rem;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #0d6efd;
+        }
+        .recent-tool {
+            border-left: 3px solid #0d6efd;
+            background-color: rgba(13, 110, 253, 0.1);
+            transition: transform 0.2s ease;
+        }
+        .recent-tool:hover {
+            transform: translateX(5px);
+            background-color: rgba(13, 110, 253, 0.2);
+        }
+        .tool-name {
+            color: #0d6efd;
+        }
+        .tool-category {
+            color: #6c757d;
+        }
+        .list-info {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+
+        /* tool detail page */
+        .tool-header {
+            background-color: rgba(13, 110, 253, 0.1);
+            border-radius: 0.5rem;
+        }
+        .tool-tag {
+            background-color: rgba(13, 110, 253, 0.2);
+            color: #0d6efd;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            margin-right: 0.5rem;
+        }
+        .tool-info {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        .tool-link {
+            text-decoration: none;
+            color: #0d6efd;
+            margin-right: 1rem;
+        }
+        .tool-link:hover {
+            text-decoration: underline;
+        }
+        </style>
+    </head>
+    <body hx-boost="true">
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Lucas Cezimbra Toolbox</a>
+                    <button class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/lists/">Lists</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/tags/">Tags</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">#ruby</h2>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/rubytoolbox/" class="tool-name fw-bold">rubytoolbox</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/rubytoolbox/rubytoolbox</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-07</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/catalog/" class="tool-name fw-bold">catalog</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/rubytoolbox/catalog</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-07</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/canvas-lms/" class="tool-name fw-bold">canvas-lms</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/instructure/canvas-lms</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-02</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/fluentd/" class="tool-name fw-bold">fluentd</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/fluent/fluentd</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-08-21</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/kamal/" class="tool-name fw-bold">kamal</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/basecamp/kamal</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-07-22</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/mastodon-twitter-poster/" class="tool-name fw-bold">mastodon-twitter-poster</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/renatolond/mastodon-twitter-poster</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-02-03</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/pronto/" class="tool-name fw-bold">pronto</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/prontolabs/pronto</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2017-09-05</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/devdocs/" class="tool-name fw-bold">devdocs</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/freecodecamp/devdocs</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2017-05-30</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/osem/" class="tool-name fw-bold">osem</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/opensuse/osem</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2016-10-03</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/spree/" class="tool-name fw-bold">spree</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/spree/spree</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2016-09-27</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/project/" class="tool-name fw-bold">project</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/aceleradora8/project</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-12-02</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/socify/" class="tool-name fw-bold">socify</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/scaffeinate/socify</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-08-12</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/awesome-geek-podcasts/" class="tool-name fw-bold">awesome-geek-podcasts</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/guipdutra/awesome-geek-podcasts</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-08-06</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/brazilian-rails/" class="tool-name fw-bold">brazilian-rails</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/tapajos/brazilian-rails</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-07-21</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/peba/" class="tool-name fw-bold">peba</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/teresinahc/peba</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-06-01</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/chartkick/" class="tool-name fw-bold">chartkick</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/ankane/chartkick</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-05-23</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/capybara/" class="tool-name fw-bold">capybara</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/teamcapybara/capybara</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-05-20</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/shoulda-matchers/" class="tool-name fw-bold">shoulda-matchers</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/thoughtbot/shoulda-matchers</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-05-18</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/pagseguro-sdk-ruby/" class="tool-name fw-bold">pagseguro-sdk-ruby</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/pagseguro/pagseguro-sdk-ruby</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-04-29</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/better_errors/" class="tool-name fw-bold">better_errors</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/bettererrors/better_errors</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-04-29</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/megamanruby/" class="tool-name fw-bold">megamanruby</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/piscolomo/megamanruby</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-04-27</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/bootstrap-datepicker-rails/" class="tool-name fw-bold">bootstrap-datepicker-rails</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/nerian/bootstrap-datepicker-rails</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-04-06</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/magic_encoding/" class="tool-name fw-bold">magic_encoding</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/mryan43/magic_encoding</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-03-21</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/factory_bot/" class="tool-name fw-bold">factory_bot</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/thoughtbot/factory_bot</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-03-14</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/dotfiles/" class="tool-name fw-bold">dotfiles</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/skwp/dotfiles</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-03-10</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/rails/" class="tool-name fw-bold">rails</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/rails/rails</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-03-09</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/devise/" class="tool-name fw-bold">devise</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/heartcombo/devise</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-03-09</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/catarse/" class="tool-name fw-bold">catarse</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/catarse/catarse</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-02-26</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/guard/" class="tool-name fw-bold">guard</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/guard/guard</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-01-24</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/discourse/" class="tool-name fw-bold">discourse</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/discourse/discourse</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/ruby/"><span>#ruby</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2014-10-04</small>
+    </li>
+</ul>
+
+    
+</ul>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        </div>
+        <script src="/static/bootstrap.min.js" defer></script>
+    </body>
+</html>
