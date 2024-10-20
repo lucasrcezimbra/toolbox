@@ -23,7 +23,7 @@
   {
     "fields": {
       "notes": "full-text and vector search in the browser",
-      "url_github": "https://github.com/askorama/orama"
+      "url_github": "https://github.com/oramasearch/orama"
     },
     "model": "core.tool"
   },
