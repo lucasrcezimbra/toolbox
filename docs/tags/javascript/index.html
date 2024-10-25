@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lucas Cezimbra Toolbox</title>
+        
+        <link href="/static/bootstrap.min.css" rel="stylesheet" async>
+        <script src="/static/htmx.min.js.gz" defer></script>
+        <link href="/static/fontawesomefree/css/fontawesome.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <link href="/static/fontawesomefree/css/solid.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <link href="/static/fontawesomefree/css/brands.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <style>
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        /* index.html */
+        .hero-section {
+            background-color: rgba(13, 110, 253, 0.1);
+            border-radius: 0.5rem;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #0d6efd;
+        }
+        .recent-tool {
+            border-left: 3px solid #0d6efd;
+            background-color: rgba(13, 110, 253, 0.1);
+            transition: transform 0.2s ease;
+        }
+        .recent-tool:hover {
+            transform: translateX(5px);
+            background-color: rgba(13, 110, 253, 0.2);
+        }
+        .tool-name {
+            color: #0d6efd;
+        }
+        .tool-category {
+            color: #6c757d;
+        }
+        .list-info {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+
+        /* tool detail page */
+        .tool-header {
+            background-color: rgba(13, 110, 253, 0.1);
+            border-radius: 0.5rem;
+        }
+        .tool-tag {
+            background-color: rgba(13, 110, 253, 0.2);
+            color: #0d6efd;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            margin-right: 0.5rem;
+        }
+        .tool-info {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        .tool-link {
+            text-decoration: none;
+            color: #0d6efd;
+            margin-right: 1rem;
+        }
+        .tool-link:hover {
+            text-decoration: underline;
+        }
+        </style>
+    </head>
+    <body hx-boost="true">
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Lucas Cezimbra Toolbox</a>
+                    <button class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/lists/">Lists</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/tags/">Tags</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">#javascript</h2>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/cloudwatch-logs-cli/" class="tool-name fw-bold">cloudwatch-logs-cli</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/albertolinde/cloudwatch-logs-cli</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-23</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/snap.js/" class="tool-name fw-bold">snap.js</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/thescottyjam/snap.js</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-15</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/lunr.js/" class="tool-name fw-bold">lunr.js</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/olivernn/lunr.js</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> full-text search in the browser</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/Fuse/" class="tool-name fw-bold">Fuse</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/krisk/fuse</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> lightweight fuzzy-search in the browser</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/django-prose-editor/" class="tool-name fw-bold">django-prose-editor</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/matthiask/django-prose-editor</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-07</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/django-content-editor/" class="tool-name fw-bold">django-content-editor</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/feincms/django-content-editor</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-07</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/nosflare/" class="tool-name fw-bold">nosflare</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/spl0itable/nosflare</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> Serverless relay for Cloudflare Workers and R2 bucket</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-09-18</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/react-window/" class="tool-name fw-bold">react-window</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/bvaughn/react-window</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-09-03</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/shiori/" class="tool-name fw-bold">shiori</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/go-shiori/shiori</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-07-31</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/readability/" class="tool-name fw-bold">readability</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/mozilla/readability</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-07-29</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/flexsearch/" class="tool-name fw-bold">flexsearch</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/nextapps-de/flexsearch</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-07-22</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/userbase/" class="tool-name fw-bold">userbase</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/smallbets/userbase</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-06-18</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/RPi-Monitor/" class="tool-name fw-bold">RPi-Monitor</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/xavierberger/rpi-monitor</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-04-10</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/kener/" class="tool-name fw-bold">kener</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/rajnandan1/kener</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-01-26</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/automatisch/" class="tool-name fw-bold">automatisch</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/automatisch/automatisch</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-01-11</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/snapdrop/" class="tool-name fw-bold">snapdrop</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/snapdrop/snapdrop</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2023-11-20</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/ChatGPT-AutoExpert/" class="tool-name fw-bold">ChatGPT-AutoExpert</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/spdustin/chatgpt-autoexpert</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2023-11-16</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/python-wasm/" class="tool-name fw-bold">python-wasm</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/ethanhs/python-wasm</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2023-11-07</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/jquery-ui/" class="tool-name fw-bold">jquery-ui</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/jquery/jquery-ui</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2023-11-01</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/django-htmx/" class="tool-name fw-bold">django-htmx</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/adamchainz/django-htmx</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2023-10-12</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/htmx/" class="tool-name fw-bold">htmx</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/bigskysoftware/htmx</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2023-10-12</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/pilotord-kit-onboarding/" class="tool-name fw-bold">pilotord-kit-onboarding</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/bacen/pilotord-kit-onboarding</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2023-07-06</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/Home-AssistantConfig/" class="tool-name fw-bold">Home-AssistantConfig</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/ccostan/home-assistantconfig</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2023-05-27</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/obsidian-smart-connections/" class="tool-name fw-bold">obsidian-smart-connections</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/brianpetro/obsidian-smart-connections</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2023-05-26</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/stories-do-pai/" class="tool-name fw-bold">stories-do-pai</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/ederchristian/stories-do-pai</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2022-06-20</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/pipedream/" class="tool-name fw-bold">pipedream</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/pipedreamhq/pipedream</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2022-04-25</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/gatsby/" class="tool-name fw-bold">gatsby</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/gatsbyjs/gatsby</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2022-04-02</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/pdf-signer/" class="tool-name fw-bold">pdf-signer</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/ekiametis/pdf-signer</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2020-12-22</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/justpy/" class="tool-name fw-bold">justpy</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/justpy-org/justpy</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2020-10-01</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/whatsapp-web-reveng/" class="tool-name fw-bold">whatsapp-web-reveng</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/sigalor/whatsapp-web-reveng</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2018-04-09</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/webogram/" class="tool-name fw-bold">webogram</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/zhukov/webogram</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2018-04-04</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/vimeo-repeat-extension/" class="tool-name fw-bold">vimeo-repeat-extension</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/rudiedirkx/vimeo-repeat-extension</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2018-04-04</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/parrot.live/" class="tool-name fw-bold">parrot.live</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/hugomd/parrot.live</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2018-03-27</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/dilmes-ipsum/" class="tool-name fw-bold">dilmes-ipsum</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/miguelmedeiros/dilmes-ipsum</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2018-03-12</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/livepython/" class="tool-name fw-bold">livepython</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/agermanidis/livepython</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2018-03-07</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/burlesco/" class="tool-name fw-bold">burlesco</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/burlesco/burlesco</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2018-01-24</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/pythonpro-website/" class="tool-name fw-bold">pythonpro-website</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/pythonprobr/pythonpro-website</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2017-12-20</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/gekko/" class="tool-name fw-bold">gekko</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/askmike/gekko</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2017-10-17</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/gemidao-do-zap/" class="tool-name fw-bold">gemidao-do-zap</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/haskellcamargo/gemidao-do-zap</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2017-08-09</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/django-dynamic-formset/" class="tool-name fw-bold">django-dynamic-formset</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/elo80ka/django-dynamic-formset</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2017-06-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/django-baton/" class="tool-name fw-bold">django-baton</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/otto-torino/django-baton</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2017-06-08</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/cerebro/" class="tool-name fw-bold">cerebro</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/cerebroapp/cerebro</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2017-05-16</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/Is-Now-Illegal/" class="tool-name fw-bold">Is-Now-Illegal</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/ivanseidel/is-now-illegal</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2017-02-03</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/cep-promise/" class="tool-name fw-bold">cep-promise</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/brasilapi/cep-promise</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2016-10-26</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/pageAccelerator/" class="tool-name fw-bold">pageAccelerator</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/evandrolg/pageaccelerator</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2016-10-07</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/dsw/" class="tool-name fw-bold">dsw</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/naschq/dsw</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2016-07-29</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/gifify/" class="tool-name fw-bold">gifify</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/vvo/gifify</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2016-07-19</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/kaki/" class="tool-name fw-bold">kaki</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/fbeline/kaki</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2016-06-30</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/parallax/" class="tool-name fw-bold">parallax</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/wagerfield/parallax</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2016-06-20</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/reqwest/" class="tool-name fw-bold">reqwest</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/ded/reqwest</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2016-06-20</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/impress.js/" class="tool-name fw-bold">impress.js</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/impress/impress.js</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2016-06-20</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/aos/" class="tool-name fw-bold">aos</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/michalsnik/aos</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2016-06-20</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/modern-editor/" class="tool-name fw-bold">modern-editor</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/franciscop/modern-editor</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2016-06-17</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/drive-db/" class="tool-name fw-bold">drive-db</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/franciscop/drive-db</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2016-06-17</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/pagespeed-score-cli/" class="tool-name fw-bold">pagespeed-score-cli</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/cauealvesbraz/pagespeed-score-cli</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2016-06-17</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/Flat-UI/" class="tool-name fw-bold">Flat-UI</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/designmodo/flat-ui</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2016-06-02</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/remote-jobs/" class="tool-name fw-bold">remote-jobs</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/remoteintech/remote-jobs</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-12-22</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/hacker-scripts/" class="tool-name fw-bold">hacker-scripts</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/narkoz/hacker-scripts</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-12-04</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/agency-jekyll-theme/" class="tool-name fw-bold">agency-jekyll-theme</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/y7kim/agency-jekyll-theme</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-11-05</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/whatsapp-sharing/" class="tool-name fw-bold">whatsapp-sharing</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/kriskbx/whatsapp-sharing</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-10-21</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/PhotoSwipe/" class="tool-name fw-bold">PhotoSwipe</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/dimsemenov/photoswipe</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-09-23</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/WOW/" class="tool-name fw-bold">WOW</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/matthieua/wow</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-06-08</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/meteor/" class="tool-name fw-bold">meteor</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/meteor/meteor</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-05-25</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/Chart.js/" class="tool-name fw-bold">Chart.js</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/chartjs/chart.js</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-05-23</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/johnny-five/" class="tool-name fw-bold">johnny-five</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/rwaldron/johnny-five</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-05-15</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/node/" class="tool-name fw-bold">node</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/nodejs/node</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-05-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/aceleradora-exemplo-sessoes/" class="tool-name fw-bold">aceleradora-exemplo-sessoes</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/thiagoxvo/aceleradora-exemplo-sessoes</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-01-26</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/gitlet/" class="tool-name fw-bold">gitlet</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/maryrosecook/gitlet</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-01-24</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/atom/" class="tool-name fw-bold">atom</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/atom/atom</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-01-24</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/brackets/" class="tool-name fw-bold">brackets</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/adobe/brackets</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-01-24</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/megafone/" class="tool-name fw-bold">megafone</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/thiagoxvo/megafone</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-01-21</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/jsPDF/" class="tool-name fw-bold">jsPDF</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/parallax/jspdf</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span>#javascript</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2014-07-20</small>
+    </li>
+</ul>
+
+    
+</ul>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        </div>
+        <script src="/static/bootstrap.min.js" defer></script>
+    </body>
+</html>

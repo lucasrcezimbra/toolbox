@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lucas Cezimbra Toolbox</title>
+        
+        <link href="/static/bootstrap.min.css" rel="stylesheet" async>
+        <script src="/static/htmx.min.js.gz" defer></script>
+        <link href="/static/fontawesomefree/css/fontawesome.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <link href="/static/fontawesomefree/css/solid.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <link href="/static/fontawesomefree/css/brands.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <style>
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        /* index.html */
+        .hero-section {
+            background-color: rgba(13, 110, 253, 0.1);
+            border-radius: 0.5rem;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #0d6efd;
+        }
+        .recent-tool {
+            border-left: 3px solid #0d6efd;
+            background-color: rgba(13, 110, 253, 0.1);
+            transition: transform 0.2s ease;
+        }
+        .recent-tool:hover {
+            transform: translateX(5px);
+            background-color: rgba(13, 110, 253, 0.2);
+        }
+        .tool-name {
+            color: #0d6efd;
+        }
+        .tool-category {
+            color: #6c757d;
+        }
+        .list-info {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+
+        /* tool detail page */
+        .tool-header {
+            background-color: rgba(13, 110, 253, 0.1);
+            border-radius: 0.5rem;
+        }
+        .tool-tag {
+            background-color: rgba(13, 110, 253, 0.2);
+            color: #0d6efd;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            margin-right: 0.5rem;
+        }
+        .tool-info {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        .tool-link {
+            text-decoration: none;
+            color: #0d6efd;
+            margin-right: 1rem;
+        }
+        .tool-link:hover {
+            text-decoration: underline;
+        }
+        </style>
+    </head>
+    <body hx-boost="true">
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Lucas Cezimbra Toolbox</a>
+                    <button class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/lists/">Lists</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/tags/">Tags</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">#c</h2>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/valkey/" class="tool-name fw-bold">valkey</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/valkey-io/valkey</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/c/"><span>#c</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-09-02</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/zstd/" class="tool-name fw-bold">zstd</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/facebook/zstd</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/c/"><span>#c</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-08-22</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/scrcpy/" class="tool-name fw-bold">scrcpy</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/genymobile/scrcpy</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/c/"><span>#c</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-08-20</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/tini/" class="tool-name fw-bold">tini</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/krallin/tini</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/c/"><span>#c</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-06-24</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/pgvector/" class="tool-name fw-bold">pgvector</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/pgvector/pgvector</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/c/"><span>#c</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2023-05-02</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/ultrajson/" class="tool-name fw-bold">ultrajson</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/ultrajson/ultrajson</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/c/"><span>#c</span></a>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> UltraJSON is an ultra fast JSON encoder and decoder written in pure C with bindings for Python.</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2022-12-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/k380-function-keys-conf/" class="tool-name fw-bold">k380-function-keys-conf</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/jergusg/k380-function-keys-conf</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/c/"><span>#c</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2021-08-30</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/netdata/" class="tool-name fw-bold">netdata</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/netdata/netdata</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/c/"><span>#c</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2019-03-22</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/gimp-plugin-bimp/" class="tool-name fw-bold">gimp-plugin-bimp</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/alessandrofrancesconi/gimp-plugin-bimp</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/c/"><span>#c</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2017-02-22</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/FFmpeg/" class="tool-name fw-bold">FFmpeg</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/ffmpeg/ffmpeg</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/c/"><span>#c</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2017-02-21</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/io/" class="tool-name fw-bold">io</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/iolanguage/io</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/c/"><span>#c</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-07-25</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/git/" class="tool-name fw-bold">git</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/git/git</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/c/"><span>#c</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-05-11</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/sirius-client/" class="tool-name fw-bold">sirius-client</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/d4ndo/sirius-client</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/c/"><span>#c</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-05-08</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/freebsd-src/" class="tool-name fw-bold">freebsd-src</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/freebsd/freebsd-src</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/c/"><span>#c</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2015-04-29</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <a href="/tools/linux/" class="tool-name fw-bold">linux</a>
+        <span>-</span>
+        <span class="tool-category">https://github.com/torvalds/linux</span> -
+        
+            <a href="/tags/opensource/"><span>#opensource</span></a>
+        
+            <a href="/tags/c/"><span>#c</span></a>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2014-07-22</small>
+    </li>
+</ul>
+
+    
+</ul>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        </div>
+        <script src="/static/bootstrap.min.js" defer></script>
+    </body>
+</html>
