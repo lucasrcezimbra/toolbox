@@ -29,6 +29,13 @@
   },
   {
     "fields": {
+      "notes": "DSL to write and test LLM functions.",
+      "url_github": "https://github.com/boundaryml/baml"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "CLI to read and stream AWS CloudWatch logs",
       "url_github": "https://github.com/albertolinde/cloudwatch-logs-cli"
     },

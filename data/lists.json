@@ -402,9 +402,15 @@
         ],
         [
           "https://github.com/dandavison/delta"
+        ],
+        [
+          "https://github.com/lucasrcezimbra/llm-jupyter"
+        ],
+        [
+          "https://github.com/simonw/llm"
         ]
       ],
-      "updated_at": "2024-10-13"
+      "updated_at": "2024-10-30"
     },
     "model": "core.list"
   },
@@ -522,6 +528,47 @@
       "tools": [
         [
           "https://github.com/cz-nic/mininterface"
+        ]
+      ],
+      "updated_at": "2024-10-30"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-10-30",
+      "name": "My Projects",
+      "slug": "my-projects",
+      "tools": [
+        [
+          "https://github.com/lucasrcezimbra/toolbox"
+        ],
+        [
+          "https://github.com/lucasrcezimbra/missas.com.br"
+        ],
+        [
+          "https://github.com/lucasrcezimbra/llm-jupyter"
+        ],
+        [
+          "https://github.com/lucasrcezimbra/ninja-api-key"
+        ],
+        [
+          "https://github.com/lucasrcezimbra/hugo-coder-htmx"
+        ],
+        [
+          "https://github.com/lucasrcezimbra/cookiecutter-pypackage"
+        ],
+        [
+          "https://github.com/lucasrcezimbra/bancointer"
+        ],
+        [
+          "https://github.com/lucasrcezimbra/agilize"
+        ],
+        [
+          "https://github.com/lucasrcezimbra/django-template"
+        ],
+        [
+          "https://github.com/lucasrcezimbra/pyitau"
         ]
       ],
       "updated_at": "2024-10-30"
