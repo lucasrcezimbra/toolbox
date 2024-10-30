@@ -1,15 +1,113 @@
 [
   {
     "fields": {
-      "notes": "importers, plugins and price fetchers; Examples consuming API: https://github.com/tarioch/beancounttools/blob/master/src/tariochbctools/importers/quickfile/importer.py and https://github.com/tarioch/beancounttools/blob/master/src/tariochbctools/importers/transferwise/importer.py",
-      "url_github": "https://github.com/tarioch/beancounttools"
+      "notes": "Roles and Permissions as a Code",
+      "url_github": "https://github.com/vintasoftware/django-role-permissions"
     },
     "model": "core.tool"
   },
   {
     "fields": {
-      "notes": "importers with machine learning - status: beta",
-      "url_github": "https://github.com/beancount/smart_importer"
+      "notes": "Generates GUI, TUI, CLI, and config files for your Python code",
+      "url_github": "https://github.com/cz-nic/mininterface"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Generates CLI from types",
+      "url_github": "https://github.com/brentyi/tyro"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Nostr client for web",
+      "url_github": "https://github.com/snowcait/nostter"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "CLI to read and stream AWS CloudWatch logs",
+      "url_github": "https://github.com/albertolinde/cloudwatch-logs-cli"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "CLI to access AWS CloudWatch logs",
+      "url_github": "https://github.com/tylerbrock/saw"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "CLI to tail AWS CloudWatch Logs",
+      "url_github": "https://github.com/lucagrulla/cw"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "a nostr relay for desktop",
+      "url_github": "https://github.com/codytseng/nostr-relay-tray"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "JS Library that allows to easily communicate with relays",
+      "url_github": "https://github.com/penpenpng/rx-nostr"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Feed algorithm relay",
+      "url_github": "https://github.com/bitvora/algo-relay"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Web scraping using LLMs",
+      "url_github": "https://github.com/raznem/parsera"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "JS copy-paste library",
+      "url_github": "https://github.com/thescottyjam/snap.js"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Alternative to sed",
+      "url_github": "https://github.com/chmln/sd"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "CLI for generating regular expressions",
+      "url_github": "https://github.com/pemistahl/grex"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Alternative to du",
+      "url_github": "https://github.com/bootandy/dust"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Alternative to diff; syntax-highlighting for git, diff, and grep output.",
+      "url_github": "https://github.com/dandavison/delta"
     },
     "model": "core.tool"
   },
@@ -43,29 +141,15 @@
   },
   {
     "fields": {
-      "notes": "Alternative to sed",
-      "url_github": "https://github.com/chmln/sd"
+      "notes": "importers, plugins and price fetchers; Examples consuming API: https://github.com/tarioch/beancounttools/blob/master/src/tariochbctools/importers/quickfile/importer.py and https://github.com/tarioch/beancounttools/blob/master/src/tariochbctools/importers/transferwise/importer.py",
+      "url_github": "https://github.com/tarioch/beancounttools"
     },
     "model": "core.tool"
   },
   {
     "fields": {
-      "notes": "CLI for generating regular expressions",
-      "url_github": "https://github.com/pemistahl/grex"
-    },
-    "model": "core.tool"
-  },
-  {
-    "fields": {
-      "notes": "Alternative to du",
-      "url_github": "https://github.com/bootandy/dust"
-    },
-    "model": "core.tool"
-  },
-  {
-    "fields": {
-      "notes": "Alternative to diff; syntax-highlighting for git, diff, and grep output.",
-      "url_github": "https://github.com/dandavison/delta"
+      "notes": "importers with machine learning - status: beta",
+      "url_github": "https://github.com/beancount/smart_importer"
     },
     "model": "core.tool"
   },

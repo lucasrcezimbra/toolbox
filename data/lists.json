@@ -35,6 +35,12 @@
       "slug": "nostr-relays",
       "tools": [
         [
+          "https://github.com/codytseng/nostr-relay-tray"
+        ],
+        [
+          "https://github.com/bitvora/algo-relay"
+        ],
+        [
           "https://github.com/hoytech/strfry"
         ],
         [
@@ -62,7 +68,7 @@
           "https://github.com/bitvora/wot-relay"
         ]
       ],
-      "updated_at": "2024-10-11"
+      "updated_at": "2024-10-30"
     },
     "model": "core.list"
   },
@@ -73,13 +79,16 @@
       "slug": "nostr-clients",
       "tools": [
         [
+          "https://github.com/snowcait/nostter"
+        ],
+        [
           "https://github.com/lumehq/coop"
         ],
         [
           "https://github.com/unclebob/more-speech"
         ]
       ],
-      "updated_at": "2024-10-11"
+      "updated_at": "2024-10-30"
     },
     "model": "core.list"
   },
@@ -130,10 +139,13 @@
       "slug": "django-permissions",
       "tools": [
         [
+          "https://github.com/vintasoftware/django-role-permissions"
+        ],
+        [
           "https://github.com/django-guardian/django-guardian"
         ]
       ],
-      "updated_at": "2024-10-11"
+      "updated_at": "2024-10-30"
     },
     "model": "core.list"
   },
@@ -222,6 +234,12 @@
       "slug": "python-cli",
       "tools": [
         [
+          "https://github.com/cz-nic/mininterface"
+        ],
+        [
+          "https://github.com/brentyi/tyro"
+        ],
+        [
           "https://github.com/fastapi/typer"
         ],
         [
@@ -231,7 +249,7 @@
           "https://github.com/google/python-fire"
         ]
       ],
-      "updated_at": "2024-10-11"
+      "updated_at": "2024-10-30"
     },
     "model": "core.list"
   },
@@ -397,10 +415,13 @@
       "slug": "shells",
       "tools": [
         [
+          "https://github.com/fish-shell/fish-shell"
+        ],
+        [
           "https://github.com/nushell/nushell"
         ]
       ],
-      "updated_at": "2024-10-13"
+      "updated_at": "2024-10-30"
     },
     "model": "core.list"
   },
@@ -434,9 +455,6 @@
       "slug": "beancount",
       "tools": [
         [
-          "https://github.com/nathangrigg/vim-beancount"
-        ],
-        [
           "https://github.com/tarioch/beancounttools"
         ],
         [
@@ -446,6 +464,9 @@
           "https://github.com/redstreet/beancount_reds_importers"
         ],
         [
+          "https://github.com/nathangrigg/vim-beancount"
+        ],
+        [
           "https://github.com/jbms/beancount-import"
         ],
         [
@@ -453,6 +474,57 @@
         ]
       ],
       "updated_at": "2024-10-13"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-10-30",
+      "name": "Web Scrapping",
+      "slug": "web-scrapping",
+      "tools": [
+        [
+          "https://github.com/raznem/parsera"
+        ],
+        [
+          "https://github.com/scrapy/scrapy"
+        ]
+      ],
+      "updated_at": "2024-10-30"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-10-30",
+      "name": "Django - Logging",
+      "slug": "django-logging",
+      "tools": [
+        [
+          "https://github.com/denizdogan/django-debug-requests-responses"
+        ],
+        [
+          "https://github.com/raekkeri/django-requestlogs"
+        ],
+        [
+          "https://github.com/rhumbix/django-request-logging"
+        ]
+      ],
+      "updated_at": "2024-10-30"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-10-30",
+      "name": "Python - GUI",
+      "slug": "python-gui",
+      "tools": [
+        [
+          "https://github.com/cz-nic/mininterface"
+        ]
+      ],
+      "updated_at": "2024-10-30"
     },
     "model": "core.list"
   }
