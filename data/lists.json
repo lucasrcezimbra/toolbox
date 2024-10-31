@@ -628,5 +628,45 @@
       "updated_at": "2024-10-31"
     },
     "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-10-31",
+      "name": "Web Scrapping - Instagram",
+      "slug": "web-scrapping-instagram",
+      "tools": [
+        [
+          "https://github.com/skyme5/instagram-story"
+        ],
+        [
+          "https://github.com/stanvanrooy/instauto"
+        ],
+        [
+          "https://github.com/alexal1/insomniac"
+        ],
+        [
+          "https://github.com/subzeroid/instagrapi"
+        ]
+      ],
+      "updated_at": "2024-10-31"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-10-31",
+      "name": "Web Scrapping - WhatsApp",
+      "slug": "web-scrapping-whatsapp",
+      "tools": [
+        [
+          "https://github.com/wppconnect-team/wppconnect"
+        ],
+        [
+          "https://github.com/ookamiiixd/baileys-api"
+        ]
+      ],
+      "updated_at": "2024-10-31"
+    },
+    "model": "core.list"
   }
 ]
