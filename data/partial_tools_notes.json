@@ -1,6 +1,13 @@
 [
   {
     "fields": {
+      "notes": "logfmt formatter",
+      "url_github": "https://github.com/jteppinette/python-logfmter"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "Roles and Permissions as a Code",
       "url_github": "https://github.com/vintasoftware/django-role-permissions"
     },
@@ -337,6 +344,20 @@
   },
   {
     "fields": {
+      "notes": "Unified Logging Layer - collects events from various data sources and writes them to different destinations",
+      "url_github": "https://github.com/fluent/fluentd"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Structured Logging for Python; supports output as JSON, logfmt, plaintext.\r\n- Standard Library support: https://www.structlog.org/en/stable/standard-library.html\r\n- Building a Context: https://www.structlog.org/en/stable/getting-started.html#building-a-context",
+      "url_github": "https://github.com/hynek/structlog"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "Server to run ASGI in AWS Lambda",
       "url_github": "https://github.com/kludex/mangum"
     },
@@ -351,8 +372,22 @@
   },
   {
     "fields": {
+      "notes": "Cloud cost estimates in pull requests",
+      "url_github": "https://github.com/infracost/infracost"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "PostgreSQL-based Task Queue",
       "url_github": "https://github.com/procrastinate-org/procrastinate"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "- Compatible with standard logging: https://loguru.readthedocs.io/en/stable/overview.html#entirely-compatible-with-standard-logging\r\n- Django integration using InterceptHandler: https://github.com/Delgan/loguru/issues/977#issuecomment-1771575984\r\n- Logger.bind: https://loguru.readthedocs.io/en/stable/api/logger.html#loguru._logger.Logger.bind",
+      "url_github": "https://github.com/delgan/loguru"
     },
     "model": "core.tool"
   },
@@ -395,6 +430,13 @@
     "fields": {
       "notes": "fast, supports NumPy",
       "url_github": "https://github.com/ijl/orjson"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "(reverse Terraform) generates tf/json and tfstate files based on existing infrastructure",
+      "url_github": "https://github.com/googlecloudplatform/terraformer"
     },
     "model": "core.tool"
   },

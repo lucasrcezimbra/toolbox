@@ -574,5 +574,59 @@
       "updated_at": "2024-10-30"
     },
     "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-10-31",
+      "name": "Python - Logging",
+      "slug": "python-logging",
+      "tools": [
+        [
+          "https://github.com/jteppinette/python-logfmter"
+        ],
+        [
+          "https://github.com/hynek/structlog"
+        ],
+        [
+          "https://github.com/madzak/python-json-logger"
+        ],
+        [
+          "https://github.com/delgan/loguru"
+        ]
+      ],
+      "updated_at": "2024-10-31"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-10-31",
+      "name": "Logging",
+      "slug": "logging",
+      "tools": [
+        [
+          "https://github.com/fluent/fluentd"
+        ]
+      ],
+      "updated_at": "2024-10-31"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-10-31",
+      "name": "Terraform",
+      "slug": "terraform",
+      "tools": [
+        [
+          "https://github.com/infracost/infracost"
+        ],
+        [
+          "https://github.com/googlecloudplatform/terraformer"
+        ]
+      ],
+      "updated_at": "2024-10-31"
+    },
+    "model": "core.list"
   }
 ]
