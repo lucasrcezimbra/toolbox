@@ -392,6 +392,9 @@
       "slug": "command-line",
       "tools": [
         [
+          "https://github.com/tconbeer/harlequin"
+        ],
+        [
           "https://github.com/chmln/sd"
         ],
         [
@@ -410,7 +413,7 @@
           "https://github.com/simonw/llm"
         ]
       ],
-      "updated_at": "2024-10-30"
+      "updated_at": "2024-11-13"
     },
     "model": "core.list"
   },
@@ -666,6 +669,279 @@
         ]
       ],
       "updated_at": "2024-10-31"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-11-06",
+      "name": "EdTech",
+      "slug": "edtech",
+      "tools": [
+        [
+          "https://github.com/instructure/canvas-lms"
+        ]
+      ],
+      "updated_at": "2024-11-06"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-11-07",
+      "name": "Data - Parsers",
+      "slug": "data-parsers",
+      "tools": [
+        [
+          "https://github.com/unstructured-io/unstructured"
+        ],
+        [
+          "https://github.com/ds4sd/docling"
+        ]
+      ],
+      "updated_at": "2024-11-07"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-11-07",
+      "name": "Home - Photo Library",
+      "slug": "home-photo-library",
+      "tools": [
+        [
+          "https://github.com/ente-io/ente"
+        ]
+      ],
+      "updated_at": "2024-11-07"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-11-07",
+      "name": "Python - Architecture",
+      "slug": "python-architecture",
+      "tools": [
+        [
+          "https://github.com/zyskarch/pytestarch"
+        ],
+        [
+          "https://github.com/seddonym/import-linter"
+        ],
+        [
+          "https://github.com/jwbargsten/pytest-archon"
+        ]
+      ],
+      "updated_at": "2024-11-07"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-11-07",
+      "name": "PostgreSQL - Vector",
+      "slug": "postgresql-vector",
+      "tools": [
+        [
+          "https://github.com/timescale/pgvectorscale"
+        ],
+        [
+          "https://github.com/timescale/pgai"
+        ],
+        [
+          "https://github.com/pgvector/pgvector"
+        ]
+      ],
+      "updated_at": "2024-11-07"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-11-07",
+      "name": "Vector Databases",
+      "slug": "vector-databases",
+      "tools": [
+        [
+          "https://github.com/timescale/pgvectorscale"
+        ],
+        [
+          "https://github.com/timescale/pgai"
+        ],
+        [
+          "https://github.com/pgvector/pgvector"
+        ]
+      ],
+      "updated_at": "2024-11-07"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-11-13",
+      "name": "Django - Linters",
+      "slug": "django-linters",
+      "tools": [
+        [
+          "https://github.com/thibaudcolas/curlylint"
+        ],
+        [
+          "https://github.com/rtts/djhtml"
+        ],
+        [
+          "https://github.com/adamchainz/djade"
+        ],
+        [
+          "https://github.com/djlint/djlint"
+        ]
+      ],
+      "updated_at": "2024-11-13"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-11-13",
+      "name": "Django - Web Components",
+      "slug": "django-web-components",
+      "tools": [
+        [
+          "https://github.com/xzya/django-web-components"
+        ],
+        [
+          "https://github.com/wrabit/django-cotton"
+        ],
+        [
+          "https://github.com/adamghill/dj-angles"
+        ],
+        [
+          "https://github.com/adamghill/django-unicorn"
+        ],
+        [
+          "https://github.com/edelvalle/reactor"
+        ],
+        [
+          "https://github.com/emilstenstrom/django-components"
+        ]
+      ],
+      "updated_at": "2024-11-13"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-11-13",
+      "name": "Django - Profilling",
+      "slug": "django-profilling",
+      "tools": [
+        [
+          "https://github.com/django-commons/django-debug-toolbar"
+        ],
+        [
+          "https://github.com/jazzband/django-silk"
+        ]
+      ],
+      "updated_at": "2024-11-13"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-11-13",
+      "name": "Neovim",
+      "slug": "neovim",
+      "tools": [
+        [
+          "https://github.com/nvim-treesitter/nvim-treesitter-textobjects"
+        ],
+        [
+          "https://github.com/nvim-treesitter/nvim-treesitter"
+        ],
+        [
+          "https://github.com/kylechui/nvim-surround"
+        ],
+        [
+          "https://github.com/nathangrigg/vim-beancount"
+        ],
+        [
+          "https://github.com/alexpasmantier/pymple.nvim"
+        ],
+        [
+          "https://github.com/yetone/avante.nvim"
+        ],
+        [
+          "https://github.com/tiagovla/scope.nvim"
+        ],
+        [
+          "https://github.com/mfussenegger/nvim-dap-python"
+        ],
+        [
+          "https://github.com/nvim-neotest/neotest-python"
+        ],
+        [
+          "https://github.com/lewis6991/gitsigns.nvim"
+        ],
+        [
+          "https://github.com/lunarvim/lunarvim"
+        ],
+        [
+          "https://github.com/ctrlpvim/ctrlp.vim"
+        ],
+        [
+          "https://github.com/neovim/neovim"
+        ],
+        [
+          "https://github.com/christoomey/vim-tmux-navigator"
+        ],
+        [
+          "https://github.com/vundlevim/vundle.vim"
+        ],
+        [
+          "https://github.com/tpope/vim-rails"
+        ],
+        [
+          "https://github.com/google/vim-codefmt"
+        ]
+      ],
+      "updated_at": "2024-11-13"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-11-13",
+      "name": "Django - Multitenancy",
+      "slug": "django-multitenancy",
+      "tools": [
+        [
+          "https://github.com/django-tenants/django-tenants"
+        ],
+        [
+          "https://github.com/citusdata/django-multitenant"
+        ],
+        [
+          "https://github.com/hbnetwork/django-ultratenant"
+        ]
+      ],
+      "updated_at": "2024-11-13"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-11-13",
+      "name": "VPNs",
+      "slug": "vpns",
+      "tools": [
+        [
+          "https://github.com/trailofbits/algo"
+        ],
+        [
+          "https://github.com/render-examples/tailscale"
+        ]
+      ],
+      "updated_at": "2024-11-13"
     },
     "model": "core.list"
   }
