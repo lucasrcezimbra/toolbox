@@ -6,6 +6,7 @@ from toolbox.core.models import List, Tool
 @admin.register(List)
 class ListAdmin(admin.ModelAdmin):
     autocomplete_fields = ("tools",)
+    ordering = ["-name"]
     prepopulated_fields = {"slug": ("name",)}
 
 
