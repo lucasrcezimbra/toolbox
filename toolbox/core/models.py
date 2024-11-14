@@ -11,11 +11,11 @@ class Tool(models.Model):
     added_at = models.DateTimeField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    url_github = models.URLField(unique=True)
-    url_docs = models.URLField(blank=True)
     name = models.CharField(max_length=254)
     notes = models.TextField(blank=True)
     slug = models.SlugField(unique=True)
+    url_docs = models.URLField(blank=True)
+    url_github = models.URLField(unique=True)
 
     objects = ToolManager()
     tags = TaggableManager()
