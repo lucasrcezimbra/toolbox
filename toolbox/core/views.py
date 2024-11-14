@@ -9,6 +9,7 @@ def index(request):
     number_of_lists = List.objects.count()
     number_of_tools = Tool.objects.count()
     number_of_tags = Tag.objects.count()
+    last_updated_lists = List.objects.order_by("-updated_at")[:10]
     tools = Tool.objects.all()[:20]
     return render(
         request,
@@ -17,6 +18,7 @@ def index(request):
             "number_of_lists": number_of_lists,
             "number_of_tags": number_of_tags,
             "number_of_tools": number_of_tools,
+            "last_updated_lists": last_updated_lists,
             "tools": tools,
         },
     )

@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card">
+                <div class="card mb-4">
                     <div class="card-header">
                         <h2 class="card-title">Toolbox at a Glance</h2>
                     </div>
@@ -35,6 +35,24 @@
                                 <div>Tags</div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">Last Updated Lists</h2>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            {% for list in last_updated_lists %}
+                                <li class="list-group-item">
+                                    <a href="{% url 'list-detail' list.slug %}">{{ list.name }}</a>
+                                    <span class="text-muted align-right">
+                                        at
+                                        <time datetime="{{ list.updated_at|date:'Y-m-d' }}">{{ list.updated_at|date:'Y-m-d' }}</time>
+                                    </span>
+                                </li>
+                            {% endfor %}
+                        </ul>
                     </div>
                 </div>
             </div>
