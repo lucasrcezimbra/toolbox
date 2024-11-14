@@ -26,8 +26,10 @@ class ToolAdmin(admin.ModelAdmin):
         "url_github_html",
         "url_docs_html",
         "notes",
+        "archived",
     )
     list_filter = (
+        ("archived", admin.BooleanFieldListFilter),
         ("notes", admin.EmptyFieldListFilter),
         ("url_docs", admin.EmptyFieldListFilter),
     )

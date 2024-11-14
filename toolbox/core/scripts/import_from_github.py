@@ -10,7 +10,8 @@ SELECT
     repos.html_url,
     repos.name,
     repos.language,
-    repos.homepage
+    repos.homepage,
+    repos.archived
 FROM
     stars
     JOIN repos ON
@@ -38,8 +39,9 @@ def run():
     cursor = conn.execute(SQL)
     rows = cursor.fetchall()
 
-    for starred_at, url_github, name, language, homepage in rows:
+    for starred_at, url_github, name, language, homepage, archived in rows:
         t = Tool(
+            archived=archived,
             added_at=starred_at,
             name=name,
             url_docs=homepage if is_url_docs(homepage) else "",

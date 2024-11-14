@@ -8,6 +8,7 @@ class ToolManager(models.Manager):
 
 
 class Tool(models.Model):
+    archived = models.BooleanField(default=False)
     added_at = models.DateTimeField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
