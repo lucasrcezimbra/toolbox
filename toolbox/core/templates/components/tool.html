@@ -2,10 +2,23 @@
     <li class="recent-tool p-3 mb-3">
         <a href="{% url 'tool-detail' tool.slug %}" class="tool-name fw-bold">{{ tool.name }}</a>
         <span>-</span>
-        <span class="tool-category">{{ tool.url_github }}</span> -
+        <a href="{{ tool.url_github }}"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+        <span>-</span>
         {% for tag in tool.tags.all %}
-            <a href="{% url 'tag-detail' tag.slug %}"><span>#{{ tag.slug }}</span></a>
+            <a href="{% url 'tag-detail' tag.slug %}"><span class="tool-tag">#{{ tag.slug }}</span></a>
         {% endfor %}
+        {% if tool.lists.exists %}
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                {% for list in tool.lists.all %}
+                    <a href="{% url 'list-detail' list.slug %}">{{ list.name }}</a>
+                    {% if not forloop.last %},{% endif %}
+                {% endfor %}
+            </span>
+        {% endif %}
         {% if tool.notes %}<span class="d-block"><span class="text-muted">My notes:</span> {{ tool.notes }}</span>{% endif %}
         <small class="d-block"><span class="text-muted">Added on:</span> {{ tool.added_at|date:'Y-m-d' }}</small>
     </li>
