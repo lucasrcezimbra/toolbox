@@ -1,3 +1,5 @@
+from datetime import date
+
 from django.db.models import Count
 from django.shortcuts import render
 from taggit.models import Tag
@@ -6,22 +8,23 @@ from toolbox.core.models import List, Tool
 
 
 def index(request):
-    number_of_lists = List.objects.count()
-    number_of_tools = Tool.objects.count()
-    number_of_tags = Tag.objects.count()
-    last_updated_lists = List.objects.order_by("-updated_at")[:10]
-    random_tools = Tool.objects.all().order_by("?")[:5]
-    tools = Tool.objects.all()[:20]
+    today = date.today()
+    tools_of_the_day = (
+        Tool.objects.exclude(added_at__year=today.year)
+        .filter(added_at__month=today.month, added_at__day=today.day)
+        .order_by("added_at")
+    )
     return render(
         request,
         "index.html",
         {
-            "number_of_lists": number_of_lists,
-            "number_of_tags": number_of_tags,
-            "number_of_tools": number_of_tools,
-            "last_updated_lists": last_updated_lists,
-            "random_tools": random_tools,
-            "tools": tools,
+            "number_of_lists": List.objects.count(),
+            "number_of_tags": Tag.objects.count(),
+            "number_of_tools": Tool.objects.count(),
+            "last_updated_lists": List.objects.order_by("-updated_at")[:10],
+            "random_tools": Tool.objects.all().order_by("?")[:5],
+            "tools": Tool.objects.all()[:20],
+            "tools_of_the_day": tools_of_the_day,
         },
     )
 
