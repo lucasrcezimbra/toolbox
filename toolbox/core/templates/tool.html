@@ -53,7 +53,7 @@
                     </div>
                     <div class="card-body">
                         <ul class="list-group list-group-flush">
-                            {% for list in tool.lists.all %}
+                            {% for list in lists %}
                                 <li class="list-group-item">
                                     <a href="{% url 'list-detail' list.slug %}">{{ list.name }}</a>
                                 </li>
@@ -61,21 +61,13 @@
                         </ul>
                     </div>
                 </div>
+            </div>
+            <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
                         <h2 class="card-title">Related Tools</h2>
                     </div>
-                    <div class="card-body">
-                        <ul class="list-group list-group-flush">
-                            {% for list in tool.lists.all %}
-                                {% for related_tool in list.tools.all %}
-                                    <li class="list-group-item">
-                                        <a href="{% url 'tool-detail' related_tool.slug %}">{{ related_tool.name }}</a>
-                                    </li>
-                                {% endfor %}
-                            {% endfor %}
-                        </ul>
-                    </div>
+                    <div class="card-body">{% include "components/tools.html" with tools=related_tools %}</div>
                 </div>
             </div>
         </div>

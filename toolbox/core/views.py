@@ -61,4 +61,12 @@ def tag_detail(request, slug):
 
 def tool_detail(request, slug):
     tool = Tool.objects.get(slug=slug)
-    return render(request, "tool.html", {"tool": tool})
+    lists = tool.lists.all()
+    related_tools = []
+    for list in lists:
+        related_tools.extend(list.tools.exclude(id=tool.id))
+    return render(
+        request,
+        "tool.html",
+        {"lists": lists, "related_tools": related_tools, "tool": tool},
+    )
