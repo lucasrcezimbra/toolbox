@@ -37,7 +37,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card mb-4">
                     <div class="card-header">
                         <h2 class="card-title">Last Updated Lists</h2>
                     </div>
@@ -54,6 +54,12 @@
                             {% endfor %}
                         </ul>
                     </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">Random Tools</h2>
+                    </div>
+                    <div class="card-body">{% include "components/tools.html" with tools=random_tools %}</div>
                 </div>
             </div>
         </div>
