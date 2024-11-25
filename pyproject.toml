@@ -19,7 +19,7 @@ whitenoise = {extras = ["brotli"], version = "6.8.2"}
 
 [tool.poetry.group.data.dependencies]
 github-to-sqlite = "2.9"
-sqlite-utils = "3.37"
+sqlite-utils = "3.38"
 
 [tool.poetry.group.dev.dependencies]
 model-bakery = "1.20.0"
