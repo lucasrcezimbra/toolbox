@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lucas Cezimbra Toolbox</title>
+        
+        <link href="/static/bootstrap.min.css" rel="stylesheet" async>
+        <script src="/static/htmx.min.js.gz" defer></script>
+        <link href="/static/fontawesomefree/css/fontawesome.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <link href="/static/fontawesomefree/css/solid.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <link href="/static/fontawesomefree/css/brands.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <style>
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+        .archive-badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            padding: 0.125rem 0.375rem;
+            background-color: #d29922;
+            color: white;
+            border-radius: 0.25rem;
+            vertical-align: middle;
+        }
+
+        /* index.html */
+        .hero-section {
+            background-color: rgba(13, 110, 253, 0.1);
+            border-radius: 0.5rem;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #0d6efd;
+        }
+        .recent-tool {
+            border-left: 3px solid #0d6efd;
+            background-color: rgba(13, 110, 253, 0.1);
+            transition: transform 0.2s ease;
+        }
+        .recent-tool:hover {
+            transform: translateX(5px);
+            background-color: rgba(13, 110, 253, 0.2);
+        }
+        .tool-name {
+            color: #0d6efd;
+        }
+        .tool-category {
+            color: #6c757d;
+        }
+        .list-info {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+
+        /* tool detail page */
+        .tool-header {
+            background-color: rgba(13, 110, 253, 0.1);
+            border-radius: 0.5rem;
+        }
+        .tool-tag {
+            background-color: rgba(13, 110, 253, 0.2);
+            color: #0d6efd;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            margin-right: 0.5rem;
+        }
+        .tool-info {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        .tool-link {
+            text-decoration: none;
+            color: #0d6efd;
+        }
+        .tool-link:hover {
+            text-decoration: underline;
+        }
+        </style>
+    </head>
+    <body hx-boost="true">
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Lucas Cezimbra Toolbox</a>
+                    <button class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/lists/">Lists</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/tags/">Tags</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-8">
+                <div class="hero-section p-4 mb-4">
+                    <h1 class="display-4">Welcome to my toolbox</h1>
+                    <p class="lead">Here is where I organize the libraries, frameworks, tools, languages, etc. that I know</p>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">Recently Added Tools</h2>
+                    </div>
+                    <div class="card-body"><ul class="list-unstyled">
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/languages/" class="tool-name fw-bold">languages</a>
+        <span>-</span>
+        <a href="https://github.com/bddicken/languages"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/shell/"><span class="tool-tag">#shell</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-04</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/latex-css/" class="tool-name fw-bold">latex-css</a>
+        <span>-</span>
+        <a href="https://github.com/vincentdoerig/latex-css"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/html/"><span class="tool-tag">#html</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-03</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/steel-browser/" class="tool-name fw-bold">steel-browser</a>
+        <span>-</span>
+        <a href="https://github.com/steel-dev/steel-browser"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/typescript/"><span class="tool-tag">#typescript</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-03</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/aisuite/" class="tool-name fw-bold">aisuite</a>
+        <span>-</span>
+        <a href="https://github.com/andrewyng/aisuite"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-28</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/x/" class="tool-name fw-bold">x</a>
+        <span>-</span>
+        <a href="https://github.com/ant-design/x"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/typescript/"><span class="tool-tag">#typescript</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-28</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/tuya-local/" class="tool-name fw-bold">tuya-local</a>
+        <span>-</span>
+        <a href="https://github.com/make-all/tuya-local"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-26</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/difftastic/" class="tool-name fw-bold">difftastic</a>
+        <span>-</span>
+        <a href="https://github.com/wilfred/difftastic"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/rust/"><span class="tool-tag">#rust</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-20</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-debug-toolbar/" class="tool-name fw-bold">django-debug-toolbar</a>
+        <span>-</span>
+        <a href="https://github.com/django-commons/django-debug-toolbar"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-profilling/">Django - Profilling</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/curlylint/" class="tool-name fw-bold">curlylint</a>
+        <span>-</span>
+        <a href="https://github.com/thibaudcolas/curlylint"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/html/"><span class="tool-tag">#html</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-linters/">Django - Linters</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/djhtml/" class="tool-name fw-bold">djhtml</a>
+        <span>-</span>
+        <a href="https://github.com/rtts/djhtml"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-linters/">Django - Linters</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-web-components/" class="tool-name fw-bold">django-web-components</a>
+        <span>-</span>
+        <a href="https://github.com/xzya/django-web-components"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-web-components/">Django - Web Components</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/slippers/" class="tool-name fw-bold">slippers</a>
+        <span>-</span>
+        <a href="https://github.com/mixxorz/slippers"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span class="tool-tag">#javascript</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/mjml/" class="tool-name fw-bold">mjml</a>
+        <span>-</span>
+        <a href="https://github.com/mjmlio/mjml"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span class="tool-tag">#javascript</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/Truck-Factor2/" class="tool-name fw-bold">Truck-Factor</a>
+        <span>-</span>
+        <a href="https://github.com/spite-driven-development/truck-factor"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/java/"><span class="tool-tag">#java</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/Truck-Factor/" class="tool-name fw-bold">Truck-Factor</a>
+        <span>-</span>
+        <a href="https://github.com/aserg-ufmg/truck-factor"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/java/"><span class="tool-tag">#java</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/harlequin/" class="tool-name fw-bold">harlequin</a>
+        <span>-</span>
+        <a href="https://github.com/tconbeer/harlequin"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/command-line/">Command-line</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-cotton/" class="tool-name fw-bold">django-cotton</a>
+        <span>-</span>
+        <a href="https://github.com/wrabit/django-cotton"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-web-components/">Django - Web Components</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/nvim-treesitter-textobjects/" class="tool-name fw-bold">nvim-treesitter-textobjects</a>
+        <span>-</span>
+        <a href="https://github.com/nvim-treesitter/nvim-treesitter-textobjects"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/scheme/"><span class="tool-tag">#scheme</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/neovim/">Neovim</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/nvim-treesitter/" class="tool-name fw-bold">nvim-treesitter</a>
+        <span>-</span>
+        <a href="https://github.com/nvim-treesitter/nvim-treesitter"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/scheme/"><span class="tool-tag">#scheme</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/neovim/">Neovim</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/nvim-surround/" class="tool-name fw-bold">nvim-surround</a>
+        <span>-</span>
+        <a href="https://github.com/kylechui/nvim-surround"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/lua/"><span class="tool-tag">#lua</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/neovim/">Neovim</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-13</small>
+    </li>
+</ul>
+
+    
+</ul>
+</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h2 class="card-title">Toolbox at a Glance</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row text-center">
+                            <div class="col-4">
+                                <div class="stat-number">869</div>
+                                <div>Total Tools</div>
+                            </div>
+                            <div class="col-4">
+                                <div class="stat-number">41</div>
+                                <div>Lists</div>
+                            </div>
+                            <div class="col-4">
+                                <div class="stat-number">38</div>
+                                <div>Tags</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h2 class="card-title">Last Updated Lists</h2>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            
+                                <li class="list-group-item">
+                                    <a href="/lists/command-line/">Command-line</a>
+                                    <span class="text-muted align-right">
+                                        at
+                                        <time datetime="2024-11-13">2024-11-13</time>
+                                    </span>
+                                </li>
+                            
+                                <li class="list-group-item">
+                                    <a href="/lists/django-linters/">Django - Linters</a>
+                                    <span class="text-muted align-right">
+                                        at
+                                        <time datetime="2024-11-13">2024-11-13</time>
+                                    </span>
+                                </li>
+                            
+                                <li class="list-group-item">
+                                    <a href="/lists/django-web-components/">Django - Web Components</a>
+                                    <span class="text-muted align-right">
+                                        at
+                                        <time datetime="2024-11-13">2024-11-13</time>
+                                    </span>
+                                </li>
+                            
+                                <li class="list-group-item">
+                                    <a href="/lists/django-profilling/">Django - Profilling</a>
+                                    <span class="text-muted align-right">
+                                        at
+                                        <time datetime="2024-11-13">2024-11-13</time>
+                                    </span>
+                                </li>
+                            
+                                <li class="list-group-item">
+                                    <a href="/lists/neovim/">Neovim</a>
+                                    <span class="text-muted align-right">
+                                        at
+                                        <time datetime="2024-11-13">2024-11-13</time>
+                                    </span>
+                                </li>
+                            
+                                <li class="list-group-item">
+                                    <a href="/lists/django-multitenancy/">Django - Multitenancy</a>
+                                    <span class="text-muted align-right">
+                                        at
+                                        <time datetime="2024-11-13">2024-11-13</time>
+                                    </span>
+                                </li>
+                            
+                                <li class="list-group-item">
+                                    <a href="/lists/vpns/">VPNs</a>
+                                    <span class="text-muted align-right">
+                                        at
+                                        <time datetime="2024-11-13">2024-11-13</time>
+                                    </span>
+                                </li>
+                            
+                                <li class="list-group-item">
+                                    <a href="/lists/data-parsers/">Data - Parsers</a>
+                                    <span class="text-muted align-right">
+                                        at
+                                        <time datetime="2024-11-07">2024-11-07</time>
+                                    </span>
+                                </li>
+                            
+                                <li class="list-group-item">
+                                    <a href="/lists/home-photo-library/">Home - Photo Library</a>
+                                    <span class="text-muted align-right">
+                                        at
+                                        <time datetime="2024-11-07">2024-11-07</time>
+                                    </span>
+                                </li>
+                            
+                                <li class="list-group-item">
+                                    <a href="/lists/python-architecture/">Python - Architecture</a>
+                                    <span class="text-muted align-right">
+                                        at
+                                        <time datetime="2024-11-07">2024-11-07</time>
+                                    </span>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">Random Tools</h2>
+                    </div>
+                    <div class="card-body"><ul class="list-unstyled">
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/liturgia-diaria/" class="tool-name fw-bold">liturgia-diaria</a>
+        <span>-</span>
+        <a href="https://github.com/dancrf/liturgia-diaria"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-03-25</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/cookiecutter-django-casamento/" class="tool-name fw-bold">cookiecutter-django-casamento</a>
+        <span>-</span>
+        <a href="https://github.com/huogerac/cookiecutter-django-casamento"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/html/"><span class="tool-tag">#html</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2017-09-21</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/plasmo/" class="tool-name fw-bold">plasmo</a>
+        <span>-</span>
+        <a href="https://github.com/plasmohq/plasmo"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/typescript/"><span class="tool-tag">#typescript</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-08-22</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/aisuite/" class="tool-name fw-bold">aisuite</a>
+        <span>-</span>
+        <a href="https://github.com/andrewyng/aisuite"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-28</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <span class="archive-badge" title="This project is archived">Archived</span>
+        <a href="/tools/kaki/" class="tool-name fw-bold">kaki</a>
+        <span>-</span>
+        <a href="https://github.com/fbeline/kaki"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/javascript/"><span class="tool-tag">#javascript</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2016-06-30</small>
+    </li>
+</ul>
+
+    
+</ul>
+</div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">Tools of the Day</h2>
+                    </div>
+                    <div class="card-body"><ul class="list-unstyled">
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/faststream/" class="tool-name fw-bold">faststream</a>
+        <span>-</span>
+        <a href="https://github.com/airtai/faststream"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2023-12-08</small>
+    </li>
+</ul>
+
+    
+</ul>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        </div>
+        <script src="/static/bootstrap.min.js" defer></script>
+    </body>
+</html>
