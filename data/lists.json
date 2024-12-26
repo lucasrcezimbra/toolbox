@@ -1208,6 +1208,18 @@
       "slug": "ai-software-engineers",
       "tools": [
         [
+          "https://github.com/reworkd/agentgpt"
+        ],
+        [
+          "https://github.com/swe-agent/swe-agent"
+        ],
+        [
+          "https://github.com/openbmb/chatdev"
+        ],
+        [
+          "https://github.com/geekan/metagpt"
+        ],
+        [
           "https://github.com/all-hands-ai/openhands"
         ],
         [
