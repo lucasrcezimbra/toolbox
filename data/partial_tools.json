@@ -1,0 +1,7812 @@
+[
+  {
+    "notes": "Alternative to sed",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/chmln/sd"
+  },
+  {
+    "notes": "Alternative to sed",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/chmln/sd"
+  },
+  {
+    "notes": "CLI for generating regular expressions",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pemistahl/grex"
+  },
+  {
+    "notes": "CLI for generating regular expressions",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/pemistahl/grex"
+  },
+  {
+    "notes": "Alternative to du",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/bootandy/dust"
+  },
+  {
+    "notes": "Alternative to du",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/bootandy/dust"
+  },
+  {
+    "notes": "Alternative to diff; syntax-highlighting for git, diff, and grep output.",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dandavison/delta"
+  },
+  {
+    "notes": "Alternative to diff; syntax-highlighting for git, diff, and grep output.",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/dandavison/delta"
+  },
+  {
+    "notes": "fully static search library that aims to perform well on large sites, while using as little of your users\u2019 bandwidth as possible, and without hosting any infrastructure",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cloudcannon/pagefind"
+  },
+  {
+    "notes": "fully static search library that aims to perform well on large sites, while using as little of your users\u2019 bandwidth as possible, and without hosting any infrastructure",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/cloudcannon/pagefind"
+  },
+  {
+    "notes": "full-text and vector search in the browser",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/askorama/orama"
+  },
+  {
+    "notes": "full-text and vector search in the browser",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/askorama/orama"
+  },
+  {
+    "notes": "full-text search in the browser",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/olivernn/lunr.js"
+  },
+  {
+    "notes": "full-text search in the browser",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/olivernn/lunr.js"
+  },
+  {
+    "notes": "lightweight fuzzy-search in the browser",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/krisk/fuse"
+  },
+  {
+    "notes": "lightweight fuzzy-search in the browser",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/krisk/fuse"
+  },
+  {
+    "notes": "importers, plugins and price fetchers; Examples consuming API: https://github.com/tarioch/beancounttools/blob/master/src/tariochbctools/importers/quickfile/importer.py and https://github.com/tarioch/beancounttools/blob/master/src/tariochbctools/importers/transferwise/importer.py",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tarioch/beancounttools"
+  },
+  {
+    "notes": "importers, plugins and price fetchers; Examples consuming API: https://github.com/tarioch/beancounttools/blob/master/src/tariochbctools/importers/quickfile/importer.py and https://github.com/tarioch/beancounttools/blob/master/src/tariochbctools/importers/transferwise/importer.py",
+    "tags__slug": "python",
+    "url_github": "https://github.com/tarioch/beancounttools"
+  },
+  {
+    "notes": "importers with machine learning - status: beta",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/beancount/smart_importer"
+  },
+  {
+    "notes": "importers with machine learning - status: beta",
+    "tags__slug": "python",
+    "url_github": "https://github.com/beancount/smart_importer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/redstreet/beancount_reds_importers"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/redstreet/beancount_reds_importers"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nathangrigg/vim-beancount"
+  },
+  {
+    "notes": "",
+    "tags__slug": "vim-script",
+    "url_github": "https://github.com/nathangrigg/vim-beancount"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pahaz/sshtunnel"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pahaz/sshtunnel"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pypa/bandersnatch"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pypa/bandersnatch"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/uqfoundation/klepto"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/uqfoundation/klepto"
+  },
+  {
+    "notes": "Extism Python SDK",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/extism/python-sdk"
+  },
+  {
+    "notes": "Extism Python SDK",
+    "tags__slug": "python",
+    "url_github": "https://github.com/extism/python-sdk"
+  },
+  {
+    "notes": "RQ (Redis Queue)",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rq/rq"
+  },
+  {
+    "notes": "RQ (Redis Queue)",
+    "tags__slug": "python",
+    "url_github": "https://github.com/rq/rq"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/grpc/grpc"
+  },
+  {
+    "notes": "",
+    "tags__slug": "cpp",
+    "url_github": "https://github.com/grpc/grpc"
+  },
+  {
+    "notes": "Python ORM; simple interface for using parameterized SQL",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mcfunley/pugsql"
+  },
+  {
+    "notes": "Python ORM; simple interface for using parameterized SQL",
+    "tags__slug": "python",
+    "url_github": "https://github.com/mcfunley/pugsql"
+  },
+  {
+    "notes": "Task queue; Supports Redis, SQLite, file-system, or in-memory storage.",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/coleifer/huey"
+  },
+  {
+    "notes": "Task queue; Supports Redis, SQLite, file-system, or in-memory storage.",
+    "tags__slug": "python",
+    "url_github": "https://github.com/coleifer/huey"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/celery/celery"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/celery/celery"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/fastapi/typer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/fastapi/typer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pallets/click"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pallets/click"
+  },
+  {
+    "notes": "WSGI only",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/benoitc/gunicorn"
+  },
+  {
+    "notes": "WSGI only",
+    "tags__slug": "python",
+    "url_github": "https://github.com/benoitc/gunicorn"
+  },
+  {
+    "notes": "ASGI only; supports HTTP/1.1 and WebSockets.",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/encode/uvicorn"
+  },
+  {
+    "notes": "ASGI only; supports HTTP/1.1 and WebSockets.",
+    "tags__slug": "python",
+    "url_github": "https://github.com/encode/uvicorn"
+  },
+  {
+    "notes": "ASGI and WSGI. Supports HTTP/1, HTTP/2, WebSockets (over HTTP/1 and HTTP/2). Can utilise asyncio, uvloop, or trio.",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pgjones/hypercorn"
+  },
+  {
+    "notes": "ASGI and WSGI. Supports HTTP/1, HTTP/2, WebSockets (over HTTP/1 and HTTP/2). Can utilise asyncio, uvloop, or trio.",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pgjones/hypercorn"
+  },
+  {
+    "notes": "Django Channels HTTP/WebSocket server",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/django/daphne"
+  },
+  {
+    "notes": "Django Channels HTTP/WebSocket server",
+    "tags__slug": "python",
+    "url_github": "https://github.com/django/daphne"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/python-social-auth/social-app-django"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/python-social-auth/social-app-django"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nixiesearch/nixiesearch"
+  },
+  {
+    "notes": "",
+    "tags__slug": "scala",
+    "url_github": "https://github.com/nixiesearch/nixiesearch"
+  },
+  {
+    "notes": "Permissions per object/Row-level",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/django-guardian/django-guardian"
+  },
+  {
+    "notes": "Permissions per object/Row-level",
+    "tags__slug": "python",
+    "url_github": "https://github.com/django-guardian/django-guardian"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/iamfoysal/best-django-admin-interface"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/originalankur/awesome-django-admin"
+  },
+  {
+    "notes": "Based on Bootstrap 5",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/app-generator/django-admin-volt"
+  },
+  {
+    "notes": "Based on Bootstrap 5",
+    "tags__slug": "css",
+    "url_github": "https://github.com/app-generator/django-admin-volt"
+  },
+  {
+    "notes": "HTMX, Alpine.js and TailwindCSS",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/unfoldadmin/django-unfold"
+  },
+  {
+    "notes": "HTMX, Alpine.js and TailwindCSS",
+    "tags__slug": "html",
+    "url_github": "https://github.com/unfoldadmin/django-unfold"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/globophobe/django-semantic-admin"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/globophobe/django-semantic-admin"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/assem-ch/django-jet-reboot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/assem-ch/django-jet-reboot"
+  },
+  {
+    "notes": "AdminLTE 3 & Bootstrap 4",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/farridav/django-jazzmin"
+  },
+  {
+    "notes": "AdminLTE 3 & Bootstrap 4",
+    "tags__slug": "html",
+    "url_github": "https://github.com/farridav/django-jazzmin"
+  },
+  {
+    "notes": "Admin dashboard template based on Bootstrap",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/wuyue92tree/django-adminlte-ui"
+  },
+  {
+    "notes": "Admin dashboard template based on Bootstrap",
+    "tags__slug": "python",
+    "url_github": "https://github.com/wuyue92tree/django-adminlte-ui"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mwarkentin/django-watchman"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/mwarkentin/django-watchman"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tartiflette/tartiflette-aiohttp"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/tartiflette/tartiflette-aiohttp"
+  },
+  {
+    "notes": "Requires to define a schema class for each Django Model",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/strawberry-graphql/strawberry-django"
+  },
+  {
+    "notes": "Requires to define a schema class for each Django Model",
+    "tags__slug": "python",
+    "url_github": "https://github.com/strawberry-graphql/strawberry-django"
+  },
+  {
+    "notes": "Poor integration between Django Models and Queries",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/graphql-python/graphene-django"
+  },
+  {
+    "notes": "Poor integration between Django Models and Queries",
+    "tags__slug": "python",
+    "url_github": "https://github.com/graphql-python/graphene-django"
+  },
+  {
+    "notes": "Missing maintainer",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mirumee/ariadne-django"
+  },
+  {
+    "notes": "Missing maintainer",
+    "tags__slug": "python",
+    "url_github": "https://github.com/mirumee/ariadne-django"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mattn/algia"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/mattn/algia"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/fiatjaf/khatru"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/fiatjaf/khatru"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/radiac/django-tagulous"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/radiac/django-tagulous"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/hoytech/strfry"
+  },
+  {
+    "notes": "",
+    "tags__slug": "cpp",
+    "url_github": "https://github.com/hoytech/strfry"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/scsibug/nostr-rs-relay"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/scsibug/nostr-rs-relay"
+  },
+  {
+    "notes": "Wizard to install and manage relays",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nodetec/relaywizard"
+  },
+  {
+    "notes": "Wizard to install and manage relays",
+    "tags__slug": "go",
+    "url_github": "https://github.com/nodetec/relaywizard"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cameri/nostream"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/cameri/nostream"
+  },
+  {
+    "notes": "Friendly customizable relay",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/fiatjaf/jingle"
+  },
+  {
+    "notes": "Friendly customizable relay",
+    "tags__slug": "go",
+    "url_github": "https://github.com/fiatjaf/jingle"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/fabiocaccamo/django-treenode"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/fabiocaccamo/django-treenode"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/omenapps/django-postgresql-dag"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/omenapps/django-postgresql-dag"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jazzband/django-taggit"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jazzband/django-taggit"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/erikbjare/gptme"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/erikbjare/gptme"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/spaceship-prompt/spaceship-prompt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "shell",
+    "url_github": "https://github.com/spaceship-prompt/spaceship-prompt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mikedilger/gossip"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/mikedilger/gossip"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/timurkady/django-fast-treenode"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/timurkady/django-fast-treenode"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/baseplate-admin/django-ltree-2"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/baseplate-admin/django-ltree-2"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/fabiocaccamo/python-benedict"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/fabiocaccamo/python-benedict"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/fabiocaccamo/django-cache-cleaner"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/fabiocaccamo/django-cache-cleaner"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/feincms/django-tree-queries"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/feincms/django-tree-queries"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/matthiask/django-cte-forest"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/matthiask/django-cte-forest"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/django-treebeard/django-treebeard"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/django-treebeard/django-treebeard"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/matthiask/django-prose-editor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/matthiask/django-prose-editor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/feincms/feincms"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/feincms/feincms"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/matthiask/django-sitemaps"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/matthiask/django-sitemaps"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/feincms/django-content-editor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/feincms/django-content-editor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/djangopackages/djangopackages"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/djangopackages/djangopackages"
+  },
+  {
+    "notes": "Currently unmaintained",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/django-mptt/django-mptt"
+  },
+  {
+    "notes": "Currently unmaintained",
+    "tags__slug": "python",
+    "url_github": "https://github.com/django-mptt/django-mptt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ggerganov/wave-share"
+  },
+  {
+    "notes": "",
+    "tags__slug": "cpp",
+    "url_github": "https://github.com/ggerganov/wave-share"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/robosats/robosats"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/robosats/robosats"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/marlonrichert/zsh-autocomplete"
+  },
+  {
+    "notes": "",
+    "tags__slug": "shell",
+    "url_github": "https://github.com/marlonrichert/zsh-autocomplete"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/daveparr/starpilot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/daveparr/starpilot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/den-is/gh-stars-scraper"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/den-is/gh-stars-scraper"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dogsheep/github-to-sqlite"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/dogsheep/github-to-sqlite"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/alexpasmantier/pymple.nvim"
+  },
+  {
+    "notes": "",
+    "tags__slug": "lua",
+    "url_github": "https://github.com/alexpasmantier/pymple.nvim"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rubytoolbox/rubytoolbox"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/rubytoolbox/rubytoolbox"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rubytoolbox/catalog"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/rubytoolbox/catalog"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/iommirocks/iommi"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/iommirocks/iommi"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasrcezimbra/fuscaazul"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/lucasrcezimbra/fuscaazul"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/querylab/lazywarden"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/querylab/lazywarden"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jirkaklimes/jit-implementation"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jirkaklimes/jit-implementation"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mahmoud/glom"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/mahmoud/glom"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pdm-project/pdm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pdm-project/pdm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/django-notifications/django-notifications"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/django-notifications/django-notifications"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/instructure/canvas-lms"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/instructure/canvas-lms"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nodetec/comet"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/nodetec/comet"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/sourcebot-dev/sourcebot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/sourcebot-dev/sourcebot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jazzband/django-model-utils"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jazzband/django-model-utils"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasrcezimbra/toolbox"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/lucasrcezimbra/toolbox"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasrcezimbra/lucasrcezimbra.github.io"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/lucasrcezimbra/lucasrcezimbra.github.io"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/haorendashu/nostrmo"
+  },
+  {
+    "notes": "",
+    "tags__slug": "dart",
+    "url_github": "https://github.com/haorendashu/nostrmo"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/adamchainz/django-browser-reload"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/adamchainz/django-browser-reload"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/adamghill/dj-angles"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/adamghill/dj-angles"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/adamghill/django-unicorn"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/adamghill/django-unicorn"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/simonw/shot-scraper"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/simonw/shot-scraper"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/simonw/django-screenshots"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/simonw/django-screenshots"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/astral-sh/uv"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/astral-sh/uv"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/radiac/nanodjango"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/radiac/nanodjango"
+  },
+  {
+    "notes": "from https://mikedilger.com/gossip-model/",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mikedilger/chorus"
+  },
+  {
+    "notes": "from https://mikedilger.com/gossip-model/",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/mikedilger/chorus"
+  },
+  {
+    "notes": "for direct messages",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lumehq/coop"
+  },
+  {
+    "notes": "for direct messages",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/lumehq/coop"
+  },
+  {
+    "notes": "Supports Outbox, and WoT",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dtonon/chronicle"
+  },
+  {
+    "notes": "Supports Outbox, and WoT",
+    "tags__slug": "go",
+    "url_github": "https://github.com/dtonon/chronicle"
+  },
+  {
+    "notes": "Private, Chat, Inbox, and Outbox relays",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/bitvora/haven"
+  },
+  {
+    "notes": "Private, Chat, Inbox, and Outbox relays",
+    "tags__slug": "go",
+    "url_github": "https://github.com/bitvora/haven"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mightymoud/sidekick"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/mightymoud/sidekick"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/snarfed/granary"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/snarfed/granary"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/exaloop/codon"
+  },
+  {
+    "notes": "",
+    "tags__slug": "cpp",
+    "url_github": "https://github.com/exaloop/codon"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/babarot/afx"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/babarot/afx"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/django-hijack/django-hijack"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/django-hijack/django-hijack"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/adamchainz/djade"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/adamchainz/djade"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/opus10/django-pgtrigger"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/opus10/django-pgtrigger"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/opus10/django-pghistory"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/opus10/django-pghistory"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/meeb/django-distill"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/meeb/django-distill"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ast-grep/ast-grep"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/ast-grep/ast-grep"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/snarfed/bridgy-fed"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/snarfed/bridgy-fed"
+  },
+  {
+    "notes": "Serverless relay for Cloudflare Workers and R2 bucket",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/spl0itable/nosflare"
+  },
+  {
+    "notes": "Serverless relay for Cloudflare Workers and R2 bucket",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/spl0itable/nosflare"
+  },
+  {
+    "notes": "WoT = Web of Trust; saves all notes from people you follow, and people they follow",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/bitvora/wot-relay"
+  },
+  {
+    "notes": "WoT = Web of Trust; saves all notes from people you follow, and people they follow",
+    "tags__slug": "go",
+    "url_github": "https://github.com/bitvora/wot-relay"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/fiatjaf/nak"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/fiatjaf/nak"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/chrisclark/django-llm-fields"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/chrisclark/django-llm-fields"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/neurotech-hq/heyoo"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/neurotech-hq/heyoo"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mikrl/django-llm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/mikrl/django-llm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/render-examples/tailscale"
+  },
+  {
+    "notes": "",
+    "tags__slug": "shell",
+    "url_github": "https://github.com/render-examples/tailscale"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/madcowd/ell"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/madcowd/ell"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jazzband/django-silk"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jazzband/django-silk"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ztjhz/betterchatgpt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/ztjhz/betterchatgpt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/neuralinkcorp/tsui"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/neuralinkcorp/tsui"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/openhubgpt/open-access-gpt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/openhubgpt/open-access-gpt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lobehub/lobe-chat"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/lobehub/lobe-chat"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/bvaughn/react-window"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/bvaughn/react-window"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/artempyanykh/marksman"
+  },
+  {
+    "notes": "",
+    "tags__slug": "f-sharp",
+    "url_github": "https://github.com/artempyanykh/marksman"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/valkey-io/valkey"
+  },
+  {
+    "notes": "",
+    "tags__slug": "c",
+    "url_github": "https://github.com/valkey-io/valkey"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/yetone/avante.nvim"
+  },
+  {
+    "notes": "",
+    "tags__slug": "lua",
+    "url_github": "https://github.com/yetone/avante.nvim"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/3yourmind/django-migration-linter"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/3yourmind/django-migration-linter"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/zbirenbaum/copilot.lua"
+  },
+  {
+    "notes": "",
+    "tags__slug": "lua",
+    "url_github": "https://github.com/zbirenbaum/copilot.lua"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/wemake-services/django-test-migrations"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/wemake-services/django-test-migrations"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jieter/django-tables2"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jieter/django-tables2"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasrcezimbra/missas.com.br"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/lucasrcezimbra/missas.com.br"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nushell/nushell"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/nushell/nushell"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/casey/just"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/casey/just"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/filebrowser/filebrowser"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/filebrowser/filebrowser"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/iamgio/quarkdown"
+  },
+  {
+    "notes": "",
+    "tags__slug": "kotlin",
+    "url_github": "https://github.com/iamgio/quarkdown"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/instantdb/instant"
+  },
+  {
+    "notes": "",
+    "tags__slug": "clojure",
+    "url_github": "https://github.com/instantdb/instant"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/facebook/zstd"
+  },
+  {
+    "notes": "",
+    "tags__slug": "c",
+    "url_github": "https://github.com/facebook/zstd"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/plasmohq/plasmo"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/plasmohq/plasmo"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/fluent/fluentd"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/fluent/fluentd"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jrobichaud/django-structlog"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jrobichaud/django-structlog"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/hynek/structlog"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/hynek/structlog"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/madzak/python-json-logger"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/madzak/python-json-logger"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/genymobile/scrcpy"
+  },
+  {
+    "notes": "",
+    "tags__slug": "c",
+    "url_github": "https://github.com/genymobile/scrcpy"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tomwright/dasel"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/tomwright/dasel"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/matthewryanscott/carladam"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/matthewryanscott/carladam"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/langgenius/dify"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/langgenius/dify"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cruft/cruft"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/cruft/cruft"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/copier-org/copier"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/copier-org/copier"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jazzband/django-downloadview"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jazzband/django-downloadview"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jrief/django-admin-sortable2"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jrief/django-admin-sortable2"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/henriquebastos/python-jsonstar"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/henriquebastos/python-jsonstar"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/routablehq/python-jsonstar"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/routablehq/python-jsonstar"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/henriquebastos/deepdict"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/henriquebastos/deepdict"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/adamchainz/django-upgrade"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/adamchainz/django-upgrade"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/stanfordnlp/dspy"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/stanfordnlp/dspy"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/renovatebot/renovate"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/renovatebot/renovate"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ajitid/telltail-center"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/ajitid/telltail-center"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/juanfont/headscale"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/juanfont/headscale"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/joerick/pyinstrument"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/joerick/pyinstrument"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rclement/datasette-dashboards"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/rclement/datasette-dashboards"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dicedb/dice"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/dicedb/dice"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/aider-ai/aider"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/aider-ai/aider"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/sissbruecker/linkding"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/sissbruecker/linkding"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/go-shiori/shiori"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/go-shiori/shiori"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/kovah/linkace"
+  },
+  {
+    "notes": "",
+    "tags__slug": "php",
+    "url_github": "https://github.com/kovah/linkace"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/sirupsen/napkin-math"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/sirupsen/napkin-math"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mozilla/readability"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/mozilla/readability"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/arunsupe/semantic-grep"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/arunsupe/semantic-grep"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/patched-codes/patchwork"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/patched-codes/patchwork"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/64bitpandas/amethyst"
+  },
+  {
+    "notes": "",
+    "tags__slug": "scss",
+    "url_github": "https://github.com/64bitpandas/amethyst"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/wizenheimer/tinkerbird"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/wizenheimer/tinkerbird"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/basecamp/kamal"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/basecamp/kamal"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nextapps-de/flexsearch"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/nextapps-de/flexsearch"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/sinaatalay/rendercv"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/sinaatalay/rendercv"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/taubyte/tau"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/taubyte/tau"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/darrenburns/posting"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/darrenburns/posting"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/healthlane-technologies/zango"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/healthlane-technologies/zango"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/klothoplatform/klotho"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/klothoplatform/klotho"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/sarthakrastogi/quality-prompts"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/sarthakrastogi/quality-prompts"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tiagovla/scope.nvim"
+  },
+  {
+    "notes": "",
+    "tags__slug": "lua",
+    "url_github": "https://github.com/tiagovla/scope.nvim"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ladybirdbrowser/ladybird"
+  },
+  {
+    "notes": "",
+    "tags__slug": "cpp",
+    "url_github": "https://github.com/ladybirdbrowser/ladybird"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/adambard/learnxinyminutes-docs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "markdown",
+    "url_github": "https://github.com/adambard/learnxinyminutes-docs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/trpc/trpc"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/trpc/trpc"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/edelvalle/reactor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/edelvalle/reactor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/junhoyeo/betterocr"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/junhoyeo/betterocr"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/florents-tselai/tsellm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/florents-tselai/tsellm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jazzband/django-auditlog"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jazzband/django-auditlog"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/krallin/tini"
+  },
+  {
+    "notes": "",
+    "tags__slug": "c",
+    "url_github": "https://github.com/krallin/tini"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/zakirullin/cognitive-load"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/smallbets/userbase"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/smallbets/userbase"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nlkitai/nlux"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/nlkitai/nlux"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nvidia/warp"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/nvidia/warp"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/danidee10/channels_postgres"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/danidee10/channels_postgres"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/paulgilmartin/django-pgpubsub"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/paulgilmartin/django-pgpubsub"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/django/channels_redis"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/django/channels_redis"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/datasette/datasette-write-ui"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/datasette/datasette-write-ui"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/simonw/datasette-insert"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/simonw/datasette-insert"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/magicuidesign/magicui"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/magicuidesign/magicui"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/higherorderco/bend"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/higherorderco/bend"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasrcezimbra/llm-jupyter"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/lucasrcezimbra/llm-jupyter"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasrcezimbra/ninja-api-key"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/lucasrcezimbra/ninja-api-key"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mudape/iphonedetect"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/mudape/iphonedetect"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rospogrigio/localtuya"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/rospogrigio/localtuya"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cfpb/django-flags"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/cfpb/django-flags"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/calpaterson/csvbase"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/calpaterson/csvbase"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/fsspec/filesystem_spec"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/fsspec/filesystem_spec"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/xavierberger/rpi-monitor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/xavierberger/rpi-monitor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/albertas/deadcode"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/albertas/deadcode"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/y2z/monolith"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/y2z/monolith"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/doriandarko/repototextforllms"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/doriandarko/repototextforllms"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/myshell-ai/ailice"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/myshell-ai/ailice"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/all-hands-ai/openhands"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/all-hands-ai/openhands"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/stitionai/devika"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/stitionai/devika"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/openinterpreter/aifs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/openinterpreter/aifs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/openinterpreter/open-interpreter"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/openinterpreter/open-interpreter"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dancrf/liturgia-diaria"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mfussenegger/nvim-dap-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "lua",
+    "url_github": "https://github.com/mfussenegger/nvim-dap-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nvim-neotest/neotest-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/nvim-neotest/neotest-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/teableio/teable"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/teableio/teable"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/deepset-ai/haystack"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/deepset-ai/haystack"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/fastapi/sqlmodel"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/fastapi/sqlmodel"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tychengaf/django-auth0-demo"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/tychengaf/django-auth0-demo"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lepture/authlib"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/lepture/authlib"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pennersr/django-allauth"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pennersr/django-allauth"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/hatchet-dev/hatchet"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/hatchet-dev/hatchet"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jawah/niquests"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jawah/niquests"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/atuinsh/atuin"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/atuinsh/atuin"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tinygrad/tinygrad"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/tinygrad/tinygrad"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/wez/wezterm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/wez/wezterm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/eladlev/autoprompt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/eladlev/autoprompt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/reorproject/reor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/reorproject/reor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/bruin-data/ingestr"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/bruin-data/ingestr"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/epogrebnyak/justpath"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/epogrebnyak/justpath"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/electric-sql/pglite"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/electric-sql/pglite"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/readysettech/readyset"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/readysettech/readyset"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/langfuse/langfuse"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/langfuse/langfuse"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/louisgrasset/touitomamout"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/louisgrasset/touitomamout"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/renatolond/mastodon-twitter-poster"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/renatolond/mastodon-twitter-poster"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/run-llama/llama_index"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/run-llama/llama_index"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/python-arq/arq"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/python-arq/arq"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/polarsource/polar"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/polarsource/polar"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rajnandan1/kener"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/rajnandan1/kener"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cli/cli"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/cli/cli"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dnote/dnote"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/dnote/dnote"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dutchcoders/transfer.sh"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/dutchcoders/transfer.sh"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/n8n-io/n8n"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/n8n-io/n8n"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/automatisch/automatisch"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/automatisch/automatisch"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/activepieces/activepieces"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/activepieces/activepieces"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/portkey-ai/gateway"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/portkey-ai/gateway"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/marimo-team/marimo"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/marimo-team/marimo"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jdx/mise"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/jdx/mise"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/paradedb/paradedb"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/paradedb/paradedb"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dbader/schedule"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/dbader/schedule"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/life4/deal"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/life4/deal"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/wsvincent/awesome-django"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/wsvincent/awesome-django"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/apple/ml-ferret"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/apple/ml-ferret"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dmpayton/django-admin-honeypot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/dmpayton/django-admin-honeypot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/adamcharnock/django-su"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/adamcharnock/django-su"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mawassk/django-ninja-apikey"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/mawassk/django-ninja-apikey"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/guardrails-ai/guardrails"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/guardrails-ai/guardrails"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/containrrr/watchtower"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/containrrr/watchtower"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/orange-opensource/hurl"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/orange-opensource/hurl"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/httpie/cli"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/httpie/cli"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mousazeidbaker/poetry-plugin-up"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/mousazeidbaker/poetry-plugin-up"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/llmware-ai/llmware"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/llmware-ai/llmware"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/supabase/supavisor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "elixir",
+    "url_github": "https://github.com/supabase/supavisor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rhysd/actionlint"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/rhysd/actionlint"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ohmyform/ohmyform"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/ohmyform/ohmyform"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/woneill/asdf-tfsec"
+  },
+  {
+    "notes": "",
+    "tags__slug": "shell",
+    "url_github": "https://github.com/woneill/asdf-tfsec"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/airtai/faststream"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/airtai/faststream"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/emilstenstrom/django-components"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/emilstenstrom/django-components"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ml-explore/mlx"
+  },
+  {
+    "notes": "",
+    "tags__slug": "cpp",
+    "url_github": "https://github.com/ml-explore/mlx"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ml-explore/mlx-examples"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/ml-explore/mlx-examples"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/wsvincent/djangox"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/wsvincent/djangox"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/amrdeveloper/gql"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/amrdeveloper/gql"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/wkeeling/selenium-wire"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/wkeeling/selenium-wire"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/avaiga/taipy"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/avaiga/taipy"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/avgupta456/github-trends"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/avgupta456/github-trends"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ggerganov/llama.cpp"
+  },
+  {
+    "notes": "",
+    "tags__slug": "cpp",
+    "url_github": "https://github.com/ggerganov/llama.cpp"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mozilla-ocho/llamafile"
+  },
+  {
+    "notes": "",
+    "tags__slug": "cpp",
+    "url_github": "https://github.com/mozilla-ocho/llamafile"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/makeplane/plane"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/makeplane/plane"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/f1bonacc1/process-compose"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/f1bonacc1/process-compose"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/talkdai/dialog"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/talkdai/dialog"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/bloomberg/attrs-strict"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/bloomberg/attrs-strict"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/agronholm/typeguard"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/agronholm/typeguard"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nixos/nix"
+  },
+  {
+    "notes": "",
+    "tags__slug": "cpp",
+    "url_github": "https://github.com/nixos/nix"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/berriai/litellm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/berriai/litellm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasrcezimbra/hugo-coder-htmx"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/lucasrcezimbra/hugo-coder-htmx"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/snapdrop/snapdrop"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/snapdrop/snapdrop"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/spdustin/chatgpt-autoexpert"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/spdustin/chatgpt-autoexpert"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tanuki/tanuki.py"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/tanuki/tanuki.py"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/acaloiaro/hugo-htmx-go-template"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/acaloiaro/hugo-htmx-go-template"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/justquick/django-activity-stream"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/justquick/django-activity-stream"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/stability-ai/generative-models"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/stability-ai/generative-models"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mindsdb/mindsdb"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/mindsdb/mindsdb"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/explodinggradients/ragas"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/explodinggradients/ragas"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pyodide/pyodide"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pyodide/pyodide"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ethanhs/python-wasm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/ethanhs/python-wasm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/etianen/django-watson"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/etianen/django-watson"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/djlint/djlint"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/djlint/djlint"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jquery/jquery-ui"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/jquery/jquery-ui"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/abdenasser/dr_scaffold"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/abdenasser/dr_scaffold"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rails-inspire-django/django-turbo-helper"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/rails-inspire-django/django-turbo-helper"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/hotwire-django/turbo-django"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/hotwire-django/turbo-django"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/fluxninja/aperture"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/fluxninja/aperture"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lightning-ai/litgpt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/lightning-ai/litgpt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasrcezimbra/cookiecutter-pypackage"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/lucasrcezimbra/cookiecutter-pypackage"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/calcom/cal.com"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/calcom/cal.com"
+  },
+  {
+    "notes": "Server to run ASGI in AWS Lambda",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/kludex/mangum"
+  },
+  {
+    "notes": "Server to run ASGI in AWS Lambda",
+    "tags__slug": "python",
+    "url_github": "https://github.com/kludex/mangum"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/microsoft/typechat"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/microsoft/typechat"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/adamchainz/django-htmx"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/adamchainz/django-htmx"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/bigskysoftware/missing"
+  },
+  {
+    "notes": "",
+    "tags__slug": "css",
+    "url_github": "https://github.com/bigskysoftware/missing"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/leantime/leantime"
+  },
+  {
+    "notes": "",
+    "tags__slug": "php",
+    "url_github": "https://github.com/leantime/leantime"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/bigskysoftware/htmx"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/bigskysoftware/htmx"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/microsoft/promptflow"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/microsoft/promptflow"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pythagora-io/gpt-pilot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pythagora-io/gpt-pilot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/revsys/django-health-check"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/revsys/django-health-check"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/asdf-vm/asdf"
+  },
+  {
+    "notes": "",
+    "tags__slug": "shell",
+    "url_github": "https://github.com/asdf-vm/asdf"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/codium-ai/pr-agent"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/codium-ai/pr-agent"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/sharkdp/bat"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/sharkdp/bat"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ogham/exa"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/ogham/exa"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/skyplane-project/skyplane"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/skyplane-project/skyplane"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/skypilot-org/skypilot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/skypilot-org/skypilot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/openagentsinc/gputopia"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/openagentsinc/gputopia"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/openagentsinc/workerbee"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/openagentsinc/workerbee"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/openagentsinc/queenbee"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/openagentsinc/queenbee"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ollama/ollama"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/ollama/ollama"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/appwrite/appwrite"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/appwrite/appwrite"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/hpcaitech/colossalai"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/hpcaitech/colossalai"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/vonng/pigsty"
+  },
+  {
+    "notes": "",
+    "tags__slug": "jinja",
+    "url_github": "https://github.com/vonng/pigsty"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cleanlab/cleanlab"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/cleanlab/cleanlab"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ploomber/ploomber"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/ploomber/ploomber"
+  },
+  {
+    "notes": "Symmetrical RPC, clustering, and distributed-computing",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tomerfiliba-org/rpyc"
+  },
+  {
+    "notes": "Symmetrical RPC, clustering, and distributed-computing",
+    "tags__slug": "python",
+    "url_github": "https://github.com/tomerfiliba-org/rpyc"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/microsoft/semantic-kernel"
+  },
+  {
+    "notes": "",
+    "tags__slug": "c-sharp",
+    "url_github": "https://github.com/microsoft/semantic-kernel"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/s3fs-fuse/s3fs-fuse"
+  },
+  {
+    "notes": "",
+    "tags__slug": "cpp",
+    "url_github": "https://github.com/s3fs-fuse/s3fs-fuse"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/icewhaletech/casaos"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/icewhaletech/casaos"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pmndrs/zustand"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/pmndrs/zustand"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/99designs/keyring"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/99designs/keyring"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/paramiko/paramiko"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/paramiko/paramiko"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/flitbit/alpine-stunnel"
+  },
+  {
+    "notes": "",
+    "tags__slug": "shell",
+    "url_github": "https://github.com/flitbit/alpine-stunnel"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/uptick/django-dramatiq-pg"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/uptick/django-dramatiq-pg"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jd/tenacity"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jd/tenacity"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/infracost/infracost"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/infracost/infracost"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/bogdanp/dramatiq_sqs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/bogdanp/dramatiq_sqs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dagster-io/dagster"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/dagster-io/dagster"
+  },
+  {
+    "notes": "PostgreSQL-based Task Queue",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/procrastinate-org/procrastinate"
+  },
+  {
+    "notes": "PostgreSQL-based Task Queue",
+    "tags__slug": "python",
+    "url_github": "https://github.com/procrastinate-org/procrastinate"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pgvector/pgvector-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pgvector/pgvector-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lancedb/lancedb"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/lancedb/lancedb"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/microsoft/lmops"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/microsoft/lmops"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/devidw/obsidian-to-hugo"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/devidw/obsidian-to-hugo"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/bigscience-workshop/petals"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/bigscience-workshop/petals"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mudler/localai"
+  },
+  {
+    "notes": "",
+    "tags__slug": "cpp",
+    "url_github": "https://github.com/mudler/localai"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/simonw/llm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/simonw/llm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/fern-api/fern"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/fern-api/fern"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/anyproto/anytype-ts"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/anyproto/anytype-ts"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tyktechnologies/tyk"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/tyktechnologies/tyk"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mkdocs/mkdocs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/mkdocs/mkdocs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/bogdanp/django_dramatiq"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/bogdanp/django_dramatiq"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/hbakri/django-ninja-crud"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/hbakri/django-ninja-crud"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tartiflette/tartiflette"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/tartiflette/tartiflette"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/eadwincode/django-ninja-extra"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/eadwincode/django-ninja-extra"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/strawberry-graphql/strawberry"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/strawberry-graphql/strawberry"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/facebookincubator/cinder"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/facebookincubator/cinder"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/bacen/pilotord-kit-onboarding"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/bacen/pilotord-kit-onboarding"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jefflirion/python-androidtv"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jefflirion/python-androidtv"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/delgan/loguru"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/delgan/loguru"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/devpi/devpi"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/devpi/devpi"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ccostan/home-assistantconfig"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/ccostan/home-assistantconfig"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/brianpetro/obsidian-smart-connections"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/brianpetro/obsidian-smart-connections"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rakyll/hey"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/rakyll/hey"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/zylon-ai/private-gpt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/zylon-ai/private-gpt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tgrosinger/advanced-tables-obsidian"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/tgrosinger/advanced-tables-obsidian"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/claudiodavi/dagscience"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/claudiodavi/dagscience"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/karnerth/mermerd"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/karnerth/mermerd"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/grantjenks/python-diskcache"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/grantjenks/python-diskcache"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pypyr/pypyr"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pypyr/pypyr"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mosaicml/llm-foundry"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/mosaicml/llm-foundry"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pgvector/pgvector"
+  },
+  {
+    "notes": "",
+    "tags__slug": "c",
+    "url_github": "https://github.com/pgvector/pgvector"
+  },
+  {
+    "notes": "extends parse",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jenisys/parse_type"
+  },
+  {
+    "notes": "extends parse",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jenisys/parse_type"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/aman-d-1-n-only/joplin-exports-to-ssg"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/aman-d-1-n-only/joplin-exports-to-ssg"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/laurent22/joplin"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/laurent22/joplin"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/viewflow/viewflow"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/viewflow/viewflow"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/significant-gravitas/autogpt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/significant-gravitas/autogpt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nostr-protocol/nips"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/twitter/the-algorithm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "scala",
+    "url_github": "https://github.com/twitter/the-algorithm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ggerganov/whisper.cpp"
+  },
+  {
+    "notes": "",
+    "tags__slug": "c",
+    "url_github": "https://github.com/ggerganov/whisper.cpp"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/langchain-ai/langchain"
+  },
+  {
+    "notes": "",
+    "tags__slug": "jupyter-notebook",
+    "url_github": "https://github.com/langchain-ai/langchain"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/openai/chatgpt-retrieval-plugin"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/openai/chatgpt-retrieval-plugin"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/aljazceru/awesome-nostr"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/neuralmagic/deepsparse"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/neuralmagic/deepsparse"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/haralyzer/haralyzer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/haralyzer/haralyzer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/kermitt2/grobid"
+  },
+  {
+    "notes": "",
+    "tags__slug": "java",
+    "url_github": "https://github.com/kermitt2/grobid"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/requests/toolbelt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/requests/toolbelt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jpsca/jinjax"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jpsca/jinjax"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/wagtail/django-modelcluster"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/wagtail/django-modelcluster"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  {
+    "notes": "",
+    "tags__slug": "lua",
+    "url_github": "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/astral-sh/ruff"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/astral-sh/ruff"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/kamilkisiela/graphql-inspector"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/kamilkisiela/graphql-inspector"
+  },
+  {
+    "notes": "UltraJSON is an ultra fast JSON encoder and decoder written in pure C with bindings for Python.",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ultrajson/ultrajson"
+  },
+  {
+    "notes": "UltraJSON is an ultra fast JSON encoder and decoder written in pure C with bindings for Python.",
+    "tags__slug": "c",
+    "url_github": "https://github.com/ultrajson/ultrajson"
+  },
+  {
+    "notes": "Python bindings for the simdjson using Cython. SIMDJSON is C++ JSON parser, reportedly the fastest JSON parser on the planet.",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/teskalabs/cysimdjson"
+  },
+  {
+    "notes": "Python bindings for the simdjson using Cython. SIMDJSON is C++ JSON parser, reportedly the fastest JSON parser on the planet.",
+    "tags__slug": "cpp",
+    "url_github": "https://github.com/teskalabs/cysimdjson"
+  },
+  {
+    "notes": "iterative JSON",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/icrar/ijson"
+  },
+  {
+    "notes": "iterative JSON",
+    "tags__slug": "python",
+    "url_github": "https://github.com/icrar/ijson"
+  },
+  {
+    "notes": "Python bindings for RapidJSON; RapidJSON is an extremely fast C++ JSON parser and serialization library.",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/python-rapidjson/python-rapidjson"
+  },
+  {
+    "notes": "Python bindings for RapidJSON; RapidJSON is an extremely fast C++ JSON parser and serialization library.",
+    "tags__slug": "cpp",
+    "url_github": "https://github.com/python-rapidjson/python-rapidjson"
+  },
+  {
+    "notes": "fast, supports NumPy",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ijl/orjson"
+  },
+  {
+    "notes": "fast, supports NumPy",
+    "tags__slug": "python",
+    "url_github": "https://github.com/ijl/orjson"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/compvis/stable-diffusion"
+  },
+  {
+    "notes": "",
+    "tags__slug": "jupyter-notebook",
+    "url_github": "https://github.com/compvis/stable-diffusion"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/logseq/logseq"
+  },
+  {
+    "notes": "",
+    "tags__slug": "clojure",
+    "url_github": "https://github.com/logseq/logseq"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/googlecloudplatform/terraformer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/googlecloudplatform/terraformer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lunarvim/lunarvim"
+  },
+  {
+    "notes": "",
+    "tags__slug": "lua",
+    "url_github": "https://github.com/lunarvim/lunarvim"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dmulyalin/ttp"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/dmulyalin/ttp"
+  },
+  {
+    "notes": "Web UI for semi-automatically importing",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jbms/beancount-import"
+  },
+  {
+    "notes": "Web UI for semi-automatically importing",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jbms/beancount-import"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasrcezimbra/bancointer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/lucasrcezimbra/bancointer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasrcezimbra/agilize"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/lucasrcezimbra/agilize"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/beancount/beancount"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/beancount/beancount"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/luizdepra/hugo-coder"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/luizdepra/hugo-coder"
+  },
+  {
+    "notes": "the opposite of str.format",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/r1chardj0n3s/parse"
+  },
+  {
+    "notes": "the opposite of str.format",
+    "tags__slug": "python",
+    "url_github": "https://github.com/r1chardj0n3s/parse"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nostr-protocol/nostr"
+  },
+  {
+    "notes": "Desktop client by Uncle Bob",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/unclebob/more-speech"
+  },
+  {
+    "notes": "Desktop client by Uncle Bob",
+    "tags__slug": "clojure",
+    "url_github": "https://github.com/unclebob/more-speech"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/aio-libs/yarl"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/aio-libs/yarl"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cguillerminet/betteruptime-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/cguillerminet/betteruptime-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nhost/hasura-auth"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/nhost/hasura-auth"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/hbnetwork/dcache"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/hbnetwork/dcache"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/hbnetwork/django-ultratenant"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/hbnetwork/django-ultratenant"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/openreplay/openreplay"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/openreplay/openreplay"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/softwaremill/elasticmq"
+  },
+  {
+    "notes": "",
+    "tags__slug": "scala",
+    "url_github": "https://github.com/softwaremill/elasticmq"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ederchristian/stories-do-pai"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/ederchristian/stories-do-pai"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/carlosfab/neural_style_transfer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/carlosfab/neural_style_transfer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pyston/pyston"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pyston/pyston"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/py-pdf/pypdf"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/py-pdf/pypdf"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cmr-surgical/ahasura"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/cmr-surgical/ahasura"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pyscript/pyscript"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pyscript/pyscript"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pipedreamhq/pipedream"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/pipedreamhq/pipedream"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/bloomberg/memray"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/bloomberg/memray"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/more-itertools/more-itertools"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/more-itertools/more-itertools"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/arp242/goatcounter"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/arp242/goatcounter"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cstate/cstate"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/cstate/cstate"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cachethq/cachet"
+  },
+  {
+    "notes": "",
+    "tags__slug": "php",
+    "url_github": "https://github.com/cachethq/cachet"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasrcezimbra/cronjobs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/lucasrcezimbra/cronjobs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/hbnetwork/django-custom-permissions"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/hbnetwork/django-custom-permissions"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/gatsbyjs/gatsby"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/gatsbyjs/gatsby"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/gohugoio/hugo"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/gohugoio/hugo"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/geovanisouza92/irpf-docker"
+  },
+  {
+    "notes": "",
+    "tags__slug": "dockerfile",
+    "url_github": "https://github.com/geovanisouza92/irpf-docker"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/encode/databases"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/encode/databases"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/verbalexpressions/pythonverbalexpressions"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/verbalexpressions/pythonverbalexpressions"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jayfk/statuspage"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jayfk/statuspage"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasrcezimbra/pysympla"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/lucasrcezimbra/pysympla"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasrcezimbra/consul-decouple"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/lucasrcezimbra/consul-decouple"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasrcezimbra/dotfiles"
+  },
+  {
+    "notes": "",
+    "tags__slug": "shell",
+    "url_github": "https://github.com/lucasrcezimbra/dotfiles"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasrcezimbra/senior-hcm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/lucasrcezimbra/senior-hcm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/k3s-io/k3s"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/k3s-io/k3s"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/piku/piku"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/piku/piku"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mycroftai/mycroft-core"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/mycroftai/mycroft-core"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mycroftai/mycroft-skills"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/mycroftai/mycroft-skills"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/bogdanp/dramatiq"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/bogdanp/dramatiq"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/phoenixframework/phoenix_live_view"
+  },
+  {
+    "notes": "",
+    "tags__slug": "elixir",
+    "url_github": "https://github.com/phoenixframework/phoenix_live_view"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/noisetorch/noisetorch"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/noisetorch/noisetorch"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/isoron/uhabits"
+  },
+  {
+    "notes": "",
+    "tags__slug": "kotlin",
+    "url_github": "https://github.com/isoron/uhabits"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/marcospereirampj/python-keycloak"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/marcospereirampj/python-keycloak"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/awslabs/aws-embedded-metrics-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/awslabs/aws-embedded-metrics-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lipemorais/auto-invoice"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/lipemorais/auto-invoice"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasrcezimbra/django-template"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/lucasrcezimbra/django-template"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/sdispater/pendulum"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/sdispater/pendulum"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasrcezimbra/pyitau"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/lucasrcezimbra/pyitau"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/filosottile/captive-browser"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/filosottile/captive-browser"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tombarr/html-resume-template"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/tombarr/html-resume-template"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/vitalik/django-ninja"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/vitalik/django-ninja"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/betodealmeida/shillelagh"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/betodealmeida/shillelagh"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/chubin/cheat.sh"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/chubin/cheat.sh"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/chubin/wttr.in"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/chubin/wttr.in"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ctrlpvim/ctrlp.vim"
+  },
+  {
+    "notes": "",
+    "tags__slug": "vim-script",
+    "url_github": "https://github.com/ctrlpvim/ctrlp.vim"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/localstack/localstack"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/localstack/localstack"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jergusg/k380-function-keys-conf"
+  },
+  {
+    "notes": "",
+    "tags__slug": "c",
+    "url_github": "https://github.com/jergusg/k380-function-keys-conf"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/profusion/sgqlc"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/profusion/sgqlc"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mongomock/mongomock"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/mongomock/mongomock"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cern-mig/python-messaging"
+  },
+  {
+    "notes": "",
+    "tags__slug": "roff",
+    "url_github": "https://github.com/cern-mig/python-messaging"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/spulec/pyqs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/spulec/pyqs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/poppyred/python-consul2"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/poppyred/python-consul2"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tianon/dockerfiles"
+  },
+  {
+    "notes": "",
+    "tags__slug": "dockerfile",
+    "url_github": "https://github.com/tianon/dockerfiles"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/umpox/zero-width-detection"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/umpox/zero-width-detection"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/henriquebastos/django-quickstart"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/henriquebastos/django-quickstart"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/m32/endesive"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/m32/endesive"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ekiametis/pdf-signer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/ekiametis/pdf-signer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/intoolswetrust/jsignpdf"
+  },
+  {
+    "notes": "",
+    "tags__slug": "java",
+    "url_github": "https://github.com/intoolswetrust/jsignpdf"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/aio-libs/aiohttp"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/aio-libs/aiohttp"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pyrogram/pyrogram"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pyrogram/pyrogram"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/justpy-org/justpy"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/justpy-org/justpy"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/patriciaborges/django-model-cache"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/patriciaborges/django-model-cache"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rethinkdb/rethinkdb"
+  },
+  {
+    "notes": "",
+    "tags__slug": "cpp",
+    "url_github": "https://github.com/rethinkdb/rethinkdb"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cuducos/createnv"
+  },
+  {
+    "notes": "",
+    "tags__slug": "rust",
+    "url_github": "https://github.com/cuducos/createnv"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rochacbruno/irpf-docker"
+  },
+  {
+    "notes": "",
+    "tags__slug": "dockerfile",
+    "url_github": "https://github.com/rochacbruno/irpf-docker"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/asottile-archive/flake8-walrus"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/asottile-archive/flake8-walrus"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/elastic/elasticsearch-py"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/elastic/elasticsearch-py"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dabeaz-course/practical-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/dabeaz-course/practical-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/joaodrp/gelf-formatter"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/joaodrp/gelf-formatter"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jadolg/rocketchat_api"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jadolg/rocketchat_api"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/appbaseio/abc"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/appbaseio/abc"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rwynn/monstache"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/rwynn/monstache"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pycqa/isort"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pycqa/isort"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/codecrafters-io/build-your-own-x"
+  },
+  {
+    "notes": "",
+    "tags__slug": "markdown",
+    "url_github": "https://github.com/codecrafters-io/build-your-own-x"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pedrozan/covid-19-brasil"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pedrozan/covid-19-brasil"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cuducos/django-public-admin"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/cuducos/django-public-admin"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/turicas/covid19-br"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/turicas/covid19-br"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cuducos/calculadora-do-cidadao"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/cuducos/calculadora-do-cidadao"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/charlsagente/python-settings"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/charlsagente/python-settings"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dropbox/pyhive"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/dropbox/pyhive"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/daniellbastos/django-simple-form"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/daniellbastos/django-simple-form"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/traefik/traefik"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/traefik/traefik"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/getredash/redash"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/getredash/redash"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/python-manage/manage"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/python-manage/manage"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/flasgger/flasgger"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/flasgger/flasgger"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/florinpop17/app-ideas"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/blurg/sauron-engine"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/blurg/sauron-engine"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/berinhard/model_mommy"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/berinhard/model_mommy"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/getsentry/responses"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/getsentry/responses"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mongoengine/mongoengine"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/mongoengine/mongoengine"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/adobe/cryptr"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/adobe/cryptr"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/klen/mixer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/klen/mixer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/joke2k/faker"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/joke2k/faker"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/konradit/gopro-py-api"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/konradit/gopro-py-api"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/renzon/clt-vs-pj"
+  },
+  {
+    "notes": "",
+    "tags__slug": "jupyter-notebook",
+    "url_github": "https://github.com/renzon/clt-vs-pj"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rougeth/pythonnobrasil"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/rougeth/pythonnobrasil"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lmacken/pyrasite-gui"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/lmacken/pyrasite-gui"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/netdata/netdata"
+  },
+  {
+    "notes": "",
+    "tags__slug": "c",
+    "url_github": "https://github.com/netdata/netdata"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dpkp/kafka-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/dpkp/kafka-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/shichao-an/soundmeter"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/shichao-an/soundmeter"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/sqlalchemy/sqlalchemy"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/sqlalchemy/sqlalchemy"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pnpnpn/timeout-decorator"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pnpnpn/timeout-decorator"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/agronholm/sqlacodegen"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/agronholm/sqlacodegen"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/kislyuk/watchtower"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/kislyuk/watchtower"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/clayrisser/sphinx-markdown-builder"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/clayrisser/sphinx-markdown-builder"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/sphinx-contrib/confluencebuilder"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/sphinx-contrib/confluencebuilder"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/raymiiorg/confluence-python-cli"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/raymiiorg/confluence-python-cli"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/m-vdb/confluence-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/m-vdb/confluence-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jaraco/jaraco.mongodb"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jaraco/jaraco.mongodb"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/terricain/aioboto3"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/terricain/aioboto3"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pennersr/netwell"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pennersr/netwell"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/kijewski/pyjson5"
+  },
+  {
+    "notes": "",
+    "tags__slug": "cpp",
+    "url_github": "https://github.com/kijewski/pyjson5"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cuducos/twitter-cleanup"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/cuducos/twitter-cleanup"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nvdv/vprof"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/nvdv/vprof"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/alex-sherman/deco"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/alex-sherman/deco"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cuducos/scrapy-memcached-cache"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/cuducos/scrapy-memcached-cache"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cuducos/my-internet-speed"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/cuducos/my-internet-speed"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/scrapy/scrapy"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/scrapy/scrapy"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/sourcerer-io/sourcerer-app"
+  },
+  {
+    "notes": "",
+    "tags__slug": "kotlin",
+    "url_github": "https://github.com/sourcerer-io/sourcerer-app"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/sigalor/whatsapp-web-reveng"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/sigalor/whatsapp-web-reveng"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/zhukov/webogram"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/zhukov/webogram"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rudiedirkx/vimeo-repeat-extension"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/rudiedirkx/vimeo-repeat-extension"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/okfn-brasil/querido-diario"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/okfn-brasil/querido-diario"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/hugomd/parrot.live"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/hugomd/parrot.live"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/psf/black"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/psf/black"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/miguelmedeiros/dilmes-ipsum"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/miguelmedeiros/dilmes-ipsum"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/home-assistant/core"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/home-assistant/core"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/agermanidis/livepython"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/agermanidis/livepython"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/kobayashi/s3monkey"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/kobayashi/s3monkey"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/djstein/modern-django"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/djstein/modern-django"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/maxchehab/css-keylogging"
+  },
+  {
+    "notes": "",
+    "tags__slug": "css",
+    "url_github": "https://github.com/maxchehab/css-keylogging"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/goldsmith/wikipedia"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/goldsmith/wikipedia"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/wikimedia/pywikibot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/wikimedia/pywikibot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/kelseyhightower/nocode"
+  },
+  {
+    "notes": "",
+    "tags__slug": "dockerfile",
+    "url_github": "https://github.com/kelseyhightower/nocode"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/burlesco/burlesco"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/burlesco/burlesco"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jedisct1/piknik"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/jedisct1/piknik"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/python-attrs/attrs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/python-attrs/attrs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jllorencetti/pytest-deadfixtures"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jllorencetti/pytest-deadfixtures"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pythonprobr/pythonpro-website"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/pythonprobr/pythonpro-website"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pythonsul/pythonsul2018-site"
+  },
+  {
+    "notes": "",
+    "tags__slug": "css",
+    "url_github": "https://github.com/pythonsul/pythonsul2018-site"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/heroku/django-heroku"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/heroku/django-heroku"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/augustogoulart/paiol"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/augustogoulart/paiol"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mukulhase/webwhatsapp-wrapper"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/mukulhase/webwhatsapp-wrapper"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rafapolo/tribuna"
+  },
+  {
+    "notes": "",
+    "tags__slug": "shell",
+    "url_github": "https://github.com/rafapolo/tribuna"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/classy-python/ccbv"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/classy-python/ccbv"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/vi3k6i5/flashtext"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/vi3k6i5/flashtext"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/gabrielrf/rastreiobot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/gabrielrf/rastreiobot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/electricitymaps/electricitymaps-contrib"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/electricitymaps/electricitymaps-contrib"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jschneier/django-storages"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jschneier/django-storages"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rougeth/bottery"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/rougeth/bottery"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/vmesel/pyjobs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/vmesel/pyjobs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ipfs/ipfs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/vaab/gitchangelog"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/vaab/gitchangelog"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/turicas/rows"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/turicas/rows"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ythecombinator/safadometro"
+  },
+  {
+    "notes": "",
+    "tags__slug": "elm",
+    "url_github": "https://github.com/ythecombinator/safadometro"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/askmike/gekko"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/askmike/gekko"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/bekatom/awesome-ethereum"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/hakib/django-admin-lightweight-date-hierarchy"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/hakib/django-admin-lightweight-date-hierarchy"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lamenezes/simple-model"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/lamenezes/simple-model"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/wq/django-data-wizard"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/wq/django-data-wizard"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/valdergallo/data-importer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/valdergallo/data-importer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/django-import-export/django-import-export"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/django-import-export/django-import-export"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/henriquebastos/autonobot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/henriquebastos/autonobot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/huogerac/cookiecutter-django-casamento"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/huogerac/cookiecutter-django-casamento"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/elliotgao2/gain"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/elliotgao2/gain"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/prontolabs/pronto"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/prontolabs/pronto"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/luanfonceca/speakerfight"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/luanfonceca/speakerfight"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/psf/requests"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/psf/requests"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rogerdudler/git-guide"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/rogerdudler/git-guide"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/vintasoftware/tapioca-wrapper"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/vintasoftware/tapioca-wrapper"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/emmett-framework/emmett"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/emmett-framework/emmett"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/plenario/plenario"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/plenario/plenario"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/saleor/saleor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/saleor/saleor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/google/python-fire"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/google/python-fire"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/haskellcamargo/gemidao-do-zap"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/haskellcamargo/gemidao-do-zap"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/django-extensions/django-extensions"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/django-extensions/django-extensions"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/apyb/associados"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/apyb/associados"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/henriquebastos/itauscraper"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/henriquebastos/itauscraper"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rg3915/frontend-experience"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/rg3915/frontend-experience"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/django/django"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/django/django"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/requilence/integram"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/requilence/integram"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/diegosorrilha/wttd-dojo"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/diegosorrilha/wttd-dojo"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/andreroggeri/pynubank"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/andreroggeri/pynubank"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/charliewolf/pynder"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/charliewolf/pynder"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/elo80ka/django-dynamic-formset"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/elo80ka/django-dynamic-formset"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/andres-torres-marroquin/django-dropbox"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/andres-torres-marroquin/django-dropbox"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/otto-torino/django-baton"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/otto-torino/django-baton"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tinify/tinify-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/tinify/tinify-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/sarumont/py-trello"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/sarumont/py-trello"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/freecodecamp/devdocs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/freecodecamp/devdocs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/neovim/neovim"
+  },
+  {
+    "notes": "",
+    "tags__slug": "vim-script",
+    "url_github": "https://github.com/neovim/neovim"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jasperproject/jasper-client"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jasperproject/jasper-client"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/bigjason/django-choices"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/bigjason/django-choices"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/henriquebastos/django-test-without-migrations"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/henriquebastos/django-test-without-migrations"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nicfit/eyed3"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/nicfit/eyed3"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cerebroapp/awesome-cerebro"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cerebroapp/cerebro"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/cerebroapp/cerebro"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/bdarnell/tornado-production-skeleton"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/bdarnell/tornado-production-skeleton"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/locustio/locust"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/locustio/locust"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/quodlibet/mutagen"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/quodlibet/mutagen"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/alessandrofrancesconi/gimp-plugin-bimp"
+  },
+  {
+    "notes": "",
+    "tags__slug": "c",
+    "url_github": "https://github.com/alessandrofrancesconi/gimp-plugin-bimp"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ffmpeg/ffmpeg"
+  },
+  {
+    "notes": "",
+    "tags__slug": "c",
+    "url_github": "https://github.com/ffmpeg/ffmpeg"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/python/cpython"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/python/cpython"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/geekpradd/pylyrics"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/geekpradd/pylyrics"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dmo60/llyrics"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/dmo60/llyrics"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ytdl-org/youtube-dl"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/ytdl-org/youtube-dl"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ivanseidel/is-now-illegal"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/ivanseidel/is-now-illegal"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/prest/prest"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/prest/prest"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/training-center/mentoria"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/kallaway/100-days-of-code"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/okfn-brasil/jarbas"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/brasilapi/cep-promise"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/brasilapi/cep-promise"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/vinta/awesome-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/vinta/awesome-python"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/breakzplatform/slack-list-brazil"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pythonbrasil/wiki"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pythonbrasil/wiki"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/braziljs/conf-boilerplate"
+  },
+  {
+    "notes": "",
+    "tags__slug": "css",
+    "url_github": "https://github.com/braziljs/conf-boilerplate"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/henriquebastos/sqlformatter"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/henriquebastos/sqlformatter"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/evandrolg/pageaccelerator"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/evandrolg/pageaccelerator"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cuducos/getgist"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/cuducos/getgist"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/opensuse/osem"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/opensuse/osem"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/django-cms/djangocms-admin-style"
+  },
+  {
+    "notes": "",
+    "tags__slug": "scss",
+    "url_github": "https://github.com/django-cms/djangocms-admin-style"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/geex-arts/django-jet"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/geex-arts/django-jet"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/viewflow/django-material"
+  },
+  {
+    "notes": "",
+    "tags__slug": "css",
+    "url_github": "https://github.com/viewflow/django-material"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/django-admin-tools/django-admin-tools"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/django-admin-tools/django-admin-tools"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/sehmaschine/django-grappelli"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/sehmaschine/django-grappelli"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/henriquebastos/smallactsmanifesto"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/henriquebastos/smallactsmanifesto"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/colorlibhq/adminlte"
+  },
+  {
+    "notes": "",
+    "tags__slug": "astro",
+    "url_github": "https://github.com/colorlibhq/adminlte"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tocvieira/ftm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/tocvieira/ftm"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/eduardocereto/pyboleto"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/eduardocereto/pyboleto"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mdisec/removetweets"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/mdisec/removetweets"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/spree/spree"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/spree/spree"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/olhoneles/olhoneles"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/olhoneles/olhoneles"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rg3915/django-experience-2016"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/rg3915/django-experience-2016"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/okfn-brasil/serenata-de-amor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/okfn-brasil/serenata-de-amor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/naschq/dsw"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/naschq/dsw"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dropbox/lepton"
+  },
+  {
+    "notes": "",
+    "tags__slug": "cpp",
+    "url_github": "https://github.com/dropbox/lepton"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/vvo/gifify"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/vvo/gifify"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/fbeline/kaki"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/fbeline/kaki"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jgthms/bulma"
+  },
+  {
+    "notes": "",
+    "tags__slug": "css",
+    "url_github": "https://github.com/jgthms/bulma"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tomekwojcik/envelopes"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/tomekwojcik/envelopes"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/marrow/mailer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/marrow/mailer"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/kootenpv/yagmail"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/kootenpv/yagmail"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/turbolinks/turbolinks"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/turbolinks/turbolinks"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/wagerfield/parallax"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/wagerfield/parallax"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ded/reqwest"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/ded/reqwest"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/impress/impress.js"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/impress/impress.js"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dixonandmoe/rellax"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/dixonandmoe/rellax"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/michalsnik/aos"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/michalsnik/aos"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/franciscop/modern-editor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/franciscop/modern-editor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/franciscop/drive-db"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/franciscop/drive-db"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cauealvesbraz/pagespeed-score-cli"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/cauealvesbraz/pagespeed-score-cli"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/sorin-ionescu/prezto"
+  },
+  {
+    "notes": "",
+    "tags__slug": "shell",
+    "url_github": "https://github.com/sorin-ionescu/prezto"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/designmodo/flat-ui"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/designmodo/flat-ui"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/alex/what-happens-when"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cuducos/cunhajacaiu"
+  },
+  {
+    "notes": "",
+    "tags__slug": "elm",
+    "url_github": "https://github.com/cuducos/cunhajacaiu"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/voronind/awesome-slugify"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/voronind/awesome-slugify"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/segue-org/segue"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/segue-org/segue"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/internetsemlimites/internetsemlimites"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jiaaro/pydub"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jiaaro/pydub"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mps-youtube/pafy"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/mps-youtube/pafy"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pallets/flask"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pallets/flask"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/diegoaltx/python-vagalume"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/diegoaltx/python-vagalume"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/remoteintech/remote-jobs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/remoteintech/remote-jobs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lukasz-madon/awesome-remote-job"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pragmaticivan/guia-do-trabalho-remoto"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/pragmaticivan/guia-do-trabalho-remoto"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dyegocosta/trabalhando-remoto"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ilikenwf/apt-fast"
+  },
+  {
+    "notes": "",
+    "tags__slug": "shell",
+    "url_github": "https://github.com/ilikenwf/apt-fast"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lerrua/remote-jobs-brazil"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nvbn/thefuck"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/nvbn/thefuck"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/elixir-lang/elixir"
+  },
+  {
+    "notes": "",
+    "tags__slug": "elixir",
+    "url_github": "https://github.com/elixir-lang/elixir"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/narkoz/hacker-scripts"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/narkoz/hacker-scripts"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/stoq/stoq"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/stoq/stoq"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/aceleradora8/project"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/aceleradora8/project"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasviola/mindfuck-shell"
+  },
+  {
+    "notes": "",
+    "tags__slug": "shell",
+    "url_github": "https://github.com/lucasviola/mindfuck-shell"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/t4t5/sweetalert"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/t4t5/sweetalert"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasviola/awesome-functional-programming"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/y7kim/agency-jekyll-theme"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/y7kim/agency-jekyll-theme"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/kriskbx/whatsapp-sharing"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/kriskbx/whatsapp-sharing"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ossu/computer-science"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/artpolikarpov/fotorama"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/artpolikarpov/fotorama"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/dimsemenov/photoswipe"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/dimsemenov/photoswipe"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/scaffeinate/socify"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/scaffeinate/socify"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/crystal-lang/crystal"
+  },
+  {
+    "notes": "",
+    "tags__slug": "crystal",
+    "url_github": "https://github.com/crystal-lang/crystal"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/guipdutra/awesome-geek-podcasts"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/guipdutra/awesome-geek-podcasts"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/raphamorim/write-code-every-day"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/raphamorim/write-code-every-day"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/christoomey/vim-tmux-navigator"
+  },
+  {
+    "notes": "",
+    "tags__slug": "vim-script",
+    "url_github": "https://github.com/christoomey/vim-tmux-navigator"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/iolanguage/io"
+  },
+  {
+    "notes": "",
+    "tags__slug": "c",
+    "url_github": "https://github.com/iolanguage/io"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tablepress/tablepress"
+  },
+  {
+    "notes": "",
+    "tags__slug": "php",
+    "url_github": "https://github.com/tablepress/tablepress"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/sindresorhus/awesome"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tapajos/brazilian-rails"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/tapajos/brazilian-rails"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/thoughtworksinc/hackerbrasileiro"
+  },
+  {
+    "notes": "",
+    "tags__slug": "java",
+    "url_github": "https://github.com/thoughtworksinc/hackerbrasileiro"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/radar-parlamentar/radar"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/radar-parlamentar/radar"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pixelated/pixelated-user-agent"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/pixelated/pixelated-user-agent"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/matiassingers/awesome-readme"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/opencollab/debile"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/opencollab/debile"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cyberglot/awesome-answers"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/piresaymon/iskrillex"
+  },
+  {
+    "notes": "",
+    "tags__slug": "css",
+    "url_github": "https://github.com/piresaymon/iskrillex"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/makadu/makadu_android"
+  },
+  {
+    "notes": "",
+    "tags__slug": "java",
+    "url_github": "https://github.com/makadu/makadu_android"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/cryptopunksnotdead/punks.js"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/cryptopunksnotdead/punks.js"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/aceleradora7/inimigos-a-mesa"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/aceleradora7/inimigos-a-mesa"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/animate-css/animate.css"
+  },
+  {
+    "notes": "",
+    "tags__slug": "css",
+    "url_github": "https://github.com/animate-css/animate.css"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/matthieua/wow"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/matthieua/wow"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/teresinahc/peba"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/teresinahc/peba"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/toptal/gitignore.io"
+  },
+  {
+    "notes": "",
+    "tags__slug": "swift",
+    "url_github": "https://github.com/toptal/gitignore.io"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/googlearchive/android-synchronizednotifications"
+  },
+  {
+    "notes": "",
+    "tags__slug": "java",
+    "url_github": "https://github.com/googlearchive/android-synchronizednotifications"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/keen/dashboards"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/keen/dashboards"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/thoughtbot/factory_bot_rails"
+  },
+  {
+    "notes": "",
+    "tags__slug": "gherkin",
+    "url_github": "https://github.com/thoughtbot/factory_bot_rails"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/meteor/meteor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/meteor/meteor"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/chartjs/chart.js"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/chartjs/chart.js"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ankane/chartkick"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/ankane/chartkick"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/github/gitignore"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/teamcapybara/capybara"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/teamcapybara/capybara"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/thoughtbot/shoulda-matchers"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/thoughtbot/shoulda-matchers"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rwaldron/johnny-five"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/rwaldron/johnny-five"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mislav/hub"
+  },
+  {
+    "notes": "",
+    "tags__slug": "go",
+    "url_github": "https://github.com/mislav/hub"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nodejs/node"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/nodejs/node"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/lucasviola/easyshell"
+  },
+  {
+    "notes": "",
+    "tags__slug": "css",
+    "url_github": "https://github.com/lucasviola/easyshell"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/git/git"
+  },
+  {
+    "notes": "",
+    "tags__slug": "c",
+    "url_github": "https://github.com/git/git"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/jupyterhub/jupyterhub"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/jupyterhub/jupyterhub"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/socketio/socket.io"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/socketio/socket.io"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/arduino/arduino"
+  },
+  {
+    "notes": "",
+    "tags__slug": "java",
+    "url_github": "https://github.com/arduino/arduino"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/d4ndo/sirius-client"
+  },
+  {
+    "notes": "",
+    "tags__slug": "c",
+    "url_github": "https://github.com/d4ndo/sirius-client"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ycm-core/youcompleteme"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/ycm-core/youcompleteme"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/vundlevim/vundle.vim"
+  },
+  {
+    "notes": "",
+    "tags__slug": "vim-script",
+    "url_github": "https://github.com/vundlevim/vundle.vim"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/claritylab/lucida"
+  },
+  {
+    "notes": "",
+    "tags__slug": "java",
+    "url_github": "https://github.com/claritylab/lucida"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/pagseguro/pagseguro-sdk-ruby"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/pagseguro/pagseguro-sdk-ruby"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/freebsd/freebsd-src"
+  },
+  {
+    "notes": "",
+    "tags__slug": "c",
+    "url_github": "https://github.com/freebsd/freebsd-src"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/bettererrors/better_errors"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/bettererrors/better_errors"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/betterspecs/betterspecs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "html",
+    "url_github": "https://github.com/betterspecs/betterspecs"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/piscolomo/megamanruby"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/piscolomo/megamanruby"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nodebr/nodeconfbr"
+  },
+  {
+    "notes": "",
+    "tags__slug": "css",
+    "url_github": "https://github.com/nodebr/nodeconfbr"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/tpope/vim-rails"
+  },
+  {
+    "notes": "",
+    "tags__slug": "vim-script",
+    "url_github": "https://github.com/tpope/vim-rails"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nerian/bootstrap-datepicker-rails"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/nerian/bootstrap-datepicker-rails"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/google/iosched"
+  },
+  {
+    "notes": "",
+    "tags__slug": "kotlin",
+    "url_github": "https://github.com/google/iosched"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mryan43/magic_encoding"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/mryan43/magic_encoding"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/thoughtbot/factory_bot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/thoughtbot/factory_bot"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/zealdocs/zeal"
+  },
+  {
+    "notes": "",
+    "tags__slug": "cpp",
+    "url_github": "https://github.com/zealdocs/zeal"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/ohmyzsh/ohmyzsh"
+  },
+  {
+    "notes": "",
+    "tags__slug": "shell",
+    "url_github": "https://github.com/ohmyzsh/ohmyzsh"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/skwp/dotfiles"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/skwp/dotfiles"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rails/rails"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/rails/rails"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/heartcombo/devise"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/heartcombo/devise"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/rubensmabueno/ruby-style-guide"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/catarse/catarse"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/catarse/catarse"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/nodejs/node-v0.x-archive"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/usarmyresearchlab/dshell"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/usarmyresearchlab/dshell"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/paperwork/paperwork"
+  },
+  {
+    "notes": "",
+    "tags__slug": "shell",
+    "url_github": "https://github.com/paperwork/paperwork"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/google/vim-codefmt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "vim-script",
+    "url_github": "https://github.com/google/vim-codefmt"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/thiagoxvo/aceleradora-exemplo-sessoes"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/thiagoxvo/aceleradora-exemplo-sessoes"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/adobe/brackets-shell"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/adobe/brackets-shell"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/maryrosecook/gitlet"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/maryrosecook/gitlet"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/chartist-js/chartist"
+  },
+  {
+    "notes": "",
+    "tags__slug": "typescript",
+    "url_github": "https://github.com/chartist-js/chartist"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/atom/atom"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/atom/atom"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/guard/guard"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/guard/guard"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/mongodb/mongo"
+  },
+  {
+    "notes": "",
+    "tags__slug": "cpp",
+    "url_github": "https://github.com/mongodb/mongo"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/adobe/brackets"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/adobe/brackets"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/netflix/pigpen"
+  },
+  {
+    "notes": "",
+    "tags__slug": "clojure",
+    "url_github": "https://github.com/netflix/pigpen"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/universalcore/elastic-git"
+  },
+  {
+    "notes": "",
+    "tags__slug": "python",
+    "url_github": "https://github.com/universalcore/elastic-git"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/thiagoxvo/megafone"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/thiagoxvo/megafone"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/aceleradora/registrolivre"
+  },
+  {
+    "notes": "",
+    "tags__slug": "java",
+    "url_github": "https://github.com/aceleradora/registrolivre"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/aceleradora/e-practice"
+  },
+  {
+    "notes": "",
+    "tags__slug": "java",
+    "url_github": "https://github.com/aceleradora/e-practice"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/caelum/vraptor4"
+  },
+  {
+    "notes": "",
+    "tags__slug": "java",
+    "url_github": "https://github.com/caelum/vraptor4"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/discourse/discourse"
+  },
+  {
+    "notes": "",
+    "tags__slug": "ruby",
+    "url_github": "https://github.com/discourse/discourse"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/openra/openra"
+  },
+  {
+    "notes": "",
+    "tags__slug": "c-sharp",
+    "url_github": "https://github.com/openra/openra"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/torvalds/linux"
+  },
+  {
+    "notes": "",
+    "tags__slug": "c",
+    "url_github": "https://github.com/torvalds/linux"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/thiago-negri/duduhox"
+  },
+  {
+    "notes": "",
+    "tags__slug": "haskell",
+    "url_github": "https://github.com/thiago-negri/duduhox"
+  },
+  {
+    "notes": "",
+    "tags__slug": "opensource",
+    "url_github": "https://github.com/parallax/jspdf"
+  },
+  {
+    "notes": "",
+    "tags__slug": "javascript",
+    "url_github": "https://github.com/parallax/jspdf"
+  }
+]
