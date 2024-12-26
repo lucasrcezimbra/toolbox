@@ -208,6 +208,9 @@
       "slug": "django-servers",
       "tools": [
         [
+          "https://github.com/emmett-framework/granian"
+        ],
+        [
           "https://github.com/benoitc/gunicorn"
         ],
         [
@@ -223,7 +226,7 @@
           "https://github.com/kludex/mangum"
         ]
       ],
-      "updated_at": "2024-10-11"
+      "updated_at": "2024-12-26"
     },
     "model": "core.list"
   },
@@ -292,6 +295,9 @@
       "slug": "python-background-tasks",
       "tools": [
         [
+          "https://github.com/jaypyles/pytask"
+        ],
+        [
           "https://github.com/rq/rq"
         ],
         [
@@ -307,7 +313,7 @@
           "https://github.com/bogdanp/dramatiq"
         ]
       ],
-      "updated_at": "2024-10-11"
+      "updated_at": "2024-12-26"
     },
     "model": "core.list"
   },
@@ -392,6 +398,9 @@
       "slug": "command-line",
       "tools": [
         [
+          "https://github.com/wilfred/difftastic"
+        ],
+        [
           "https://github.com/tconbeer/harlequin"
         ],
         [
@@ -413,7 +422,7 @@
           "https://github.com/simonw/llm"
         ]
       ],
-      "updated_at": "2024-11-13"
+      "updated_at": "2024-12-26"
     },
     "model": "core.list"
   },
@@ -424,13 +433,16 @@
       "slug": "shells",
       "tools": [
         [
+          "https://github.com/oils-for-unix/oils"
+        ],
+        [
           "https://github.com/fish-shell/fish-shell"
         ],
         [
           "https://github.com/nushell/nushell"
         ]
       ],
-      "updated_at": "2024-10-30"
+      "updated_at": "2024-12-26"
     },
     "model": "core.list"
   },
@@ -493,13 +505,19 @@
       "slug": "web-scrapping",
       "tools": [
         [
+          "https://github.com/mherrmann/helium"
+        ],
+        [
+          "https://github.com/steel-dev/steel-browser"
+        ],
+        [
           "https://github.com/raznem/parsera"
         ],
         [
           "https://github.com/scrapy/scrapy"
         ]
       ],
-      "updated_at": "2024-10-30"
+      "updated_at": "2024-12-26"
     },
     "model": "core.list"
   },
@@ -544,6 +562,9 @@
       "slug": "my-projects",
       "tools": [
         [
+          "https://github.com/lucasrcezimbra/llm-webdesign"
+        ],
+        [
           "https://github.com/lucasrcezimbra/toolbox"
         ],
         [
@@ -574,7 +595,7 @@
           "https://github.com/lucasrcezimbra/pyitau"
         ]
       ],
-      "updated_at": "2024-10-30"
+      "updated_at": "2024-12-26"
     },
     "model": "core.list"
   },
@@ -853,6 +874,9 @@
       "slug": "neovim",
       "tools": [
         [
+          "https://github.com/lintaoamons/bookmarks.nvim"
+        ],
+        [
           "https://github.com/nvim-treesitter/nvim-treesitter-textobjects"
         ],
         [
@@ -904,7 +928,7 @@
           "https://github.com/google/vim-codefmt"
         ]
       ],
-      "updated_at": "2024-11-13"
+      "updated_at": "2024-12-26"
     },
     "model": "core.list"
   },
@@ -942,6 +966,169 @@
         ]
       ],
       "updated_at": "2024-11-13"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-12-26",
+      "name": "Home Assistant",
+      "slug": "home-assistant",
+      "tools": [
+        [
+          "https://github.com/koush/scrypted"
+        ],
+        [
+          "https://github.com/blakeblackshear/frigate"
+        ],
+        [
+          "https://github.com/indiefan/home_assistant_nanit"
+        ],
+        [
+          "https://github.com/babybuddy/babybuddy"
+        ],
+        [
+          "https://github.com/merbanan/rtl_433"
+        ],
+        [
+          "https://github.com/xiaomi/ha_xiaomi_home"
+        ],
+        [
+          "https://github.com/music-assistant/hass-music-assistant"
+        ],
+        [
+          "https://github.com/music-assistant/client"
+        ],
+        [
+          "https://github.com/music-assistant/home-assistant-addon"
+        ],
+        [
+          "https://github.com/make-all/tuya-local"
+        ],
+        [
+          "https://github.com/rospogrigio/localtuya"
+        ],
+        [
+          "https://github.com/ccostan/home-assistantconfig"
+        ]
+      ],
+      "updated_at": "2024-12-26"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-12-26",
+      "name": "Frontend - React",
+      "slug": "frontend-react",
+      "tools": [
+        [
+          "https://github.com/shadcn-ui/ui"
+        ],
+        [
+          "https://github.com/ant-design/x"
+        ]
+      ],
+      "updated_at": "2024-12-26"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-12-26",
+      "name": "Frontend - Styles",
+      "slug": "frontend-styles",
+      "tools": [
+        [
+          "https://github.com/picocss/pico"
+        ],
+        [
+          "https://github.com/shadcn-ui/ui"
+        ],
+        [
+          "https://github.com/vincentdoerig/latex-css"
+        ]
+      ],
+      "updated_at": "2024-12-26"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-12-26",
+      "name": "GitHub",
+      "slug": "github",
+      "tools": [
+        [
+          "https://github.com/earthly/setup-ucacher"
+        ]
+      ],
+      "updated_at": "2024-12-26"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-12-26",
+      "name": "Editors",
+      "slug": "editors",
+      "tools": [
+        [
+          "https://github.com/zed-industries/zed"
+        ]
+      ],
+      "updated_at": "2024-12-26"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-12-26",
+      "name": "WebDriver",
+      "slug": "webdriver",
+      "tools": [
+        [
+          "https://github.com/ultrafunkamsterdam/undetected-chromedriver"
+        ],
+        [
+          "https://github.com/ultrafunkamsterdam/nodriver"
+        ],
+        [
+          "https://github.com/wkeeling/selenium-wire"
+        ]
+      ],
+      "updated_at": "2024-12-26"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-12-26",
+      "name": "Load Testing",
+      "slug": "load-testing",
+      "tools": [
+        [
+          "https://github.com/newsapps/beeswithmachineguns"
+        ]
+      ],
+      "updated_at": "2024-12-26"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-12-26",
+      "name": "Django - Databases",
+      "slug": "django-databases",
+      "tools": [
+        [
+          "https://github.com/psycopg/psycopg"
+        ],
+        [
+          "https://github.com/dvarrazzo/django-psycopg3-backend"
+        ]
+      ],
+      "updated_at": "2024-12-26"
     },
     "model": "core.list"
   }
