@@ -401,6 +401,9 @@
       "slug": "command-line",
       "tools": [
         [
+          "https://github.com/kislyuk/yq"
+        ],
+        [
           "https://github.com/wilfred/difftastic"
         ],
         [
@@ -431,7 +434,7 @@
           "https://github.com/simonw/llm"
         ]
       ],
-      "updated_at": "2024-12-26"
+      "updated_at": "2024-12-31"
     },
     "model": "core.list"
   },
@@ -571,6 +574,9 @@
       "slug": "my-projects",
       "tools": [
         [
+          "https://github.com/lucasrcezimbra/dj-storage-url"
+        ],
+        [
           "https://github.com/lucasrcezimbra/llm-webdesign"
         ],
         [
@@ -604,7 +610,7 @@
           "https://github.com/lucasrcezimbra/pyitau"
         ]
       ],
-      "updated_at": "2024-12-26"
+      "updated_at": "2024-12-31"
     },
     "model": "core.list"
   },
@@ -872,6 +878,9 @@
       "slug": "django-profilling",
       "tools": [
         [
+          "https://github.com/tijani-dia/dj-tracker"
+        ],
+        [
           "https://github.com/django-commons/django-debug-toolbar"
         ],
         [
@@ -884,7 +893,7 @@
           "https://github.com/jazzband/django-silk"
         ]
       ],
-      "updated_at": "2024-12-26"
+      "updated_at": "2024-12-31"
     },
     "model": "core.list"
   },
@@ -1061,6 +1070,9 @@
       "slug": "frontend-styles",
       "tools": [
         [
+          "https://github.com/kognise/water.css"
+        ],
+        [
           "https://github.com/picocss/pico"
         ],
         [
@@ -1070,7 +1082,7 @@
           "https://github.com/vincentdoerig/latex-css"
         ]
       ],
-      "updated_at": "2024-12-26"
+      "updated_at": "2024-12-31"
     },
     "model": "core.list"
   },
@@ -1211,6 +1223,15 @@
           "https://github.com/antonosika/gpt-engineer"
         ],
         [
+          "https://github.com/doriandarko/claude-engineer"
+        ],
+        [
+          "https://github.com/nus-apr/auto-code-rover"
+        ],
+        [
+          "https://github.com/entropy-research/devon"
+        ],
+        [
           "https://github.com/reworkd/agentgpt"
         ],
         [
@@ -1236,6 +1257,94 @@
         ],
         [
           "https://github.com/significant-gravitas/autogpt"
+        ]
+      ],
+      "updated_at": "2024-12-31"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-12-31",
+      "name": "Django - Analytics",
+      "slug": "django-analytics",
+      "tools": [
+        [
+          "https://github.com/lazybird/django-trackman"
+        ],
+        [
+          "https://github.com/terminalkitten/django-insights"
+        ],
+        [
+          "https://github.com/mixcloud/django-experiments"
+        ],
+        [
+          "https://github.com/frankwiles/django-app-metrics"
+        ],
+        [
+          "https://github.com/thornomad/django-hitcount"
+        ],
+        [
+          "https://github.com/django-request/django-request"
+        ]
+      ],
+      "updated_at": "2024-12-31"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-12-31",
+      "name": "Django - Settings",
+      "slug": "django-settings",
+      "tools": [
+        [
+          "https://github.com/lucasrcezimbra/dj-storage-url"
+        ]
+      ],
+      "updated_at": "2024-12-31"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-12-31",
+      "name": "LLM - Agents",
+      "slug": "llm-agents",
+      "tools": [
+        [
+          "https://github.com/letta-ai/letta"
+        ]
+      ],
+      "updated_at": "2024-12-31"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-12-31",
+      "name": "Python - Web Framerworks",
+      "slug": "python-web-framerworks",
+      "tools": [
+        [
+          "https://github.com/sparckles/robyn"
+        ],
+        [
+          "https://github.com/django/django"
+        ]
+      ],
+      "updated_at": "2024-12-31"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2024-12-31",
+      "name": "Frontend - Templating",
+      "slug": "frontend-templating",
+      "tools": [
+        [
+          "https://github.com/mozilla/nunjucks"
         ]
       ],
       "updated_at": "2024-12-31"
