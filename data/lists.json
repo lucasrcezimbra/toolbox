@@ -1208,6 +1208,9 @@
       "slug": "ai-software-engineers",
       "tools": [
         [
+          "https://github.com/antonosika/gpt-engineer"
+        ],
+        [
           "https://github.com/reworkd/agentgpt"
         ],
         [
@@ -1220,16 +1223,22 @@
           "https://github.com/geekan/metagpt"
         ],
         [
+          "https://github.com/aider-ai/aider"
+        ],
+        [
           "https://github.com/all-hands-ai/openhands"
         ],
         [
           "https://github.com/stitionai/devika"
         ],
         [
+          "https://github.com/pythagora-io/gpt-pilot"
+        ],
+        [
           "https://github.com/significant-gravitas/autogpt"
         ]
       ],
-      "updated_at": "2024-12-26"
+      "updated_at": "2024-12-31"
     },
     "model": "core.list"
   }
