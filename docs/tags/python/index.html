@@ -1,0 +1,3199 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lucas Cezimbra Toolbox</title>
+        
+        <link href="/static/bootstrap.min.css" rel="stylesheet" async>
+        <script src="/static/htmx.min.js.gz" defer></script>
+        <link href="/static/fontawesomefree/css/fontawesome.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <link href="/static/fontawesomefree/css/solid.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <link href="/static/fontawesomefree/css/brands.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <style>
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+        .archive-badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            padding: 0.125rem 0.375rem;
+            background-color: #d29922;
+            color: white;
+            border-radius: 0.25rem;
+            vertical-align: middle;
+        }
+
+        /* index.html */
+        .hero-section {
+            background-color: rgba(13, 110, 253, 0.1);
+            border-radius: 0.5rem;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #0d6efd;
+        }
+        .recent-tool {
+            border-left: 3px solid #0d6efd;
+            background-color: rgba(13, 110, 253, 0.1);
+            transition: transform 0.2s ease;
+        }
+        .recent-tool:hover {
+            transform: translateX(5px);
+            background-color: rgba(13, 110, 253, 0.2);
+        }
+        .tool-name {
+            color: #0d6efd;
+        }
+        .tool-category {
+            color: #6c757d;
+        }
+        .list-info {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+
+        /* tool detail page */
+        .tool-header {
+            background-color: rgba(13, 110, 253, 0.1);
+            border-radius: 0.5rem;
+        }
+        .tool-tag {
+            background-color: rgba(13, 110, 253, 0.2);
+            color: #0d6efd;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            margin-right: 0.5rem;
+        }
+        .tool-info {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        .tool-link {
+            text-decoration: none;
+            color: #0d6efd;
+        }
+        .tool-link:hover {
+            text-decoration: underline;
+        }
+        </style>
+    </head>
+    <body hx-boost="true">
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Lucas Cezimbra Toolbox</a>
+                    <button class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/lists/">Lists</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/tags/">Tags</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">#python</h2>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-trackman/" class="tool-name fw-bold">django-trackman</a>
+        <span>-</span>
+        <a href="https://github.com/lazybird/django-trackman"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-analytics/">Django - Analytics</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-31</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-insights/" class="tool-name fw-bold">django-insights</a>
+        <span>-</span>
+        <a href="https://github.com/terminalkitten/django-insights"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-analytics/">Django - Analytics</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-31</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/dj-tracker/" class="tool-name fw-bold">dj-tracker</a>
+        <span>-</span>
+        <a href="https://github.com/tijani-dia/dj-tracker"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-profilling/">Django - Profilling</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-31</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-experiments/" class="tool-name fw-bold">django-experiments</a>
+        <span>-</span>
+        <a href="https://github.com/mixcloud/django-experiments"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-analytics/">Django - Analytics</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-31</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-app-metrics/" class="tool-name fw-bold">django-app-metrics</a>
+        <span>-</span>
+        <a href="https://github.com/frankwiles/django-app-metrics"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-analytics/">Django - Analytics</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-31</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-hitcount/" class="tool-name fw-bold">django-hitcount</a>
+        <span>-</span>
+        <a href="https://github.com/thornomad/django-hitcount"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-analytics/">Django - Analytics</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-31</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/gpt-engineer/" class="tool-name fw-bold">gpt-engineer</a>
+        <span>-</span>
+        <a href="https://github.com/antonosika/gpt-engineer"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/ai-software-engineers/">AI Software Engineers</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-31</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/claude-engineer/" class="tool-name fw-bold">claude-engineer</a>
+        <span>-</span>
+        <a href="https://github.com/doriandarko/claude-engineer"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/ai-software-engineers/">AI Software Engineers</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-31</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/auto-code-rover/" class="tool-name fw-bold">auto-code-rover</a>
+        <span>-</span>
+        <a href="https://github.com/nus-apr/auto-code-rover"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/ai-software-engineers/">AI Software Engineers</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-31</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/Devon/" class="tool-name fw-bold">Devon</a>
+        <span>-</span>
+        <a href="https://github.com/entropy-research/devon"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/ai-software-engineers/">AI Software Engineers</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-31</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-quik/" class="tool-name fw-bold">django-quik</a>
+        <span>-</span>
+        <a href="https://github.com/tejmagar/django-quik"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-31</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/yq/" class="tool-name fw-bold">yq</a>
+        <span>-</span>
+        <a href="https://github.com/kislyuk/yq"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/command-line/">Command-line</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-30</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/poetry_to_uv/" class="tool-name fw-bold">poetry_to_uv</a>
+        <span>-</span>
+        <a href="https://github.com/pacificgilly/poetry_to_uv"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-30</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/Robyn/" class="tool-name fw-bold">Robyn</a>
+        <span>-</span>
+        <a href="https://github.com/sparckles/robyn"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/python-web-framerworks/">Python - Web Framerworks</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-29</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/dj-storage-url/" class="tool-name fw-bold">dj-storage-url</a>
+        <span>-</span>
+        <a href="https://github.com/lucasrcezimbra/dj-storage-url"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/my-projects/">My Projects</a>
+                    ,
+                
+                    <a href="/lists/django-settings/">Django - Settings</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-27</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/letta/" class="tool-name fw-bold">letta</a>
+        <span>-</span>
+        <a href="https://github.com/letta-ai/letta"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/llm-agents/">LLM - Agents</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-26</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/SWE-agent/" class="tool-name fw-bold">SWE-agent</a>
+        <span>-</span>
+        <a href="https://github.com/swe-agent/swe-agent"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/ai-software-engineers/">AI Software Engineers</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-26</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/ChatDev/" class="tool-name fw-bold">ChatDev</a>
+        <span>-</span>
+        <a href="https://github.com/openbmb/chatdev"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/ai-software-engineers/">AI Software Engineers</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-26</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/MetaGPT/" class="tool-name fw-bold">MetaGPT</a>
+        <span>-</span>
+        <a href="https://github.com/geekan/metagpt"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/ai-software-engineers/">AI Software Engineers</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-26</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/psycopg/" class="tool-name fw-bold">psycopg</a>
+        <span>-</span>
+        <a href="https://github.com/psycopg/psycopg"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-databases/">Django - Databases</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-24</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-psycopg3-backend/" class="tool-name fw-bold">django-psycopg3-backend</a>
+        <span>-</span>
+        <a href="https://github.com/dvarrazzo/django-psycopg3-backend"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-databases/">Django - Databases</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-24</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/pytask/" class="tool-name fw-bold">pytask</a>
+        <span>-</span>
+        <a href="https://github.com/jaypyles/pytask"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/python-background-tasks/">Python - Background Tasks</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-24</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/babybuddy/" class="tool-name fw-bold">babybuddy</a>
+        <span>-</span>
+        <a href="https://github.com/babybuddy/babybuddy"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/home-assistant/">Home Assistant</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-23</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/beeswithmachineguns/" class="tool-name fw-bold">beeswithmachineguns</a>
+        <span>-</span>
+        <a href="https://github.com/newsapps/beeswithmachineguns"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/load-testing/">Load Testing</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-23</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/ha_xiaomi_home/" class="tool-name fw-bold">ha_xiaomi_home</a>
+        <span>-</span>
+        <a href="https://github.com/xiaomi/ha_xiaomi_home"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/home-assistant/">Home Assistant</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-16</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/undetected-chromedriver/" class="tool-name fw-bold">undetected-chromedriver</a>
+        <span>-</span>
+        <a href="https://github.com/ultrafunkamsterdam/undetected-chromedriver"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/webdriver/">WebDriver</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-15</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/nodriver/" class="tool-name fw-bold">nodriver</a>
+        <span>-</span>
+        <a href="https://github.com/ultrafunkamsterdam/nodriver"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/webdriver/">WebDriver</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-15</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        <span class="archive-badge" title="This project is archived">Archived</span>
+        <a href="/tools/llm-webdesign/" class="tool-name fw-bold">llm-webdesign</a>
+        <span>-</span>
+        <a href="https://github.com/lucasrcezimbra/llm-webdesign"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/my-projects/">My Projects</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-15</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/hass-music-assistant/" class="tool-name fw-bold">hass-music-assistant</a>
+        <span>-</span>
+        <a href="https://github.com/music-assistant/hass-music-assistant"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/home-assistant/">Home Assistant</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-12</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/client/" class="tool-name fw-bold">client</a>
+        <span>-</span>
+        <a href="https://github.com/music-assistant/client"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/home-assistant/">Home Assistant</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-12</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/helium/" class="tool-name fw-bold">helium</a>
+        <span>-</span>
+        <a href="https://github.com/mherrmann/helium"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/web-scrapping/">Web Scrapping</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-12</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/oils/" class="tool-name fw-bold">oils</a>
+        <span>-</span>
+        <a href="https://github.com/oils-for-unix/oils"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/shells/">Shells</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-12-09</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/aisuite/" class="tool-name fw-bold">aisuite</a>
+        <span>-</span>
+        <a href="https://github.com/andrewyng/aisuite"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-28</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/tuya-local/" class="tool-name fw-bold">tuya-local</a>
+        <span>-</span>
+        <a href="https://github.com/make-all/tuya-local"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/home-assistant/">Home Assistant</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-26</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-debug-toolbar/" class="tool-name fw-bold">django-debug-toolbar</a>
+        <span>-</span>
+        <a href="https://github.com/django-commons/django-debug-toolbar"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-profilling/">Django - Profilling</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/djhtml/" class="tool-name fw-bold">djhtml</a>
+        <span>-</span>
+        <a href="https://github.com/rtts/djhtml"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-linters/">Django - Linters</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-web-components/" class="tool-name fw-bold">django-web-components</a>
+        <span>-</span>
+        <a href="https://github.com/xzya/django-web-components"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-web-components/">Django - Web Components</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/harlequin/" class="tool-name fw-bold">harlequin</a>
+        <span>-</span>
+        <a href="https://github.com/tconbeer/harlequin"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/command-line/">Command-line</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-cotton/" class="tool-name fw-bold">django-cotton</a>
+        <span>-</span>
+        <a href="https://github.com/wrabit/django-cotton"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-web-components/">Django - Web Components</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/chonkie/" class="tool-name fw-bold">chonkie</a>
+        <span>-</span>
+        <a href="https://github.com/chonkie-ai/chonkie"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/llm-rag/">LLM - RAG</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-11</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/soap/" class="tool-name fw-bold">soap</a>
+        <span>-</span>
+        <a href="https://github.com/hwkoene/soap"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-10</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/dendrite-python-sdk/" class="tool-name fw-bold">dendrite-python-sdk</a>
+        <span>-</span>
+        <a href="https://github.com/dendrite-systems/dendrite-python-sdk"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-10</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/vectordb/" class="tool-name fw-bold">vectordb</a>
+        <span>-</span>
+        <a href="https://github.com/kagisearch/vectordb"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-09</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/pyllms/" class="tool-name fw-bold">pyllms</a>
+        <span>-</span>
+        <a href="https://github.com/kagisearch/pyllms"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-09</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-tenants/" class="tool-name fw-bold">django-tenants</a>
+        <span>-</span>
+        <a href="https://github.com/django-tenants/django-tenants"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-multitenancy/">Django - Multitenancy</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-08</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-multitenant/" class="tool-name fw-bold">django-multitenant</a>
+        <span>-</span>
+        <a href="https://github.com/citusdata/django-multitenant"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-multitenancy/">Django - Multitenancy</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-08</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/docling/" class="tool-name fw-bold">docling</a>
+        <span>-</span>
+        <a href="https://github.com/ds4sd/docling"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/data-parsers/">Data - Parsers</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-07</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/pytestarch/" class="tool-name fw-bold">pytestarch</a>
+        <span>-</span>
+        <a href="https://github.com/zyskarch/pytestarch"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/python-architecture/">Python - Architecture</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-05</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/import-linter/" class="tool-name fw-bold">import-linter</a>
+        <span>-</span>
+        <a href="https://github.com/seddonym/import-linter"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/python-architecture/">Python - Architecture</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-05</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/pytest-archon/" class="tool-name fw-bold">pytest-archon</a>
+        <span>-</span>
+        <a href="https://github.com/jwbargsten/pytest-archon"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/python-architecture/">Python - Architecture</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-05</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/ranger/" class="tool-name fw-bold">ranger</a>
+        <span>-</span>
+        <a href="https://github.com/ranger/ranger"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/command-line/">Command-line</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-03</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/smartprofiler/" class="tool-name fw-bold">smartprofiler</a>
+        <span>-</span>
+        <a href="https://github.com/vigsun19/smartprofiler"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-profilling/">Django - Profilling</a>
+                    ,
+                
+                    <a href="/lists/python-profilling/">Python - Profilling</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-11-01</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/pytest-plugins/" class="tool-name fw-bold">pytest-plugins</a>
+        <span>-</span>
+        <a href="https://github.com/man-group/pytest-plugins"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-31</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/instagram-story/" class="tool-name fw-bold">instagram-story</a>
+        <span>-</span>
+        <a href="https://github.com/skyme5/instagram-story"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/web-scrapping-instagram/">Web Scrapping - Instagram</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-31</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/instauto/" class="tool-name fw-bold">instauto</a>
+        <span>-</span>
+        <a href="https://github.com/stanvanrooy/instauto"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/web-scrapping-instagram/">Web Scrapping - Instagram</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-31</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/Insomniac/" class="tool-name fw-bold">Insomniac</a>
+        <span>-</span>
+        <a href="https://github.com/alexal1/insomniac"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/web-scrapping-instagram/">Web Scrapping - Instagram</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-31</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/instagrapi/" class="tool-name fw-bold">instagrapi</a>
+        <span>-</span>
+        <a href="https://github.com/subzeroid/instagrapi"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/web-scrapping-instagram/">Web Scrapping - Instagram</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-31</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/python-logfmter/" class="tool-name fw-bold">python-logfmter</a>
+        <span>-</span>
+        <a href="https://github.com/jteppinette/python-logfmter"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/python-logging/">Python - Logging</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> logfmt formatter</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-31</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/zerox/" class="tool-name fw-bold">zerox</a>
+        <span>-</span>
+        <a href="https://github.com/getomni-ai/zerox"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-30</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-role-permissions/" class="tool-name fw-bold">django-role-permissions</a>
+        <span>-</span>
+        <a href="https://github.com/vintasoftware/django-role-permissions"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-permissions/">Django - Permissions</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> Roles and Permissions as a Code</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-29</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/mininterface/" class="tool-name fw-bold">mininterface</a>
+        <span>-</span>
+        <a href="https://github.com/cz-nic/mininterface"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/python-cli/">Python - CLI</a>
+                    ,
+                
+                    <a href="/lists/python-gui/">Python - GUI</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> Generates GUI, TUI, CLI, and config files for your Python code</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-28</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/tyro/" class="tool-name fw-bold">tyro</a>
+        <span>-</span>
+        <a href="https://github.com/brentyi/tyro"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/python-cli/">Python - CLI</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> Generates CLI from types</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-28</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/tomli/" class="tool-name fw-bold">tomli</a>
+        <span>-</span>
+        <a href="https://github.com/hukkin/tomli"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-26</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/toml/" class="tool-name fw-bold">toml</a>
+        <span>-</span>
+        <a href="https://github.com/uiri/toml"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-26</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/sudoku-in-python-packaging/" class="tool-name fw-bold">sudoku-in-python-packaging</a>
+        <span>-</span>
+        <a href="https://github.com/konstin/sudoku-in-python-packaging"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-23</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-debug-requests-responses/" class="tool-name fw-bold">django-debug-requests-responses</a>
+        <span>-</span>
+        <a href="https://github.com/denizdogan/django-debug-requests-responses"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-logging/">Django - Logging</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-22</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-requestlogs/" class="tool-name fw-bold">django-requestlogs</a>
+        <span>-</span>
+        <a href="https://github.com/raekkeri/django-requestlogs"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-logging/">Django - Logging</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-22</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-request-logging/" class="tool-name fw-bold">django-request-logging</a>
+        <span>-</span>
+        <a href="https://github.com/rhumbix/django-request-logging"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-logging/">Django - Logging</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-22</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/parsera/" class="tool-name fw-bold">parsera</a>
+        <span>-</span>
+        <a href="https://github.com/raznem/parsera"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/web-scrapping/">Web Scrapping</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> Web scraping using LLMs</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-18</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/beancounttools/" class="tool-name fw-bold">beancounttools</a>
+        <span>-</span>
+        <a href="https://github.com/tarioch/beancounttools"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/beancount/">Beancount</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> importers, plugins and price fetchers; Examples consuming API: https://github.com/tarioch/beancounttools/blob/master/src/tariochbctools/importers/quickfile/importer.py and https://github.com/tarioch/beancounttools/blob/master/src/tariochbctools/importers/transferwise/importer.py</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/smart_importer/" class="tool-name fw-bold">smart_importer</a>
+        <span>-</span>
+        <a href="https://github.com/beancount/smart_importer"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/beancount/">Beancount</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> importers with machine learning - status: beta</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/beancount_reds_importers/" class="tool-name fw-bold">beancount_reds_importers</a>
+        <span>-</span>
+        <a href="https://github.com/redstreet/beancount_reds_importers"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/beancount/">Beancount</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-13</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/sshtunnel/" class="tool-name fw-bold">sshtunnel</a>
+        <span>-</span>
+        <a href="https://github.com/pahaz/sshtunnel"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-12</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/bandersnatch/" class="tool-name fw-bold">bandersnatch</a>
+        <span>-</span>
+        <a href="https://github.com/pypa/bandersnatch"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-12</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/klepto/" class="tool-name fw-bold">klepto</a>
+        <span>-</span>
+        <a href="https://github.com/uqfoundation/klepto"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-12</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/python-sdk/" class="tool-name fw-bold">python-sdk</a>
+        <span>-</span>
+        <a href="https://github.com/extism/python-sdk"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/python-webassembly/">Python - WebAssembly</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> Extism Python SDK</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-11</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/rq/" class="tool-name fw-bold">rq</a>
+        <span>-</span>
+        <a href="https://github.com/rq/rq"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/python-background-tasks/">Python - Background Tasks</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> RQ (Redis Queue)</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-11</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/pugsql/" class="tool-name fw-bold">pugsql</a>
+        <span>-</span>
+        <a href="https://github.com/mcfunley/pugsql"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/python-orms/">Python - ORMs</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> Python ORM; simple interface for using parameterized SQL</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-11</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/huey/" class="tool-name fw-bold">huey</a>
+        <span>-</span>
+        <a href="https://github.com/coleifer/huey"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/python-background-tasks/">Python - Background Tasks</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> Task queue; Supports Redis, SQLite, file-system, or in-memory storage.</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-11</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/celery/" class="tool-name fw-bold">celery</a>
+        <span>-</span>
+        <a href="https://github.com/celery/celery"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/python-background-tasks/">Python - Background Tasks</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-11</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/typer/" class="tool-name fw-bold">typer</a>
+        <span>-</span>
+        <a href="https://github.com/fastapi/typer"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/python-cli/">Python - CLI</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-11</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/click/" class="tool-name fw-bold">click</a>
+        <span>-</span>
+        <a href="https://github.com/pallets/click"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/python-cli/">Python - CLI</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-11</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/gunicorn/" class="tool-name fw-bold">gunicorn</a>
+        <span>-</span>
+        <a href="https://github.com/benoitc/gunicorn"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-servers/">Django - Servers</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> WSGI only</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-11</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/uvicorn/" class="tool-name fw-bold">uvicorn</a>
+        <span>-</span>
+        <a href="https://github.com/encode/uvicorn"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-servers/">Django - Servers</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> ASGI only; supports HTTP/1.1 and WebSockets.</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-11</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/hypercorn/" class="tool-name fw-bold">hypercorn</a>
+        <span>-</span>
+        <a href="https://github.com/pgjones/hypercorn"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-servers/">Django - Servers</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> ASGI and WSGI. Supports HTTP/1, HTTP/2, WebSockets (over HTTP/1 and HTTP/2). Can utilise asyncio, uvloop, or trio.</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-11</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/daphne/" class="tool-name fw-bold">daphne</a>
+        <span>-</span>
+        <a href="https://github.com/django/daphne"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-servers/">Django - Servers</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> Django Channels HTTP/WebSocket server</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-11</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/social-app-django/" class="tool-name fw-bold">social-app-django</a>
+        <span>-</span>
+        <a href="https://github.com/python-social-auth/social-app-django"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-auth/">Django - Auth</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-11</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-guardian/" class="tool-name fw-bold">django-guardian</a>
+        <span>-</span>
+        <a href="https://github.com/django-guardian/django-guardian"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-permissions/">Django - Permissions</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> Permissions per object/Row-level</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-10</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-jet-reboot/" class="tool-name fw-bold">django-jet-reboot</a>
+        <span>-</span>
+        <a href="https://github.com/assem-ch/django-jet-reboot"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-admin/">Django - Admin</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-10</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-adminlte-ui/" class="tool-name fw-bold">django-adminlte-ui</a>
+        <span>-</span>
+        <a href="https://github.com/wuyue92tree/django-adminlte-ui"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-admin/">Django - Admin</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> Admin dashboard template based on Bootstrap</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-10</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-watchman/" class="tool-name fw-bold">django-watchman</a>
+        <span>-</span>
+        <a href="https://github.com/mwarkentin/django-watchman"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-healthcheck/">Django - Healthcheck</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-10</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/tartiflette-aiohttp/" class="tool-name fw-bold">tartiflette-aiohttp</a>
+        <span>-</span>
+        <a href="https://github.com/tartiflette/tartiflette-aiohttp"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-graphql/">Django - GraphQL</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-10</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/strawberry-django/" class="tool-name fw-bold">strawberry-django</a>
+        <span>-</span>
+        <a href="https://github.com/strawberry-graphql/strawberry-django"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-graphql/">Django - GraphQL</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> Requires to define a schema class for each Django Model</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-10</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/graphene-django/" class="tool-name fw-bold">graphene-django</a>
+        <span>-</span>
+        <a href="https://github.com/graphql-python/graphene-django"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-graphql/">Django - GraphQL</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> Poor integration between Django Models and Queries</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-10</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/ariadne-django/" class="tool-name fw-bold">ariadne-django</a>
+        <span>-</span>
+        <a href="https://github.com/mirumee/ariadne-django"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-graphql/">Django - GraphQL</a>
+                    
+                
+            </span>
+        
+        <span class="d-block"><span class="text-muted">My notes:</span> Missing maintainer</span>
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-10</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-tagulous/" class="tool-name fw-bold">django-tagulous</a>
+        <span>-</span>
+        <a href="https://github.com/radiac/django-tagulous"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-10</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-treenode/" class="tool-name fw-bold">django-treenode</a>
+        <span>-</span>
+        <a href="https://github.com/fabiocaccamo/django-treenode"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-09</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-postgresql-dag/" class="tool-name fw-bold">django-postgresql-dag</a>
+        <span>-</span>
+        <a href="https://github.com/omenapps/django-postgresql-dag"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-09</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-taggit/" class="tool-name fw-bold">django-taggit</a>
+        <span>-</span>
+        <a href="https://github.com/jazzband/django-taggit"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-09</small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/gptme/" class="tool-name fw-bold">gptme</a>
+        <span>-</span>
+        <a href="https://github.com/erikbjare/gptme"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        
+        
+        <small class="d-block"><span class="text-muted">Added on:</span> 2024-10-08</small>
+    </li>
+</ul>
+
+    
+</ul>
+
+                        <span>Showing 100 of 467 tools</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        </div>
+        <script src="/static/bootstrap.min.js" defer></script>
+    </body>
+</html>
