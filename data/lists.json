@@ -1001,7 +1001,7 @@
   },
   {
     "fields": {
-      "created_at": "2024-12-26",
+      "created_at": "2025-01-04",
       "name": "Home Assistant",
       "slug": "home-assistant",
       "tools": [
@@ -1022,9 +1022,6 @@
         ],
         [
           "https://github.com/xiaomi/ha_xiaomi_home"
-        ],
-        [
-          "https://github.com/music-assistant/hass-music-assistant"
         ],
         [
           "https://github.com/music-assistant/client"
