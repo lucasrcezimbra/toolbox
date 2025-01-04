@@ -1,6 +1,13 @@
 [
   {
     "fields": {
+      "notes": "This repository is not currently being maintained (https://github.com/kognise/water.css/issues/351)",
+      "url_github": "https://github.com/kognise/water.css"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "logfmt formatter",
       "url_github": "https://github.com/jteppinette/python-logfmter"
     },
