@@ -698,13 +698,22 @@
       "slug": "web-scrapping-whatsapp",
       "tools": [
         [
+          "https://github.com/shauryauppal/pywhatsapp"
+        ],
+        [
+          "https://github.com/daveebbelaar/python-whatsapp-bot"
+        ],
+        [
+          "https://github.com/jasperan/whatsapp-osint"
+        ],
+        [
           "https://github.com/wppconnect-team/wppconnect"
         ],
         [
           "https://github.com/ookamiiixd/baileys-api"
         ]
       ],
-      "updated_at": "2024-10-31"
+      "updated_at": "2025-01-05"
     },
     "model": "core.list"
   },
