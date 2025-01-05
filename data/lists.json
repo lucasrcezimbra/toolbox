@@ -1310,10 +1310,61 @@
       "slug": "llm-agents",
       "tools": [
         [
+          "https://github.com/kreneskyp/ix"
+        ],
+        [
+          "https://github.com/kaushikb11/awesome-llm-agents"
+        ],
+        [
+          "https://github.com/langroid/langroid"
+        ],
+        [
+          "https://github.com/xlang-ai/openagents"
+        ],
+        [
+          "https://github.com/microsoft/autogen"
+        ],
+        [
+          "https://github.com/assafelovic/gpt-researcher"
+        ],
+        [
+          "https://github.com/openbmb/agentverse"
+        ],
+        [
+          "https://github.com/aiwaves-cn/agents"
+        ],
+        [
+          "https://github.com/langchain-ai/langgraph"
+        ],
+        [
+          "https://github.com/crewaiinc/crewai"
+        ],
+        [
+          "https://github.com/phidatahq/phidata"
+        ],
+        [
+          "https://github.com/openai/swarm"
+        ],
+        [
+          "https://github.com/internlm/mindsearch"
+        ],
+        [
+          "https://github.com/i-am-bee/bee-agent-framework"
+        ],
+        [
           "https://github.com/letta-ai/letta"
+        ],
+        [
+          "https://github.com/deepset-ai/haystack"
+        ],
+        [
+          "https://github.com/run-llama/llama_index"
+        ],
+        [
+          "https://github.com/langchain-ai/langchain"
         ]
       ],
-      "updated_at": "2024-12-31"
+      "updated_at": "2025-01-05"
     },
     "model": "core.list"
   },
