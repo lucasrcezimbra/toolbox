@@ -1,6 +1,20 @@
 [
   {
     "fields": {
+      "notes": "Uses official API",
+      "url_github": "https://github.com/daveebbelaar/python-whatsapp-bot"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Logs online/offline events from anyone",
+      "url_github": "https://github.com/jasperan/whatsapp-osint"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "This repository is not currently being maintained (https://github.com/kognise/water.css/issues/351)",
       "url_github": "https://github.com/kognise/water.css"
     },
@@ -465,6 +479,13 @@
     "fields": {
       "notes": "Desktop client by Uncle Bob",
       "url_github": "https://github.com/unclebob/more-speech"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Last commit 2021-07-23",
+      "url_github": "https://github.com/mukulhase/webwhatsapp-wrapper"
     },
     "model": "core.tool"
   }
