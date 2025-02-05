@@ -876,7 +876,7 @@
           "https://github.com/edelvalle/reactor"
         ],
         [
-          "https://github.com/emilstenstrom/django-components"
+          "https://github.com/django-components/django-components"
         ]
       ],
       "updated_at": "2024-12-26"
