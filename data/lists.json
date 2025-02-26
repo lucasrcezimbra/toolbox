@@ -900,6 +900,9 @@
           "https://github.com/joshuadavidthomas/django-bird"
         ],
         [
+          "https://github.com/iwanalabs/django-htmx-components"
+        ],
+        [
           "https://github.com/clokep/django-render-block"
         ],
         [
