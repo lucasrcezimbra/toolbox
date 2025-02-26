@@ -381,6 +381,9 @@
       "slug": "python-webassembly",
       "tools": [
         [
+          "https://github.com/rustpython/rustpython"
+        ],
+        [
           "https://github.com/extism/python-sdk"
         ],
         [
@@ -390,7 +393,7 @@
           "https://github.com/pyscript/pyscript"
         ]
       ],
-      "updated_at": "2024-10-11"
+      "updated_at": "2025-02-26"
     },
     "model": "core.list"
   },
@@ -405,6 +408,9 @@
         ],
         [
           "https://github.com/vadimdemedes/ink"
+        ],
+        [
+          "https://github.com/lugenx/lab"
         ],
         [
           "https://github.com/kislyuk/yq"
@@ -736,10 +742,19 @@
       "slug": "edtech",
       "tools": [
         [
+          "https://github.com/oat-sa/package-tao"
+        ],
+        [
+          "https://github.com/oat-sa/tao-core"
+        ],
+        [
           "https://github.com/1edtech/qti-examples"
         ],
         [
           "https://github.com/amp-up-io/qti3-stimulus-player"
+        ],
+        [
+          "https://github.com/openolat/openolat"
         ],
         [
           "https://github.com/sealexan/pyqti"
@@ -752,6 +767,9 @@
         ],
         [
           "https://github.com/oat-sa/qti-sdk"
+        ],
+        [
+          "https://github.com/qtijs/qti.js"
         ],
         [
           "https://github.com/instructure/canvas-lms"
@@ -821,9 +839,18 @@
   {
     "fields": {
       "created_at": "2024-11-07",
-      "name": "PostgreSQL - Vector",
-      "slug": "postgresql-vector",
+      "name": "PostgreSQL",
+      "slug": "postgresql",
       "tools": [
+        [
+          "https://github.com/supabase-community/postgres_lsp"
+        ],
+        [
+          "https://github.com/electric-sql/electric"
+        ],
+        [
+          "https://github.com/psycopg/psycopg"
+        ],
         [
           "https://github.com/timescale/pgvectorscale"
         ],
@@ -831,10 +858,13 @@
           "https://github.com/timescale/pgai"
         ],
         [
+          "https://github.com/electric-sql/pglite"
+        ],
+        [
           "https://github.com/pgvector/pgvector"
         ]
       ],
-      "updated_at": "2024-11-07"
+      "updated_at": "2025-02-26"
     },
     "model": "core.list"
   },
@@ -909,6 +939,9 @@
           "https://github.com/carltongibson/django-template-partials"
         ],
         [
+          "https://github.com/jonathan-s/django-sockpuppet"
+        ],
+        [
           "https://github.com/xzya/django-web-components"
         ],
         [
@@ -941,6 +974,9 @@
       "slug": "django-profilling",
       "tools": [
         [
+          "https://github.com/nyankiyoshi/pytest-django-queries"
+        ],
+        [
           "https://github.com/tijani-dia/dj-tracker"
         ],
         [
@@ -956,7 +992,7 @@
           "https://github.com/jazzband/django-silk"
         ]
       ],
-      "updated_at": "2024-12-31"
+      "updated_at": "2025-02-26"
     },
     "model": "core.list"
   },
@@ -1068,6 +1104,15 @@
       "name": "Home Assistant",
       "slug": "home-assistant",
       "tools": [
+        [
+          "https://github.com/agittins/bermuda"
+        ],
+        [
+          "https://github.com/hacs/integration"
+        ],
+        [
+          "https://github.com/clooos/bubble-card"
+        ],
         [
           "https://github.com/tasshack/dreame-vacuum"
         ],
@@ -1406,6 +1451,12 @@
       "slug": "llm-agents",
       "tools": [
         [
+          "https://github.com/composiohq/composio"
+        ],
+        [
+          "https://github.com/huggingface/smolagents"
+        ],
+        [
           "https://github.com/kreneskyp/ix"
         ],
         [
@@ -1460,7 +1511,7 @@
           "https://github.com/langchain-ai/langchain"
         ]
       ],
-      "updated_at": "2025-01-05"
+      "updated_at": "2025-02-26"
     },
     "model": "core.list"
   },
@@ -1518,6 +1569,234 @@
         ],
         [
           "https://github.com/jllorencetti/pytest-deadfixtures"
+        ]
+      ],
+      "updated_at": "2025-02-26"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2025-02-26",
+      "name": "Interoperability",
+      "slug": "interoperability",
+      "tools": [
+        [
+          "https://github.com/submersible/node-python-bridge"
+        ],
+        [
+          "https://github.com/extrabacon/python-shell"
+        ],
+        [
+          "https://github.com/extremeheat/jspybridge"
+        ]
+      ],
+      "updated_at": "2025-02-26"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2025-02-26",
+      "name": "SQLite",
+      "slug": "sqlite",
+      "tools": [
+        [
+          "https://github.com/asg017/sqlite-vec"
+        ],
+        [
+          "https://github.com/benbjohnson/litestream"
+        ],
+        [
+          "https://github.com/dogsheep/github-to-sqlite"
+        ]
+      ],
+      "updated_at": "2025-02-26"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2025-02-26",
+      "name": "ESP32",
+      "slug": "esp32",
+      "tools": [
+        [
+          "https://github.com/agittins/bermuda"
+        ],
+        [
+          "https://github.com/emenstanougat/esp32-bluejammer"
+        ],
+        [
+          "https://github.com/solarkennedy/awesome-esphome-components"
+        ]
+      ],
+      "updated_at": "2025-02-26"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2025-02-26",
+      "name": "Home Server",
+      "slug": "home-server",
+      "tools": [
+        [
+          "https://github.com/ellite/wallos"
+        ],
+        [
+          "https://github.com/benbusby/whoogle-search"
+        ],
+        [
+          "https://github.com/immich-app/immich"
+        ],
+        [
+          "https://github.com/wallabag/wallabag"
+        ],
+        [
+          "https://github.com/owncast/owncast"
+        ],
+        [
+          "https://github.com/photoprism/photoprism"
+        ],
+        [
+          "https://github.com/ente-io/ente"
+        ]
+      ],
+      "updated_at": "2025-02-26"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2025-02-26",
+      "name": "Obsidian",
+      "slug": "obsidian",
+      "tools": [
+        [
+          "https://github.com/different-ai/file-organizer-2000"
+        ],
+        [
+          "https://github.com/devidw/obsidian-to-hugo"
+        ],
+        [
+          "https://github.com/brianpetro/obsidian-smart-connections"
+        ],
+        [
+          "https://github.com/tgrosinger/advanced-tables-obsidian"
+        ]
+      ],
+      "updated_at": "2025-02-26"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2025-02-26",
+      "name": "Documentation",
+      "slug": "documentation",
+      "tools": [
+        [
+          "https://github.com/soulspace-org/overarch"
+        ]
+      ],
+      "updated_at": "2025-02-26"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2025-02-26",
+      "name": "Django - Models",
+      "slug": "django-models",
+      "tools": [
+        [
+          "https://github.com/jazzband/django-polymorphic"
+        ],
+        [
+          "https://github.com/jazzband/django-model-utils"
+        ],
+        [
+          "https://github.com/wagtail/django-modelcluster"
+        ],
+        [
+          "https://github.com/patriciaborges/django-model-cache"
+        ]
+      ],
+      "updated_at": "2025-02-26"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2025-02-26",
+      "name": "LLM",
+      "slug": "llm",
+      "tools": [
+        [
+          "https://github.com/composiohq/composio"
+        ],
+        [
+          "https://github.com/skyvern-ai/skyvern"
+        ],
+        [
+          "https://github.com/nickscamara/open-deep-research"
+        ],
+        [
+          "https://github.com/jina-ai/node-deepresearch"
+        ],
+        [
+          "https://github.com/instructor-ai/instructor"
+        ],
+        [
+          "https://github.com/chonkie-ai/chonkie"
+        ],
+        [
+          "https://github.com/kagisearch/pyllms"
+        ],
+        [
+          "https://github.com/chrisclark/django-llm-fields"
+        ],
+        [
+          "https://github.com/mikrl/django-llm"
+        ],
+        [
+          "https://github.com/lucasrcezimbra/llm-jupyter"
+        ],
+        [
+          "https://github.com/langfuse/langfuse"
+        ],
+        [
+          "https://github.com/berriai/litellm"
+        ],
+        [
+          "https://github.com/simonw/llm"
+        ],
+        [
+          "https://github.com/mosaicml/llm-foundry"
+        ],
+        [
+          "https://github.com/langchain-ai/langchain"
+        ]
+      ],
+      "updated_at": "2025-02-26"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2025-02-26",
+      "name": "Frontend",
+      "slug": "frontend",
+      "tools": [
+        [
+          "https://github.com/11ty/is-land"
+        ],
+        [
+          "https://github.com/bigskysoftware/fixi"
+        ],
+        [
+          "https://github.com/bigskysoftware/htmx"
         ]
       ],
       "updated_at": "2025-02-26"
