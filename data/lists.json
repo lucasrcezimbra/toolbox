@@ -401,6 +401,12 @@
       "slug": "command-line",
       "tools": [
         [
+          "https://github.com/sindresorhus/emoj"
+        ],
+        [
+          "https://github.com/vadimdemedes/ink"
+        ],
+        [
           "https://github.com/kislyuk/yq"
         ],
         [
@@ -434,7 +440,7 @@
           "https://github.com/simonw/llm"
         ]
       ],
-      "updated_at": "2024-12-31"
+      "updated_at": "2025-02-26"
     },
     "model": "core.list"
   },
@@ -698,6 +704,9 @@
       "slug": "web-scrapping-whatsapp",
       "tools": [
         [
+          "https://github.com/disciplined-22/webwhatsapp-wrapper"
+        ],
+        [
           "https://github.com/shauryauppal/pywhatsapp"
         ],
         [
@@ -716,7 +725,7 @@
           "https://github.com/mukulhase/webwhatsapp-wrapper"
         ]
       ],
-      "updated_at": "2025-01-05"
+      "updated_at": "2025-02-26"
     },
     "model": "core.list"
   },
@@ -727,10 +736,28 @@
       "slug": "edtech",
       "tools": [
         [
+          "https://github.com/1edtech/qti-examples"
+        ],
+        [
+          "https://github.com/amp-up-io/qti3-stimulus-player"
+        ],
+        [
+          "https://github.com/sealexan/pyqti"
+        ],
+        [
+          "https://github.com/amp-up-io/qti3-item-player"
+        ],
+        [
+          "https://github.com/citolab/qti-components"
+        ],
+        [
+          "https://github.com/oat-sa/qti-sdk"
+        ],
+        [
           "https://github.com/instructure/canvas-lms"
         ]
       ],
-      "updated_at": "2024-11-06"
+      "updated_at": "2025-02-26"
     },
     "model": "core.list"
   },
@@ -758,13 +785,16 @@
       "slug": "home-photo-library",
       "tools": [
         [
+          "https://github.com/immich-app/immich"
+        ],
+        [
           "https://github.com/photoprism/photoprism"
         ],
         [
           "https://github.com/ente-io/ente"
         ]
       ],
-      "updated_at": "2024-12-26"
+      "updated_at": "2025-02-26"
     },
     "model": "core.list"
   },
@@ -815,6 +845,12 @@
       "slug": "vector-databases",
       "tools": [
         [
+          "https://github.com/asg017/sqlite-vec"
+        ],
+        [
+          "https://github.com/facebookresearch/faiss"
+        ],
+        [
           "https://github.com/timescale/pgvectorscale"
         ],
         [
@@ -824,7 +860,7 @@
           "https://github.com/pgvector/pgvector"
         ]
       ],
-      "updated_at": "2024-11-07"
+      "updated_at": "2025-02-26"
     },
     "model": "core.list"
   },
@@ -858,6 +894,18 @@
       "slug": "django-web-components",
       "tools": [
         [
+          "https://github.com/rails-inspire-django/django-viewcomponent"
+        ],
+        [
+          "https://github.com/joshuadavidthomas/django-bird"
+        ],
+        [
+          "https://github.com/clokep/django-render-block"
+        ],
+        [
+          "https://github.com/carltongibson/django-template-partials"
+        ],
+        [
           "https://github.com/xzya/django-web-components"
         ],
         [
@@ -879,7 +927,7 @@
           "https://github.com/django-components/django-components"
         ]
       ],
-      "updated_at": "2024-12-26"
+      "updated_at": "2025-02-26"
     },
     "model": "core.list"
   },
@@ -1018,6 +1066,36 @@
       "slug": "home-assistant",
       "tools": [
         [
+          "https://github.com/tasshack/dreame-vacuum"
+        ],
+        [
+          "https://github.com/basnijholt/adaptive-lighting"
+        ],
+        [
+          "https://github.com/mdeweerd/zha-toolkit"
+        ],
+        [
+          "https://github.com/custom-components/remote_homeassistant"
+        ],
+        [
+          "https://github.com/thomasloven/hass-browser_mod"
+        ],
+        [
+          "https://github.com/luligu/matterbridge-home-assistant-addon"
+        ],
+        [
+          "https://github.com/olen/lovelace-flower-card"
+        ],
+        [
+          "https://github.com/olen/homeassistant-plant"
+        ],
+        [
+          "https://github.com/syncthing/syncthing"
+        ],
+        [
+          "https://github.com/frenck/spook"
+        ],
+        [
           "https://github.com/koush/scrypted"
         ],
         [
@@ -1051,7 +1129,7 @@
           "https://github.com/ccostan/home-assistantconfig"
         ]
       ],
-      "updated_at": "2024-12-26"
+      "updated_at": "2025-02-26"
     },
     "model": "core.list"
   },
@@ -1229,6 +1307,9 @@
       "slug": "ai-software-engineers",
       "tools": [
         [
+          "https://github.com/potpie-ai/potpie"
+        ],
+        [
           "https://github.com/antonosika/gpt-engineer"
         ],
         [
@@ -1268,7 +1349,7 @@
           "https://github.com/significant-gravitas/autogpt"
         ]
       ],
-      "updated_at": "2024-12-31"
+      "updated_at": "2025-02-26"
     },
     "model": "core.list"
   },
@@ -1408,6 +1489,35 @@
         ]
       ],
       "updated_at": "2024-12-31"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2025-02-26",
+      "name": "Python - Linting",
+      "slug": "python-linting",
+      "tools": [
+        [
+          "https://github.com/jendrikseipp/vulture"
+        ],
+        [
+          "https://github.com/albertas/deadcode"
+        ],
+        [
+          "https://github.com/astral-sh/ruff"
+        ],
+        [
+          "https://github.com/asottile-archive/flake8-walrus"
+        ],
+        [
+          "https://github.com/psf/black"
+        ],
+        [
+          "https://github.com/jllorencetti/pytest-deadfixtures"
+        ]
+      ],
+      "updated_at": "2025-02-26"
     },
     "model": "core.list"
   }
