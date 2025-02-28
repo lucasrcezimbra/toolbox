@@ -15,8 +15,29 @@
   },
   {
     "fields": {
+      "notes": "Last commit was in 2021.",
+      "url_github": "https://github.com/jonathan-s/django-sockpuppet"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "This repository is not currently being maintained (https://github.com/kognise/water.css/issues/351)",
       "url_github": "https://github.com/kognise/water.css"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Last commit was in Feb 2024; requires to define a Python class for each component, which looks annoying.",
+      "url_github": "https://github.com/xzya/django-web-components"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Last commit was in 2023.",
+      "url_github": "https://github.com/mixxorz/slippers"
     },
     "model": "core.tool"
   },
@@ -374,6 +395,13 @@
     "fields": {
       "notes": "Structured Logging for Python; supports output as JSON, logfmt, plaintext.\r\n- Standard Library support: https://www.structlog.org/en/stable/standard-library.html\r\n- Building a Context: https://www.structlog.org/en/stable/getting-started.html#building-a-context",
       "url_github": "https://github.com/hynek/structlog"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
+      "notes": "Last commit was in 2023.",
+      "url_github": "https://github.com/edelvalle/reactor"
     },
     "model": "core.tool"
   },

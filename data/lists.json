@@ -920,8 +920,8 @@
   {
     "fields": {
       "created_at": "2024-11-13",
-      "name": "Django - Web Components",
-      "slug": "django-web-components",
+      "name": "Django - UI Components",
+      "slug": "django-ui-components",
       "tools": [
         [
           "https://github.com/rails-inspire-django/django-viewcomponent"
@@ -954,16 +954,10 @@
           "https://github.com/adamghill/dj-angles"
         ],
         [
-          "https://github.com/adamghill/django-unicorn"
-        ],
-        [
-          "https://github.com/edelvalle/reactor"
-        ],
-        [
           "https://github.com/django-components/django-components"
         ]
       ],
-      "updated_at": "2025-02-26"
+      "updated_at": "2025-02-28"
     },
     "model": "core.list"
   },
@@ -1800,6 +1794,23 @@
         ]
       ],
       "updated_at": "2025-02-26"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2025-02-28",
+      "name": "Django - LiveView",
+      "slug": "django-liveview",
+      "tools": [
+        [
+          "https://github.com/adamghill/django-unicorn"
+        ],
+        [
+          "https://github.com/edelvalle/reactor"
+        ]
+      ],
+      "updated_at": "2025-02-28"
     },
     "model": "core.list"
   }
