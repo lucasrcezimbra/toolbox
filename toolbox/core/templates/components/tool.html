@@ -1,7 +1,7 @@
 <ul class="list-unstyled">
     <li class="recent-tool p-3 mb-3">
         {% if tool.archived %}<span class="archive-badge" title="This project is archived">Archived</span>{% endif %}
-        <a href="{% url 'tool-detail' tool.slug %}" class="tool-name fw-bold">{{ tool.name }}</a>
+        <a href="{% url 'tool-detail' tool.slug %}" class="fw-bold">{{ tool.name }}</a>
         <span>-</span>
         <a href="{{ tool.url_github }}"
            class="tool-link"
