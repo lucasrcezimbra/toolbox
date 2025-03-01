@@ -11,7 +11,9 @@ SELECT
     repos.name,
     repos.language,
     repos.homepage,
-    repos.archived
+    repos.archived,
+    repos.stargazers_count,
+    repos.forks_count
 FROM
     stars
     JOIN repos ON
@@ -39,7 +41,16 @@ def run():
     cursor = conn.execute(SQL)
     rows = cursor.fetchall()
 
-    for starred_at, url_github, name, language, homepage, archived in rows:
+    for (
+        starred_at,
+        url_github,
+        name,
+        language,
+        homepage,
+        archived,
+        stargazers_count,
+        forks_count,
+    ) in rows:
         t = Tool(
             archived=archived,
             added_at=starred_at,
@@ -47,6 +58,8 @@ def run():
             url_docs=homepage if is_url_docs(homepage) else "",
             url_github=url_github.lower(),
             slug=name,
+            stargazers=stargazers_count,
+            forks=forks_count,
         )
         try:
             t.save()

@@ -17,6 +17,8 @@ class Tool(models.Model):
     slug = models.SlugField(unique=True)
     url_docs = models.URLField(blank=True)
     url_github = models.URLField(unique=True)
+    stargazers = models.IntegerField()
+    forks = models.IntegerField()
 
     objects = ToolManager()
     tags = TaggableManager()

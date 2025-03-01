@@ -13,6 +13,9 @@
         {% for tag in tool.tags.all %}
             <a href="{% url 'tag-detail' tag.slug %}"><span class="tool-tag">#{{ tag.slug }}</span></a>
         {% endfor %}
+        <br />
+        <i class="fa-solid fa-star"></i> {{ tool.stargazers }} <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> {{ tool.forks }} <span class="text-muted">forks</span>
         {% if tool.lists.exists %}
             <span class="d-block">
                 <span class="text-muted">Lists:</span>
