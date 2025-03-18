@@ -1,6 +1,13 @@
 [
   {
     "fields": {
+      "notes": "Render QTI as WebComponents. Storybook: https://qti-components.citolab.nl/",
+      "url_github": "https://github.com/citolab/qti-components"
+    },
+    "model": "core.tool"
+  },
+  {
+    "fields": {
       "notes": "Uses official API",
       "url_github": "https://github.com/daveebbelaar/python-whatsapp-bot"
     },
