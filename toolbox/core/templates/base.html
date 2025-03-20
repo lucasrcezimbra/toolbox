@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lucas Cezimbra Toolbox</title>
-        {% load static %}
+        {% load django_htmx static %}
+        {% htmx_script %}
         <link href="{% static 'bootstrap.min.css' %}" rel="stylesheet" async>
-        <script src="{% static 'htmx.min.js.gz' %}" defer></script>
         <link href="{% static 'fontawesomefree/css/fontawesome.css' %}"
               rel="stylesheet"
               type="text/css"
