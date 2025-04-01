@@ -15,7 +15,7 @@ jobs:
           python-version: '3.11'
           cache: 'poetry'
       - run: make install
-      - run: make collectdata github=${{ github.actor }}
+      - run: make datacollect github=${{ github.actor }}
       - run: make dbload
       - run: make build
       - name: Deploy

@@ -1,10 +1,10 @@
-.PHONY: build collectdata dbdump dbload dbnew dev install lint test
+.PHONY: build datacollect dbdump dbload dbnew dev install lint test
 
 build:
 	poetry run python manage.py distill-local --collectstatic --force ./docs
 	echo 'toolbox.cezimbra.me' > docs/CNAME
 
-collectdata:
+datacollect:
 	poetry run github-to-sqlite starred github.sqlite3 $(github)
 
 dbdump:

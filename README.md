@@ -17,7 +17,7 @@ make test
 ### Run
 ```bash
 # 1. Collect data from sources
-make collectdata github=<your-github-username>
+make datacollect github=<your-github-username>
 
 # 2. Import collected data
 make dbload
