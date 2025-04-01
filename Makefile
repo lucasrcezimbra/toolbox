@@ -1,4 +1,4 @@
-.PHONY: build datacollect dbdump dbload dbnew dev install lint test
+.PHONY: build datacollect dataupdate dbdump dbload dbnew dev install lint test
 
 build:
 	poetry run python manage.py distill-local --collectstatic --force ./docs
@@ -6,6 +6,11 @@ build:
 
 datacollect:
 	poetry run github-to-sqlite starred github.sqlite3 $(github)
+
+dataupdate:
+	make datacollect github=$(github)
+	make dbnew
+	make dbload
 
 dbdump:
 	poetry run python manage.py dumpdata core.list --natural-primary --natural-foreign  --indent 4 -o data/lists.json
