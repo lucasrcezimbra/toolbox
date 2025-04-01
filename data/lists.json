@@ -1335,7 +1335,7 @@
       "slug": "llm-rag",
       "tools": [
         [
-          "https://github.com/chonkie-ai/chonkie"
+          ""
         ]
       ],
       "updated_at": "2024-12-26"
@@ -1743,7 +1743,7 @@
           "https://github.com/instructor-ai/instructor"
         ],
         [
-          "https://github.com/chonkie-ai/chonkie"
+          ""
         ],
         [
           "https://github.com/kagisearch/pyllms"
