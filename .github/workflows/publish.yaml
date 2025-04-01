@@ -6,6 +6,9 @@ on:
     - cron: "0 */6 * * *"
 jobs:
   build:
+    permissions:
+      contents: write
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -26,3 +29,7 @@ jobs:
           git add ./docs
           git commit --no-verify -m 'Deploy'
           git push --force origin gh-pages
+      - if: ${{ failure() }}
+        run: make datafix
+      - if: ${{ failure() }}
+        uses: peter-evans/create-pull-request@v7
