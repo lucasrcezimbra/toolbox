@@ -843,7 +843,7 @@
       "slug": "postgresql",
       "tools": [
         [
-          "https://github.com/supabase-community/postgres_lsp"
+          "https://github.com/supabase-community/postgres-language-server"
         ],
         [
           "https://github.com/electric-sql/electric"
