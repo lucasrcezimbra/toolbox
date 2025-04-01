@@ -1,11 +1,11 @@
-.PHONY: build dev dbdump dbload dbnew install lint test
+.PHONY: build collectdata dbdump dbload dbnew dev install lint test
 
 build:
 	poetry run python manage.py distill-local --collectstatic --force ./docs
 	echo 'toolbox.cezimbra.me' > docs/CNAME
 
-dev:
-	poetry run python manage.py runserver
+collectdata:
+	poetry run github-to-sqlite starred github.sqlite3 $(github)
 
 dbdump:
 	poetry run python manage.py dumpdata core.list --natural-primary --natural-foreign  --indent 4 -o data/lists.json
@@ -20,8 +20,8 @@ dbnew:
 	rm db.sqlite3
 	poetry run python manage.py migrate
 
-collectdata:
-	poetry run github-to-sqlite starred github.sqlite3 $(github)
+dev:
+	poetry run python manage.py runserver
 
 install:
 	poetry install
