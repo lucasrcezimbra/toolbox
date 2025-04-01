@@ -33,3 +33,6 @@ jobs:
         run: make datafix
       - if: ${{ failure() }}
         uses: peter-evans/create-pull-request@v7
+        with:
+          title: 'data: autofix'
+          commit-message: 'data: autofix'
