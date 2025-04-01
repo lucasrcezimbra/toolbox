@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo "datafix: extracting URL"
+url=$(echo "$*" | grep -oP 'https?://\S+' - | cut -d ']' -f 1 | uniq)
+
+if [ -z "$url" ]; then
+    echo "datafix: nothing to fix"
+    exit 0
+fi
+
+echo "datafix: URL extracted '$url'"
+
+echo "datafix: getting redirect URL"
+new_url=$(curl -s -o /dev/null -w "%{redirect_url}" -I "$url")
+echo "datafix: redirect URL '$new_url'"
+
+echo "datafix: updating file data/lists.json"
+sed -i "s|$url|$new_url|" data/lists.json
+echo "datafix: file updated. Done!"

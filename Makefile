@@ -7,6 +7,9 @@ build:
 datacollect:
 	poetry run github-to-sqlite starred github.sqlite3 $(github)
 
+datafix:
+	poetry run python manage.py loaddata data/lists.json 2>&1 1>/dev/null | xargs bin/datafix
+
 dataupdate:
 	make datacollect github=$(github)
 	make dbnew
