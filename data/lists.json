@@ -1811,6 +1811,18 @@
       "slug": "neovim-distros",
       "tools": [
         [
+          "https://github.com/nvim-lua/kickstart.nvim"
+        ],
+        [
+          "https://github.com/cosmicnvim/cosmicnvim"
+        ],
+        [
+          "https://github.com/nvchad/nvchad"
+        ],
+        [
+          "https://github.com/astronvim/astronvim"
+        ],
+        [
           "https://github.com/lunarvim/lunarvim"
         ]
       ],

@@ -18,6 +18,7 @@ dataupdate:
 dbdump:
 	poetry run python manage.py dumpdata core.list --natural-primary --natural-foreign  --indent 4 -o data/lists.json
 	poetry run python manage.py runscript dumpnotes
+	poetry run pre-commit run pretty-format-json
 
 dbload:
 	poetry run python manage.py runscript import_from_github
