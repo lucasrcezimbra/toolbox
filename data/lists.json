@@ -993,7 +993,7 @@
   {
     "fields": {
       "created_at": "2024-11-13",
-      "name": "Neovim",
+      "name": "Neovim - Plugins",
       "slug": "neovim",
       "tools": [
         [
@@ -1030,9 +1030,6 @@
           "https://github.com/lewis6991/gitsigns.nvim"
         ],
         [
-          "https://github.com/lunarvim/lunarvim"
-        ],
-        [
           "https://github.com/ctrlpvim/ctrlp.vim"
         ],
         [
@@ -1051,7 +1048,7 @@
           "https://github.com/google/vim-codefmt"
         ]
       ],
-      "updated_at": "2024-12-26"
+      "updated_at": "2025-04-04"
     },
     "model": "core.list"
   },
@@ -1804,6 +1801,20 @@
         ]
       ],
       "updated_at": "2025-02-28"
+    },
+    "model": "core.list"
+  },
+  {
+    "fields": {
+      "created_at": "2025-04-04",
+      "name": "Neovim - Distros",
+      "slug": "neovim-distros",
+      "tools": [
+        [
+          "https://github.com/lunarvim/lunarvim"
+        ]
+      ],
+      "updated_at": "2025-04-04"
     },
     "model": "core.list"
   }
