@@ -11,7 +11,7 @@ fi
 echo "datafix: URL extracted '$url'"
 
 echo "datafix: getting redirect URL"
-new_url=$(curl -s -o /dev/null -w "%{redirect_url}" -I "$url")
+new_url=$(curl -s -o /dev/null -w "%{redirect_url}" -I "$url" | tr '[:upper:]' '[:lower:]')
 echo "datafix: redirect URL '$new_url'"
 
 echo "datafix: updating file data/lists.json"
