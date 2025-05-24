@@ -6,7 +6,7 @@
       "slug": "django-saving-trees",
       "tools": [
         [
-          "https://github.com/timurkady/django-fast-treenode"
+          ""
         ],
         [
           "https://github.com/baseplate-admin/django-ltree-2"
