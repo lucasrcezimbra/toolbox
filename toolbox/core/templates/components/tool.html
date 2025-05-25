@@ -27,5 +27,8 @@
         {% endif %}
         {% if tool.notes %}<span class="d-block"><span class="text-muted">My notes:</span> {{ tool.notes }}</span>{% endif %}
         <small class="d-block"><span class="text-muted">Added on:</span> {{ tool.added_at|date:'Y-m-d' }}</small>
+        {% if tool.last_commit_at %}
+            <small class="d-block"><span class="text-muted">Last commit:</span> {{ tool.last_commit_at|date:'Y-m-d' }}</small>
+        {% endif %}
     </li>
 </ul>

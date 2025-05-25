@@ -12,6 +12,7 @@ class Tool(models.Model):
     added_at = models.DateTimeField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    last_commit_at = models.DateTimeField(null=True, blank=True)
     name = models.CharField(max_length=254)
     notes = models.TextField(blank=True)
     slug = models.SlugField(unique=True)
