@@ -1,6 +1,10 @@
+import re
 import sqlite3
+from datetime import datetime
 
+import requests
 from django.db.utils import IntegrityError
+from django.utils import timezone
 
 from toolbox.core.models import Tool
 
@@ -51,6 +55,18 @@ def run():
         stargazers_count,
         forks_count,
     ) in rows:
+        # Get the last commit date from GitHub API
+        owner, repo = extract_owner_repo(url_github)
+        last_commit_at = None
+        if owner and repo:
+            last_commit_at = get_latest_commit_date(owner, repo)
+            if last_commit_at:
+                print(f"Found last commit date for {name}: {last_commit_at}")
+            else:
+                print(f"Could not fetch last commit date for {name}")
+        else:
+            print(f"Could not parse GitHub URL for {name}: {url_github}")
+
         t = Tool(
             archived=archived,
             added_at=starred_at,
@@ -60,6 +76,7 @@ def run():
             slug=name,
             stargazers=stargazers_count,
             forks=forks_count,
+            last_commit_at=last_commit_at,
         )
         try:
             t.save()
@@ -80,3 +97,29 @@ def tagify(s):
     s = s.replace("#", "-sharp")
     s = s.replace("++", "pp")
     return s
+
+
+def extract_owner_repo(url):
+    match = re.search(r"github\.com/([^/]+)/([^/]+)", url)
+    if match:
+        return match.group(1), match.group(2)
+    return None, None
+
+
+def get_latest_commit_date(owner, repo):
+    url = f"https://api.github.com/repos/{owner}/{repo}/commits"
+
+    try:
+        response = requests.get(url, params={"per_page": 1})
+        response.raise_for_status()
+
+        commits = response.json()
+        if commits and len(commits) > 0:
+            commit_date_str = commits[0]["commit"]["committer"]["date"]
+            return datetime.strptime(commit_date_str, "%Y-%m-%dT%H:%M:%SZ").replace(
+                tzinfo=timezone.utc
+            )
+    except Exception as e:
+        print(f"Error fetching commit data for {owner}/{repo}: {str(e)}")
+
+    return None
