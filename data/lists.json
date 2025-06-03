@@ -477,7 +477,7 @@
       "slug": "full-text-search-in-the-browser",
       "tools": [
         [
-          "https://github.com/cloudcannon/pagefind"
+          "https://github.com/pagefind/pagefind"
         ],
         [
           "https://github.com/oramasearch/orama"
