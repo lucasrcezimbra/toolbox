@@ -22,7 +22,7 @@ github-to-sqlite = "2.9"
 sqlite-utils = "3.38"
 
 [tool.poetry.group.dev.dependencies]
-model-bakery = "1.20.4"
+model-bakery = "1.20.5"
 pre-commit = "4.2.0"
 pytest = "8.4.0"
 pytest-django = "4.11.1"
