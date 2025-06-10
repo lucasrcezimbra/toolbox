@@ -37,6 +37,9 @@
                     </div>
                     <div class="tool-info">
                         <span class="me-3">Added on: <time datetime="{{ tool.added_at|date:'Y-m-d' }}">{{ tool.added_at|date:'Y-m-d' }}</time></span>
+                        {% if tool.last_commit_at %}
+                            <span class="me-3">Last commit: <time datetime="{{ tool.last_commit_at|date:'Y-m-d' }}">{{ tool.last_commit_at|date:'Y-m-d' }}</time></span>
+                        {% endif %}
                     </div>
                 </div>
                 {% if tool.notes %}
