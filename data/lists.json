@@ -633,7 +633,7 @@
       "slug": "python-logging",
       "tools": [
         [
-          "https://github.com/jteppinette/python-logfmter"
+          "https://github.com/josheppinette/python-logfmter"
         ],
         [
           "https://github.com/hynek/structlog"
