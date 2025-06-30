@@ -51,7 +51,7 @@
   {
     "fields": {
       "notes": "logfmt formatter",
-      "url_github": "https://github.com/jteppinette/python-logfmter"
+      "url_github": "https://github.com/josheppinette/python-logfmter"
     },
     "model": "core.tool"
   },

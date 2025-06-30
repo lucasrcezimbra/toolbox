@@ -14,6 +14,6 @@ echo "datafix: getting redirect URL"
 new_url=$(curl -s -o /dev/null -w "%{redirect_url}" -I "$url" | tr '[:upper:]' '[:lower:]')
 echo "datafix: redirect URL '$new_url'"
 
-echo "datafix: updating file data/lists.json"
-sed -i "s|$url|$new_url|" data/lists.json
+echo "datafix: updating file data/*.json"
+sed -i "s|$url|$new_url|" data/*.json 
 echo "datafix: file updated. Done!"

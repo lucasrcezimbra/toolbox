@@ -9,6 +9,7 @@ datacollect:
 
 datafix:
 	poetry run python manage.py loaddata data/lists.json 2>&1 1>/dev/null | xargs bin/datafix
+	poetry run python manage.py runscript loadnotes 2>&1 1>/dev/null | xargs bin/datafix
 
 dataupdate:
 	make datacollect github=$(github)
