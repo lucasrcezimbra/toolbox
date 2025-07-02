@@ -78,3 +78,13 @@ This is a Django-based web application that manages a catalog of development too
 ### Best Practices
 - Always prefer make commands; avoid using poetry and python directly
 - Always run dbnew before dbload
+
+### Data Import and URL Management
+The data import process handles GitHub repository URL changes automatically:
+
+1. **URL Normalization**: `import_from_github.py` converts all GitHub URLs to lowercase to ensure consistency
+2. **Automatic URL Fixing**: When `loadnotes.py` fails due to changed GitHub URLs, the CI workflow automatically runs `make datafix`
+3. **Datafix Process**: The `bin/datafix` script detects failed URLs, follows redirects, and updates JSON files with correct URLs
+4. **CI Integration**: GitHub Actions workflow automatically handles URL changes by running datafix on failures and creating PRs with fixes
+
+**Important**: The `loadnotes.py` script is designed to fail fast when encountering missing tools, allowing the automated datafix process to resolve URL changes. This ensures the CI process can automatically maintain data consistency when GitHub repositories are moved or renamed.
