@@ -7,6 +7,6 @@ def run():
             try:
                 deserialized.object.save(update_fields=["notes"])
             except Exception as e:
-                print("Failed to import:", deserialized.object.url_github)
-                raise e
-
+                raise Exception(
+                    f"Failed to import: {deserialized.object.url_github}"
+                ) from e
