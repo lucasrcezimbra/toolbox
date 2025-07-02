@@ -9,4 +9,3 @@ def run():
             except Exception as e:
                 print("Failed to import:", deserialized.object.url_github)
                 raise e
-
