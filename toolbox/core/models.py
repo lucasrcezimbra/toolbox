@@ -19,6 +19,7 @@ class Tool(models.Model):
     url_github = models.URLField(unique=True)
     stargazers = models.IntegerField()
     forks = models.IntegerField()
+    last_commit_date = models.DateTimeField(null=True, blank=True)
 
     objects = ToolManager()
     tags = TaggableManager()

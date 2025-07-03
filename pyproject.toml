@@ -30,8 +30,8 @@ pytest-mock = "3.14.1"
 
 
 [tool.djlint]
-blank_line_after_tag="endblock,extends"
-blank_line_before_tag="block"
+blank_line_after_tag = "endblock,extends"
+blank_line_before_tag = "block"
 
 
 [tool.pytest.ini_options]

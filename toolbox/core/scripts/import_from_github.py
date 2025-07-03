@@ -13,7 +13,8 @@ SELECT
     repos.homepage,
     repos.archived,
     repos.stargazers_count,
-    repos.forks_count
+    repos.forks_count,
+    repos.pushed_at
 FROM
     stars
     JOIN repos ON
@@ -50,6 +51,7 @@ def run():
         archived,
         stargazers_count,
         forks_count,
+        pushed_at,
     ) in rows:
         t = Tool(
             archived=archived,
@@ -60,6 +62,7 @@ def run():
             slug=name,
             stargazers=stargazers_count,
             forks=forks_count,
+            last_commit_date=pushed_at,
         )
         try:
             t.save()

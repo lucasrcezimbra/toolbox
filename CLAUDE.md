@@ -7,6 +7,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ### Installation and Setup
 ```bash
 make install          # Install dependencies, setup pre-commit hooks, copy env file, run migrations
+
+# Full data setup (required for first-time setup or fresh development):
+make datacollect github=<username>  # Collect GitHub starred repos data
+make dbnew                         # Reset database (drops and recreates)
+make dbload                        # Import collected data into database
 ```
 
 ### Development Server
@@ -74,10 +79,12 @@ This is a Django-based web application that manages a catalog of development too
 - Static files served via whitenoise with compression
 - Database URL configured via environment variables
 - Tools are automatically tagged with "opensource" and programming language tags
+- **Data Migrations**: No need to create data migrations - the database is always recreated by the `dbnew` script during development
 
 ### Best Practices
 - Always prefer make commands; avoid using poetry and python directly
 - Always run dbnew before dbload
+- For fresh development setup, run: `make datacollect github=<username> && make dbnew && make dbload`
 
 ### Data Import and URL Management
 The data import process handles GitHub repository URL changes automatically:
