@@ -111,10 +111,11 @@ make datafix          # Fix data inconsistencies (URL redirects, etc.)
 
 ### Making Changes
 1. **Always use Poetry**: Run commands with `poetry run` or use `make` commands
-2. **Database workflow**: Always run `make dbnew` before `make dbload` for fresh data
-3. **Testing**: Write tests for new functionality following existing patterns
-4. **Data migrations**: Not needed - database is recreated by `dbnew` script
-5. **URL handling**: The system automatically fixes GitHub URL redirects via `datafix`
+2. **Always run `make lint` before each commit**: This runs pre-commit hooks (ruff, black, djlint, etc.) to ensure code quality and style consistency
+3. **Database workflow**: Always run `make dbnew` before `make dbload` for fresh data
+4. **Testing**: Write tests for new functionality following existing patterns
+5. **Data migrations**: Not needed - database is recreated by `dbnew` script
+6. **URL handling**: The system automatically fixes GitHub URL redirects via `datafix`
 
 ### Common Tasks
 - **Adding new tools**: Import via GitHub data collection, enhance with manual notes
@@ -124,6 +125,7 @@ make datafix          # Fix data inconsistencies (URL redirects, etc.)
 
 ### Best Practices
 - Prefer `make` commands over direct poetry/python calls
+- **Always run `make lint` before committing changes** to ensure code quality and prevent CI failures
 - Always test locally before pushing changes
 - Use existing Bootstrap and HTMX patterns for UI changes
 - Keep the codebase simple and maintainable
