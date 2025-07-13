@@ -1,0 +1,33 @@
+name: Copilot Setup Steps
+
+on:
+  workflow_dispatch:
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Install Poetry
+        run: pipx install poetry
+        
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'poetry'
+          
+      - name: Install project dependencies
+        run: make install
+        
+      - name: Verify installation
+        run: |
+          echo "✅ Poetry installed successfully"
+          poetry --version
+          echo "✅ Dependencies installed successfully"
+          poetry run python --version
+          echo "✅ Django setup completed successfully"
+          poetry run python manage.py check
