@@ -22,11 +22,5 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'poetry'
-      - name: Install Python dependencies
-        run: poetry install
-      - name: Install pre-commit hooks
-        run: poetry run pre-commit install
-      - name: Complete setup
-        run: |
-          cp contrib/env-sample .env
-          poetry run python manage.py migrate
+      - name: Install and setup project
+        run: make install
