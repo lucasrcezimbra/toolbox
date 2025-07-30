@@ -1,4 +1,4 @@
-.PHONY: build datacollect dataupdate dbdump dbload dbnew dev install lint test
+.PHONY: build datacollect dataupdate dbdump dbload dbnew dev install lint test update-template
 
 build:
 	poetry run python manage.py distill-local --collectstatic --force ./docs
@@ -45,3 +45,6 @@ lint:
 
 test:
 	poetry run pytest
+
+update-template:
+	poetry run cruft update --skip-apply-ask
