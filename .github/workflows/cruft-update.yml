@@ -30,7 +30,7 @@ jobs:
           cruft update --skip-apply-ask
       - name: Create Pull Request
         if: steps.cruft-check.outputs.template-updated == 'true'
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "chore: update template with cruft"
