@@ -1,20 +1,20 @@
 {
   "checkout": null,
-  "commit": "854bcd3b17a2d94e12b32219fd4eda9f66d7b4cb",
+  "commit": "51ab94a280a798132331ffec9e793cb421903ecc",
   "context": {
     "cookiecutter": {
-      "_commit": "854bcd3b17a2d94e12b32219fd4eda9f66d7b4cb",
-      "_template": "https://github.com/lucasrcezimbra/django-template",
-      "api": "No",
-      "css": "Bootstrap",
-      "database": "SQLite",
-      "deploy": "No",
-      "github_username": "lucasrcezimbra",
-      "html": "HTMX",
       "project_name": "Toolbox",
       "project_slug": "toolbox",
+      "github_username": "lucasrcezimbra",
+      "database": "SQLite",
+      "api": "No",
+      "html": "HTMX",
+      "css": "Bootstrap",
+      "deploy": "No",
+      "use_sentry": false,
       "staticfiles": true,
-      "use_sentry": false
+      "_template": "https://github.com/lucasrcezimbra/django-template",
+      "_commit": "51ab94a280a798132331ffec9e793cb421903ecc"
     }
   },
   "directory": null,
