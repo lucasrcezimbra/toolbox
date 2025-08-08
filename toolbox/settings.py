@@ -63,8 +63,10 @@ WSGI_APPLICATION = "toolbox.wsgi.application"
 
 
 # Database
+default_db = config("DATABASE_URL", cast=dburl)
+
 DATABASES = {
-    "default": config("DATABASE_URL", cast=dburl),
+    "default": default_db,
 }
 
 
