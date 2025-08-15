@@ -3,3 +3,4 @@ DATABASE_URL=sqlite:///db.sqlite3
 DEBUG=True
 ENV=local
 SECRET_KEY=THIS_IS_NOT_A_GOOD_SECRET
+STORAGE_STATIC_BACKEND=django.contrib.staticfiles.storage.StaticFilesStorage
