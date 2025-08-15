@@ -1,0 +1,12 @@
+diff a/toolbox/settings.py b/toolbox/settings.py	(rejected hunks)
+@@ -106,6 +107,9 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
+ STATIC_URL = "/static/"
+ STORAGES = {
+     "staticfiles": {
+-        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
++        "BACKEND": config(
++            "STORAGE_STATIC_BACKEND",
++            default="whitenoise.storage.CompressedManifestStaticFilesStorage",
++        ),
+     },
+ }

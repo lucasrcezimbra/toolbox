@@ -3,6 +3,7 @@ from pathlib import Path
 from decouple import Csv, config
 from dj_database_url import parse as dburl
 
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = config("SECRET_KEY")
