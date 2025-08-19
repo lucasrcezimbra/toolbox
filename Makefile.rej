@@ -1,0 +1,9 @@
+diff a/Makefile b/Makefile	(rejected hunks)
+@@ -17,6 +17,7 @@ install:
+ 
+ lint:
+ 	poetry run pre-commit run -a
++	poetry run python manage.py lintmigrations
+ 
+ run:
+ 	poetry run gunicorn toolbox.wsgi:application
