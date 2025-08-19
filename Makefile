@@ -42,6 +42,7 @@ install:
 
 lint:
 	poetry run pre-commit run -a
+	poetry run pytest --dead-fixtures
 
 test:
 	poetry run pytest
