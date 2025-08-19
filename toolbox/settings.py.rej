@@ -6,4 +6,4 @@ diff a/toolbox/settings.py b/toolbox/settings.py	(rejected hunks)
 +    "django_migration_linter",
      "django_htmx",
  ]
- 
+
