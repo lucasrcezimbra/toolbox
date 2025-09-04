@@ -254,7 +254,7 @@
   {
     "fields": {
       "notes": "ASGI only; supports HTTP/1.1 and WebSockets.",
-      "url_github": "https://github.com/encode/uvicorn"
+      "url_github": "https://github.com/kludex/uvicorn"
     },
     "model": "core.tool"
   },
