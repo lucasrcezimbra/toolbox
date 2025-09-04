@@ -217,7 +217,7 @@
           "https://github.com/benoitc/gunicorn"
         ],
         [
-          "https://github.com/encode/uvicorn"
+          "https://github.com/kludex/uvicorn"
         ],
         [
           "https://github.com/pgjones/hypercorn"
