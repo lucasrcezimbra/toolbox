@@ -499,14 +499,14 @@ django = ">=4.2"
 
 [[package]]
 name = "django-htmx"
-version = "1.24.1"
+version = "1.25.0"
 description = "Extensions for using Django with htmx."
 optional = false
 python-versions = ">=3.9"
 groups = ["main"]
 files = [
-    {file = "django_htmx-1.24.1-py3-none-any.whl", hash = "sha256:8fc6feba50f77cc45cebd269c94a30a5c0063dbbdb7af8963062e4d5f7a0c9e4"},
-    {file = "django_htmx-1.24.1.tar.gz", hash = "sha256:2750c05ff673e4c4a86f0d5e79aaff3c1bdd4b1c73089a4e7a3ad4aa4a008ee7"},
+    {file = "django_htmx-1.25.0-py3-none-any.whl", hash = "sha256:b7f8a744b7540dc2ac40b04e0d3eee49b148baba60c467f1e868815d79315289"},
+    {file = "django_htmx-1.25.0.tar.gz", hash = "sha256:18ba6977a2636adcbb74ce63d75538be9958d4bdbe18f54dff57fdb6372a7c11"},
 ]
 
 [package.dependencies]
@@ -1414,4 +1414,4 @@ brotli = ["brotli"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.10"
-content-hash = "0c6d19fa2b227828ec9b78edc47c38635adec9c44f93d341e9d021058b3d7810"
+content-hash = "23b45f4c6a2e9c72d7e8ac52a9f34395d03ce1ee149f6ab80e04baf995960847"
