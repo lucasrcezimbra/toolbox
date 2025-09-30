@@ -1,9 +1,9 @@
 {
   "checkout": null,
-  "commit": "5db696618303e4fc82950ccb25a0b8ba2714b38c",
+  "commit": "a2ddb6c975089422b6e557c19d0c3b53b88ec464",
   "context": {
     "cookiecutter": {
-      "_commit": "5db696618303e4fc82950ccb25a0b8ba2714b38c",
+      "_commit": "a2ddb6c975089422b6e557c19d0c3b53b88ec464",
       "_template": "https://github.com/lucasrcezimbra/django-template",
       "api": "No",
       "css": "Bootstrap",
