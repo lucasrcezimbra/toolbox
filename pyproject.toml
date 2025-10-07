@@ -1,21 +1,24 @@
-[tool.poetry]
+[project]
 name = "toolbox"
 version = "0.0.0"
 description = ""
 authors = []
+requires-python = "~=3.13"
+dependencies = [
+  "dj-database-url==3.0.1",
+  "django==5.2.7",
+  "django-distill==3.2.7",
+  "django-extensions==4.1",
+  "django-htmx==1.26.0",
+  "django-taggit==6.1.0",
+  "fontawesomefree==^6.6.0",
+  "gunicorn==23.0.0",
+  "python-decouple==3.8",
+  "whitenoise[brotli]==6.10.0",
+]
 
-[tool.poetry.dependencies]
-python = ">=3.10"
-dj-database-url = "3.0.1"
-django = "5.2.7"
-django-distill = "3.2.7"
-django-extensions = "4.1"
-django-htmx = "1.26.0"
-django-taggit = "6.1.0"
-fontawesomefree = "^6.6.0"
-gunicorn = "23.0.0"
-python-decouple = "3.8"
-whitenoise = {extras = ["brotli"], version = "6.10.0"}
+[tool.poetry]
+package-mode = false
 
 [tool.poetry.group.data.dependencies]
 github-to-sqlite = "2.9"
