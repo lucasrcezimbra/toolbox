@@ -27,7 +27,7 @@ sqlite-utils = "3.38"
 [tool.poetry.group.dev.dependencies]
 model-bakery = "1.20.5"
 pre-commit = "4.4.0"
-pytest = "8.4.2"
+pytest = "9.0.0"
 pytest-deadfixtures = "2.2.1"
 pytest-django = "4.11.1"
 pytest-mock = "3.15.1"
