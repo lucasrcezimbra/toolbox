@@ -1,0 +1,3430 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lucas Cezimbra Toolbox</title>
+        
+        <script src="/static/django_htmx/htmx.min.js" defer></script><script src="/static/django_htmx/django-htmx.js" data-debug="True" defer></script>
+        <link href="/static/bootstrap.min.css" rel="stylesheet" async>
+        <link href="/static/fontawesomefree/css/fontawesome.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <link href="/static/fontawesomefree/css/solid.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <link href="/static/fontawesomefree/css/brands.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <style>
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+        .archive-badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            padding: 0.125rem 0.375rem;
+            background-color: #d29922;
+            color: white;
+            border-radius: 0.25rem;
+            vertical-align: middle;
+        }
+
+        /* index.html */
+        .hero-section {
+            background-color: rgba(13, 110, 253, 0.1);
+            border-radius: 0.5rem;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #0d6efd;
+        }
+        .recent-tool {
+            border-left: 3px solid #0d6efd;
+            background-color: rgba(13, 110, 253, 0.1);
+            transition: transform 0.2s ease;
+        }
+        .recent-tool:hover {
+            transform: translateX(5px);
+            background-color: rgba(13, 110, 253, 0.2);
+        }
+        .tool-category {
+            color: #6c757d;
+        }
+        .list-info {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+
+        /* tool detail page */
+        .tool-header {
+            background-color: rgba(13, 110, 253, 0.1);
+            border-radius: 0.5rem;
+        }
+        .tool-tag {
+            background-color: rgba(13, 110, 253, 0.2);
+            color: #0d6efd;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            margin-right: 0.5rem;
+        }
+        .tool-info {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        .tool-link {
+            text-decoration: none;
+            color: #0d6efd;
+        }
+        .tool-link:hover {
+            text-decoration: underline;
+        }
+        </style>
+    </head>
+    <body hx-boost="true">
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Lucas Cezimbra Toolbox</a>
+                    <button class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/lists/">Lists</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/tags/">Tags</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">#python</h2>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/nanochat/" class="fw-bold">nanochat</a>
+        <span>-</span>
+        <a href="https://github.com/karpathy/nanochat"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 37829 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 4661 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-10-14
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-17
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/pycrdt/" class="fw-bold">pycrdt</a>
+        <span>-</span>
+        <a href="https://github.com/y-crdt/pycrdt"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 159 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 29 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-10-13
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-29
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/claude-code-easyhooks/" class="fw-bold">claude-code-easyhooks</a>
+        <span>-</span>
+        <a href="https://github.com/lucasrcezimbra/claude-code-easyhooks"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 1 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 1 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-10-06
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-21
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/saq/" class="fw-bold">saq</a>
+        <span>-</span>
+        <a href="https://github.com/tobymao/saq"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 761 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 60 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-10-03
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-24
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/coveragepy/" class="fw-bold">coveragepy</a>
+        <span>-</span>
+        <a href="https://github.com/coveragepy/coveragepy"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 3282 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 463 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-10-02
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-30
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/nerd-dictation/" class="fw-bold">nerd-dictation</a>
+        <span>-</span>
+        <a href="https://github.com/ideasman42/nerd-dictation"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 1664 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 137 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-09-29
+            
+                | <span class="text-muted">Last activity:</span> 2025-10-10
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-eventstream/" class="fw-bold">django-eventstream</a>
+        <span>-</span>
+        <a href="https://github.com/fanout/django-eventstream"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 836 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 95 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-09-25
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-07
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/elia/" class="fw-bold">elia</a>
+        <span>-</span>
+        <a href="https://github.com/darrenburns/elia"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 2376 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 152 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-09-22
+            
+                | <span class="text-muted">Last activity:</span> 2024-10-10
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-tailwind-cli/" class="fw-bold">django-tailwind-cli</a>
+        <span>-</span>
+        <a href="https://github.com/django-commons/django-tailwind-cli"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 179 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 18 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-09-22
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-24
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-durable/" class="fw-bold">django-durable</a>
+        <span>-</span>
+        <a href="https://github.com/grantjenks/django-durable"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 6 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 0 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-09-15
+            
+                | <span class="text-muted">Last activity:</span> 2025-10-23
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-tenant-users/" class="fw-bold">django-tenant-users</a>
+        <span>-</span>
+        <a href="https://github.com/corvia/django-tenant-users"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 408 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 77 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-09-15
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-24
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/Substack2Markdown/" class="fw-bold">Substack2Markdown</a>
+        <span>-</span>
+        <a href="https://github.com/timf34/substack2markdown"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 337 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 119 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-09-02
+            
+                | <span class="text-muted">Last activity:</span> 2025-09-24
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django_recurring/" class="fw-bold">django_recurring</a>
+        <span>-</span>
+        <a href="https://github.com/boosh/django_recurring"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 17 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 1 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-08-25
+            
+                | <span class="text-muted">Last activity:</span> 2025-05-02
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-address/" class="fw-bold">django-address</a>
+        <span>-</span>
+        <a href="https://github.com/furious-luke/django-address"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 442 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 180 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-08-25
+            
+                | <span class="text-muted">Last activity:</span> 2023-10-13
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-deprecate-fields/" class="fw-bold">django-deprecate-fields</a>
+        <span>-</span>
+        <a href="https://github.com/3yourmind/django-deprecate-fields"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 191 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 21 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-08-18
+            
+                | <span class="text-muted">Last activity:</span> 2025-07-15
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-postgres-extra/" class="fw-bold">django-postgres-extra</a>
+        <span>-</span>
+        <a href="https://github.com/sectorlabs/django-postgres-extra"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 748 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 107 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-08-18
+            
+                | <span class="text-muted">Last activity:</span> 2025-10-18
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/whitenoise/" class="fw-bold">whitenoise</a>
+        <span>-</span>
+        <a href="https://github.com/evansd/whitenoise"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 2703 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 154 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-08-18
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-26
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/langextract/" class="fw-bold">langextract</a>
+        <span>-</span>
+        <a href="https://github.com/google/langextract"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 17010 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 1205 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-08-11
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-27
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/factory_boy/" class="fw-bold">factory_boy</a>
+        <span>-</span>
+        <a href="https://github.com/factoryboy/factory_boy"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 3730 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 408 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-08-07
+            
+                | <span class="text-muted">Last activity:</span> 2025-10-01
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/pipx/" class="fw-bold">pipx</a>
+        <span>-</span>
+        <a href="https://github.com/pypa/pipx"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 12299 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 503 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-08-04
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-24
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/tinyio/" class="fw-bold">tinyio</a>
+        <span>-</span>
+        <a href="https://github.com/patrick-kidger/tinyio"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 687 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 18 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-07-28
+            
+                | <span class="text-muted">Last activity:</span> 2025-10-03
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-minify-html/" class="fw-bold">django-minify-html</a>
+        <span>-</span>
+        <a href="https://github.com/adamchainz/django-minify-html"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 155 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 8 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-07-26
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-17
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-perf-rec/" class="fw-bold">django-perf-rec</a>
+        <span>-</span>
+        <a href="https://github.com/adamchainz/django-perf-rec"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 357 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 30 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-07-26
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-17
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-linear-migrations/" class="fw-bold">django-linear-migrations</a>
+        <span>-</span>
+        <a href="https://github.com/adamchainz/django-linear-migrations"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 225 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 25 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-07-26
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-17
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/blacken-docs/" class="fw-bold">blacken-docs</a>
+        <span>-</span>
+        <a href="https://github.com/adamchainz/blacken-docs"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 675 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 46 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-07-26
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-17
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/model_bakery/" class="fw-bold">model_bakery</a>
+        <span>-</span>
+        <a href="https://github.com/model-bakers/model_bakery"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 951 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 97 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-07-25
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-24
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-recurrence/" class="fw-bold">django-recurrence</a>
+        <span>-</span>
+        <a href="https://github.com/jazzband/django-recurrence"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 527 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 192 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-07-23
+            
+                | <span class="text-muted">Last activity:</span> 2024-10-03
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django5-scheduler/" class="fw-bold">django5-scheduler</a>
+        <span>-</span>
+        <a href="https://github.com/nciadmin/django5-scheduler"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 2 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 1 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-07-23
+            
+                | <span class="text-muted">Last activity:</span> 2025-05-19
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-scheduler/" class="fw-bold">django-scheduler</a>
+        <span>-</span>
+        <a href="https://github.com/llazzaro/django-scheduler"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 1327 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 405 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-07-23
+            
+                | <span class="text-muted">Last activity:</span> 2024-04-11
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/any-agent/" class="fw-bold">any-agent</a>
+        <span>-</span>
+        <a href="https://github.com/mozilla-ai/any-agent"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 1039 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 78 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-07-23
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-29
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/textual/" class="fw-bold">textual</a>
+        <span>-</span>
+        <a href="https://github.com/textualize/textual"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 32532 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 1027 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-07-17
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-30
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/watchfiles/" class="fw-bold">watchfiles</a>
+        <span>-</span>
+        <a href="https://github.com/samuelcolvin/watchfiles"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 2365 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 132 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-07-14
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-28
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/llm-fragments-youtube/" class="fw-bold">llm-fragments-youtube</a>
+        <span>-</span>
+        <a href="https://github.com/redraw/llm-fragments-youtube"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 32 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 0 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-07-11
+            
+                | <span class="text-muted">Last activity:</span> 2025-06-14
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/posthog/" class="fw-bold">posthog</a>
+        <span>-</span>
+        <a href="https://github.com/posthog/posthog"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 30248 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 2080 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-07-03
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-30
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/serena/" class="fw-bold">serena</a>
+        <span>-</span>
+        <a href="https://github.com/oraios/serena"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 16588 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 1132 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-07-02
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-29
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-user-sessions/" class="fw-bold">django-user-sessions</a>
+        <span>-</span>
+        <a href="https://github.com/jazzband/django-user-sessions"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 698 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 129 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-26
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-24
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/pre-commit/" class="fw-bold">pre-commit</a>
+        <span>-</span>
+        <a href="https://github.com/pre-commit/pre-commit"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 14637 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 909 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-24
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-25
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/mcp-context-forge/" class="fw-bold">mcp-context-forge</a>
+        <span>-</span>
+        <a href="https://github.com/ibm/mcp-context-forge"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 2895 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 413 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-23
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-29
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/cascadia-code/" class="fw-bold">cascadia-code</a>
+        <span>-</span>
+        <a href="https://github.com/microsoft/cascadia-code"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 27347 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 840 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-20
+            
+                | <span class="text-muted">Last activity:</span> 2025-03-06
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/awesome-claude-code/" class="fw-bold">awesome-claude-code</a>
+        <span>-</span>
+        <a href="https://github.com/hesreallyhim/awesome-claude-code"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 17419 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 986 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-17
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-28
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/claude-agent-sdk-python/" class="fw-bold">claude-agent-sdk-python</a>
+        <span>-</span>
+        <a href="https://github.com/anthropics/claude-agent-sdk-python"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 3302 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 429 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-17
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-27
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/youtube-transcript-api/" class="fw-bold">youtube-transcript-api</a>
+        <span>-</span>
+        <a href="https://github.com/jdepoix/youtube-transcript-api"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 6502 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 681 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-16
+            
+                | <span class="text-muted">Last activity:</span> 2025-10-13
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/llm-youtube/" class="fw-bold">llm-youtube</a>
+        <span>-</span>
+        <a href="https://github.com/irfansofyana/llm-youtube"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 6 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 0 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-16
+            
+                | <span class="text-muted">Last activity:</span> 2025-04-26
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/llm-tools-memory/" class="fw-bold">llm-tools-memory</a>
+        <span>-</span>
+        <a href="https://github.com/tombedor/llm-tools-memory"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 3 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 0 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-16
+            
+                | <span class="text-muted">Last activity:</span> 2025-05-28
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/llm-git/" class="fw-bold">llm-git</a>
+        <span>-</span>
+        <a href="https://github.com/ottoallmendinger/llm-git"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 7 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 1 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-16
+            
+                | <span class="text-muted">Last activity:</span> 2025-05-05
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/llm-github-copilot/" class="fw-bold">llm-github-copilot</a>
+        <span>-</span>
+        <a href="https://github.com/jmdaly/llm-github-copilot"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 26 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 6 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-16
+            
+                | <span class="text-muted">Last activity:</span> 2025-07-19
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/llm-github-models/" class="fw-bold">llm-github-models</a>
+        <span>-</span>
+        <a href="https://github.com/tonybaloney/llm-github-models"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 88 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 13 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-16
+            
+                | <span class="text-muted">Last activity:</span> 2025-08-18
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/llm-edit/" class="fw-bold">llm-edit</a>
+        <span>-</span>
+        <a href="https://github.com/ajac-zero/llm-edit"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 3 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 0 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-16
+            
+                | <span class="text-muted">Last activity:</span> 2025-01-28
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/llm-openai-plugin/" class="fw-bold">llm-openai-plugin</a>
+        <span>-</span>
+        <a href="https://github.com/simonw/llm-openai-plugin"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 48 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 9 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-16
+            
+                | <span class="text-muted">Last activity:</span> 2025-10-06
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/llm-cmd-comp/" class="fw-bold">llm-cmd-comp</a>
+        <span>-</span>
+        <a href="https://github.com/cgamesplay/llm-cmd-comp"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 45 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 5 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-16
+            
+                | <span class="text-muted">Last activity:</span> 2025-06-18
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/dead/" class="fw-bold">dead</a>
+        <span>-</span>
+        <a href="https://github.com/asottile/dead"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 391 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 15 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-12
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-25
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-queryhunter/" class="fw-bold">django-queryhunter</a>
+        <span>-</span>
+        <a href="https://github.com/paulgilmartin/django-queryhunter"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 155 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 6 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-06
+            
+                | <span class="text-muted">Last activity:</span> 2025-07-17
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/kitty/" class="fw-bold">kitty</a>
+        <span>-</span>
+        <a href="https://github.com/kovidgoyal/kitty"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 30008 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 1204 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-05
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-30
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-maintenance-mode/" class="fw-bold">django-maintenance-mode</a>
+        <span>-</span>
+        <a href="https://github.com/fabiocaccamo/django-maintenance-mode"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 518 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 56 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-06-04
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-01
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/steganographr-python/" class="fw-bold">steganographr-python</a>
+        <span>-</span>
+        <a href="https://github.com/irismessage/steganographr-python"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 1 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 0 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-05-30
+            
+                | <span class="text-muted">Last activity:</span> 2023-07-26
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/llm-tools-simpleeval/" class="fw-bold">llm-tools-simpleeval</a>
+        <span>-</span>
+        <a href="https://github.com/simonw/llm-tools-simpleeval"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 19 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 0 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-05-28
+            
+                | <span class="text-muted">Last activity:</span> 2025-05-16
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/simpleeval/" class="fw-bold">simpleeval</a>
+        <span>-</span>
+        <a href="https://github.com/danthedeckie/simpleeval"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 553 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 88 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-05-28
+            
+                | <span class="text-muted">Last activity:</span> 2024-12-20
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/pyprojectx/" class="fw-bold">pyprojectx</a>
+        <span>-</span>
+        <a href="https://github.com/pyprojectx/pyprojectx"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 137 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 10 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-05-22
+            
+                | <span class="text-muted">Last activity:</span> 2025-10-21
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/dj-database-url/" class="fw-bold">dj-database-url</a>
+        <span>-</span>
+        <a href="https://github.com/jazzband/dj-database-url"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 1546 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 214 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-05-20
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-10
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/asgiref/" class="fw-bold">asgiref</a>
+        <span>-</span>
+        <a href="https://github.com/django/asgiref"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 1594 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 231 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-05-20
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-19
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/snakeviz/" class="fw-bold">snakeviz</a>
+        <span>-</span>
+        <a href="https://github.com/jiffyclub/snakeviz"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 2533 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 139 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-05-19
+            
+                | <span class="text-muted">Last activity:</span> 2024-11-09
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/requests-pro/" class="fw-bold">requests-pro</a>
+        <span>-</span>
+        <a href="https://github.com/henriquebastos/requests-pro"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 30 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 2 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-05-12
+            
+                | <span class="text-muted">Last activity:</span> 2025-09-15
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/pipask/" class="fw-bold">pipask</a>
+        <span>-</span>
+        <a href="https://github.com/feynmanix/pipask"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 158 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 4 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-05-05
+            
+                | <span class="text-muted">Last activity:</span> 2025-10-27
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/fastapi_mcp/" class="fw-bold">fastapi_mcp</a>
+        <span>-</span>
+        <a href="https://github.com/tadata-org/fastapi_mcp"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 11161 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 872 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-04-22
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-24
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/ion-python/" class="fw-bold">ion-python</a>
+        <span>-</span>
+        <a href="https://github.com/amazon-ion/ion-python"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 269 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 48 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-04-21
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-10
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/outlines/" class="fw-bold">outlines</a>
+        <span>-</span>
+        <a href="https://github.com/dottxt-ai/outlines"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 13000 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 650 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-04-21
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-28
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/polyfactory/" class="fw-bold">polyfactory</a>
+        <span>-</span>
+        <a href="https://github.com/litestar-org/polyfactory"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 1354 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 106 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-04-15
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-26
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/adk-python/" class="fw-bold">adk-python</a>
+        <span>-</span>
+        <a href="https://github.com/google/adk-python"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 15867 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 2511 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-04-15
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-27
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/llm-templates-fabric/" class="fw-bold">llm-templates-fabric</a>
+        <span>-</span>
+        <a href="https://github.com/simonw/llm-templates-fabric"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 32 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 8 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-04-09
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-26
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/llm-docs/" class="fw-bold">llm-docs</a>
+        <span>-</span>
+        <a href="https://github.com/simonw/llm-docs"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 25 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 1 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-04-09
+            
+                | <span class="text-muted">Last activity:</span> 2025-05-05
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-pydantic-field/" class="fw-bold">django-pydantic-field</a>
+        <span>-</span>
+        <a href="https://github.com/surenkov/django-pydantic-field"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 191 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 16 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-04-04
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-06
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/smartfunc/" class="fw-bold">smartfunc</a>
+        <span>-</span>
+        <a href="https://github.com/koaning/smartfunc"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 510 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 15 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-04-03
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-07
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/beanlabs/" class="fw-bold">beanlabs</a>
+        <span>-</span>
+        <a href="https://github.com/beancount/beanlabs"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 13 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 6 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-04-02
+            
+                | <span class="text-muted">Last activity:</span> 2025-04-06
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/beanquery-mcp/" class="fw-bold">beanquery-mcp</a>
+        <span>-</span>
+        <a href="https://github.com/vanto/beanquery-mcp"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 37 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 1 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-04-01
+            
+                | <span class="text-muted">Last activity:</span> 2025-04-01
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/unvibe/" class="fw-bold">unvibe</a>
+        <span>-</span>
+        <a href="https://github.com/santinic/unvibe"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 82 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 5 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-03-31
+            
+                | <span class="text-muted">Last activity:</span> 2025-03-22
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/pampy/" class="fw-bold">pampy</a>
+        <span>-</span>
+        <a href="https://github.com/santinic/pampy"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 3529 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 126 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-03-31
+            
+                | <span class="text-muted">Last activity:</span> 2025-01-16
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-templated-email/" class="fw-bold">django-templated-email</a>
+        <span>-</span>
+        <a href="https://github.com/vintasoftware/django-templated-email"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 781 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 134 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-03-24
+            
+                | <span class="text-muted">Last activity:</span> 2025-09-29
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-markdownx/" class="fw-bold">django-markdownx</a>
+        <span>-</span>
+        <a href="https://github.com/neutronx/django-markdownx"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 931 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 159 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-03-21
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-21
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/datamodel-code-generator/" class="fw-bold">datamodel-code-generator</a>
+        <span>-</span>
+        <a href="https://github.com/koxudaxi/datamodel-code-generator"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 3606 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 408 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-03-20
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-30
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/fava/" class="fw-bold">fava</a>
+        <span>-</span>
+        <a href="https://github.com/beancount/fava"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 2267 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 326 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-03-20
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-23
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/dj-stripe/" class="fw-bold">dj-stripe</a>
+        <span>-</span>
+        <a href="https://github.com/dj-stripe/dj-stripe"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 1757 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 510 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-03-14
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-20
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/browser-use/" class="fw-bold">browser-use</a>
+        <span>-</span>
+        <a href="https://github.com/browser-use/browser-use"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 73107 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 8723 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-03-13
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-29
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/python-phonenumbers/" class="fw-bold">python-phonenumbers</a>
+        <span>-</span>
+        <a href="https://github.com/daviddrysdale/python-phonenumbers"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 3688 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 435 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-03-11
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-20
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/wemake-python-styleguide/" class="fw-bold">wemake-python-styleguide</a>
+        <span>-</span>
+        <a href="https://github.com/wemake-services/wemake-python-styleguide"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 2799 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 414 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-03-10
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-28
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/ondivi/" class="fw-bold">ondivi</a>
+        <span>-</span>
+        <a href="https://github.com/blablatdinov/ondivi"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 36 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 1 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-03-10
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-28
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/OpenManus/" class="fw-bold">OpenManus</a>
+        <span>-</span>
+        <a href="https://github.com/foundationagents/openmanus"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 51058 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 8909 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-03-10
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-17
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/agents-json/" class="fw-bold">agents-json</a>
+        <span>-</span>
+        <a href="https://github.com/wild-card-ai/agents-json"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 1284 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 67 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-03-04
+            
+                | <span class="text-muted">Last activity:</span> 2025-08-21
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/Magma/" class="fw-bold">Magma</a>
+        <span>-</span>
+        <a href="https://github.com/microsoft/magma"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 1867 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 150 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-02-28
+            
+                | <span class="text-muted">Last activity:</span> 2025-10-04
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-viewcomponent/" class="fw-bold">django-viewcomponent</a>
+        <span>-</span>
+        <a href="https://github.com/rails-inspire-django/django-viewcomponent"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 71 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 2 <span class="text-muted">forks</span>
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-ui-components/">Django - UI Components</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-02-26
+            
+                | <span class="text-muted">Last activity:</span> 2025-01-11
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-bird/" class="fw-bold">django-bird</a>
+        <span>-</span>
+        <a href="https://github.com/joshuadavidthomas/django-bird"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 118 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 4 <span class="text-muted">forks</span>
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-ui-components/">Django - UI Components</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-02-26
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-24
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/potpie/" class="fw-bold">potpie</a>
+        <span>-</span>
+        <a href="https://github.com/potpie-ai/potpie"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 5027 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 484 <span class="text-muted">forks</span>
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/ai-software-engineers/">AI Software Engineers</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-02-25
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-27
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/vulture/" class="fw-bold">vulture</a>
+        <span>-</span>
+        <a href="https://github.com/jendrikseipp/vulture"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 4198 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 175 <span class="text-muted">forks</span>
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/python-linting/">Python - Linting</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-02-24
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-25
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/pytest-django-queries/" class="fw-bold">pytest-django-queries</a>
+        <span>-</span>
+        <a href="https://github.com/nyankiyoshi/pytest-django-queries"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 83 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 2 <span class="text-muted">forks</span>
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-profilling/">Django - Profilling</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-02-12
+            
+                | <span class="text-muted">Last activity:</span> 2021-03-01
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/skyvern/" class="fw-bold">skyvern</a>
+        <span>-</span>
+        <a href="https://github.com/skyvern-ai/skyvern"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 19196 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 1654 <span class="text-muted">forks</span>
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/llm/">LLM</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-02-12
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-30
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/smolagents/" class="fw-bold">smolagents</a>
+        <span>-</span>
+        <a href="https://github.com/huggingface/smolagents"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 24194 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 2155 <span class="text-muted">forks</span>
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/llm-agents/">LLM - Agents</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-02-07
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-19
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/pytest-django/" class="fw-bold">pytest-django</a>
+        <span>-</span>
+        <a href="https://github.com/pytest-dev/pytest-django"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 1498 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 352 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-02-07
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-04
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/instructor/" class="fw-bold">instructor</a>
+        <span>-</span>
+        <a href="https://github.com/567-labs/instructor"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 11902 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 897 <span class="text-muted">forks</span>
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/llm/">LLM</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-02-03
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-28
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/python-decouple/" class="fw-bold">python-decouple</a>
+        <span>-</span>
+        <a href="https://github.com/hbnetwork/python-decouple"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 2994 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 211 <span class="text-muted">forks</span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-02-01
+            
+                | <span class="text-muted">Last activity:</span> 2024-11-28
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/django-polymorphic/" class="fw-bold">django-polymorphic</a>
+        <span>-</span>
+        <a href="https://github.com/jazzband/django-polymorphic"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 1784 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 300 <span class="text-muted">forks</span>
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/django-models/">Django - Models</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-01-31
+            
+                | <span class="text-muted">Last activity:</span> 2025-11-30
+            
+        </small>
+    </li>
+</ul>
+
+    
+        <ul class="list-unstyled">
+    <li class="recent-tool p-3 mb-3">
+        
+        <a href="/tools/pyqti/" class="fw-bold">pyqti</a>
+        <span>-</span>
+        <a href="https://github.com/sealexan/pyqti"
+           class="tool-link"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <span>-</span>
+        
+            <a href="/tags/opensource/"><span class="tool-tag">#opensource</span></a>
+        
+            <a href="/tags/python/"><span class="tool-tag">#python</span></a>
+        
+        <br />
+        <i class="fa-solid fa-star"></i> 2 <span class="text-muted">stargazers |</span>
+        <i class="fa-solid fa-code-fork"></i> 0 <span class="text-muted">forks</span>
+        
+            <span class="d-block">
+                <span class="text-muted">Lists:</span>
+                
+                    <a href="/lists/edtech/">EdTech</a>
+                    
+                
+            </span>
+        
+        
+        <small class="d-block">
+            <span class="text-muted">Added on:</span> 2025-01-29
+            
+                | <span class="text-muted">Last activity:</span> 2023-03-02
+            
+        </small>
+    </li>
+</ul>
+
+    
+</ul>
+
+                        <span>Showing 100 of 601 tools</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        </div>
+        <script src="/static/bootstrap.min.js" defer></script>
+        <script data-goatcounter="https://toolbox.goatcounter.com/count"
+                async
+                src="//gc.zgo.at/count.js"></script>
+    </body>
+</html>
