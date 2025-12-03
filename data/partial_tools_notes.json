@@ -2,7 +2,7 @@
   {
     "fields": {
       "notes": "Render QTI as WebComponents. Storybook: https://qti-components.citolab.nl/",
-      "url_github": "https://github.com/citolab/qti-components"
+      "url_github": ""
     },
     "model": "core.tool"
   },
