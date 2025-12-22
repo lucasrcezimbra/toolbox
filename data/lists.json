@@ -128,7 +128,7 @@
           "https://github.com/mwarkentin/django-watchman"
         ],
         [
-          "https://github.com/revsys/django-health-check"
+          "https://github.com/codingjoe/django-health-check"
         ]
       ],
       "updated_at": "2024-10-11"
