@@ -1794,7 +1794,7 @@
       "slug": "django-liveview",
       "tools": [
         [
-          "https://github.com/adamghill/django-unicorn"
+          "https://github.com/django-commons/django-unicorn"
         ],
         [
           "https://github.com/edelvalle/reactor"
