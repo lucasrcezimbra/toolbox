@@ -128,7 +128,7 @@
   {
     "fields": {
       "notes": "Feed algorithm relay",
-      "url_github": "https://github.com/bitvora/algo-relay"
+      "url_github": "https://github.com/barrydeen/algo-relay"
     },
     "model": "core.tool"
   },
@@ -373,7 +373,7 @@
   {
     "fields": {
       "notes": "Private, Chat, Inbox, and Outbox relays",
-      "url_github": "https://github.com/bitvora/haven"
+      "url_github": "https://github.com/barrydeen/haven"
     },
     "model": "core.tool"
   },
