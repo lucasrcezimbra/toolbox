@@ -387,7 +387,7 @@
   {
     "fields": {
       "notes": "WoT = Web of Trust; saves all notes from people you follow, and people they follow",
-      "url_github": "https://github.com/bitvora/wot-relay"
+      "url_github": "https://github.com/barrydeen/wot-relay"
     },
     "model": "core.tool"
   },
