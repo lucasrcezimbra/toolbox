@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lucas Cezimbra Toolbox</title>
+        
+        <script src="/static/django_htmx/htmx.min.js" defer></script><script src="/static/django_htmx/django-htmx.js" data-debug="True" defer></script>
+        <link href="/static/bootstrap.min.css" rel="stylesheet" async>
+        <link href="/static/fontawesomefree/css/fontawesome.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <link href="/static/fontawesomefree/css/solid.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <link href="/static/fontawesomefree/css/brands.css"
+              rel="stylesheet"
+              type="text/css"
+              async>
+        <style>
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+        .archive-badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            padding: 0.125rem 0.375rem;
+            background-color: #d29922;
+            color: white;
+            border-radius: 0.25rem;
+            vertical-align: middle;
+        }
+
+        /* index.html */
+        .hero-section {
+            background-color: rgba(13, 110, 253, 0.1);
+            border-radius: 0.5rem;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #0d6efd;
+        }
+        .recent-tool {
+            border-left: 3px solid #0d6efd;
+            background-color: rgba(13, 110, 253, 0.1);
+            transition: transform 0.2s ease;
+        }
+        .recent-tool:hover {
+            transform: translateX(5px);
+            background-color: rgba(13, 110, 253, 0.2);
+        }
+        .tool-category {
+            color: #6c757d;
+        }
+        .list-info {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+
+        /* tool detail page */
+        .tool-header {
+            background-color: rgba(13, 110, 253, 0.1);
+            border-radius: 0.5rem;
+        }
+        .tool-tag {
+            background-color: rgba(13, 110, 253, 0.2);
+            color: #0d6efd;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            margin-right: 0.5rem;
+        }
+        .tool-info {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        .tool-link {
+            text-decoration: none;
+            color: #0d6efd;
+        }
+        .tool-link:hover {
+            text-decoration: underline;
+        }
+        </style>
+    </head>
+    <body hx-boost="true">
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Lucas Cezimbra Toolbox</a>
+                    <button class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/lists/">Lists</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/tags/">Tags</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">All Lists</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-3">
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/ai-software-engineers/">
+                                            <h5 class="tag-name">AI Software Engineers</h5>
+                                        </a>
+                                        <span class="badge bg-primary">14 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/beancount/">
+                                            <h5 class="tag-name">Beancount</h5>
+                                        </a>
+                                        <span class="badge bg-primary">6 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/command-line/">
+                                            <h5 class="tag-name">Command-line</h5>
+                                        </a>
+                                        <span class="badge bg-primary">14 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/data-parsers/">
+                                            <h5 class="tag-name">Data - Parsers</h5>
+                                        </a>
+                                        <span class="badge bg-primary">2 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/django-admin/">
+                                            <h5 class="tag-name">Django - Admin</h5>
+                                        </a>
+                                        <span class="badge bg-primary">8 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/django-analytics/">
+                                            <h5 class="tag-name">Django - Analytics</h5>
+                                        </a>
+                                        <span class="badge bg-primary">6 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/django-auth/">
+                                            <h5 class="tag-name">Django - Auth</h5>
+                                        </a>
+                                        <span class="badge bg-primary">2 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/django-databases/">
+                                            <h5 class="tag-name">Django - Databases</h5>
+                                        </a>
+                                        <span class="badge bg-primary">2 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/django-graphql/">
+                                            <h5 class="tag-name">Django - GraphQL</h5>
+                                        </a>
+                                        <span class="badge bg-primary">4 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/django-healthcheck/">
+                                            <h5 class="tag-name">Django - Healthcheck</h5>
+                                        </a>
+                                        <span class="badge bg-primary">2 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/django-linters/">
+                                            <h5 class="tag-name">Django - Linters</h5>
+                                        </a>
+                                        <span class="badge bg-primary">4 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/django-liveview/">
+                                            <h5 class="tag-name">Django - LiveView</h5>
+                                        </a>
+                                        <span class="badge bg-primary">2 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/django-logging/">
+                                            <h5 class="tag-name">Django - Logging</h5>
+                                        </a>
+                                        <span class="badge bg-primary">3 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/django-models/">
+                                            <h5 class="tag-name">Django - Models</h5>
+                                        </a>
+                                        <span class="badge bg-primary">4 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/django-multitenancy/">
+                                            <h5 class="tag-name">Django - Multitenancy</h5>
+                                        </a>
+                                        <span class="badge bg-primary">3 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/django-permissions/">
+                                            <h5 class="tag-name">Django - Permissions</h5>
+                                        </a>
+                                        <span class="badge bg-primary">2 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/django-profilling/">
+                                            <h5 class="tag-name">Django - Profilling</h5>
+                                        </a>
+                                        <span class="badge bg-primary">6 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/django-saving-trees/">
+                                            <h5 class="tag-name">Django - Saving Trees</h5>
+                                        </a>
+                                        <span class="badge bg-primary">6 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/django-servers/">
+                                            <h5 class="tag-name">Django - Servers</h5>
+                                        </a>
+                                        <span class="badge bg-primary">6 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/django-settings/">
+                                            <h5 class="tag-name">Django - Settings</h5>
+                                        </a>
+                                        <span class="badge bg-primary">1 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/django-ui-components/">
+                                            <h5 class="tag-name">Django - UI Components</h5>
+                                        </a>
+                                        <span class="badge bg-primary">11 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/documentation/">
+                                            <h5 class="tag-name">Documentation</h5>
+                                        </a>
+                                        <span class="badge bg-primary">1 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/editors/">
+                                            <h5 class="tag-name">Editors</h5>
+                                        </a>
+                                        <span class="badge bg-primary">1 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/edtech/">
+                                            <h5 class="tag-name">EdTech</h5>
+                                        </a>
+                                        <span class="badge bg-primary">11 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/esp32/">
+                                            <h5 class="tag-name">ESP32</h5>
+                                        </a>
+                                        <span class="badge bg-primary">3 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/frontend/">
+                                            <h5 class="tag-name">Frontend</h5>
+                                        </a>
+                                        <span class="badge bg-primary">3 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/frontend-react/">
+                                            <h5 class="tag-name">Frontend - React</h5>
+                                        </a>
+                                        <span class="badge bg-primary">2 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/frontend-styles/">
+                                            <h5 class="tag-name">Frontend - Styles</h5>
+                                        </a>
+                                        <span class="badge bg-primary">4 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/frontend-templating/">
+                                            <h5 class="tag-name">Frontend - Templating</h5>
+                                        </a>
+                                        <span class="badge bg-primary">1 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/full-text-search-in-the-browser/">
+                                            <h5 class="tag-name">Full-text search in the browser</h5>
+                                        </a>
+                                        <span class="badge bg-primary">4 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/github/">
+                                            <h5 class="tag-name">GitHub</h5>
+                                        </a>
+                                        <span class="badge bg-primary">1 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/home-assistant/">
+                                            <h5 class="tag-name">Home Assistant</h5>
+                                        </a>
+                                        <span class="badge bg-primary">24 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/home-photo-library/">
+                                            <h5 class="tag-name">Home - Photo Library</h5>
+                                        </a>
+                                        <span class="badge bg-primary">3 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/home-server/">
+                                            <h5 class="tag-name">Home Server</h5>
+                                        </a>
+                                        <span class="badge bg-primary">7 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/interoperability/">
+                                            <h5 class="tag-name">Interoperability</h5>
+                                        </a>
+                                        <span class="badge bg-primary">3 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/llm/">
+                                            <h5 class="tag-name">LLM</h5>
+                                        </a>
+                                        <span class="badge bg-primary">14 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/llm-agents/">
+                                            <h5 class="tag-name">LLM - Agents</h5>
+                                        </a>
+                                        <span class="badge bg-primary">20 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/llm-rag/">
+                                            <h5 class="tag-name">LLM - RAG</h5>
+                                        </a>
+                                        <span class="badge bg-primary">0 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/load-testing/">
+                                            <h5 class="tag-name">Load Testing</h5>
+                                        </a>
+                                        <span class="badge bg-primary">1 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/logging/">
+                                            <h5 class="tag-name">Logging</h5>
+                                        </a>
+                                        <span class="badge bg-primary">1 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/my-projects/">
+                                            <h5 class="tag-name">My Projects</h5>
+                                        </a>
+                                        <span class="badge bg-primary">12 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/neovim/">
+                                            <h5 class="tag-name">Neovim - Plugins</h5>
+                                        </a>
+                                        <span class="badge bg-primary">17 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/neovim-distros/">
+                                            <h5 class="tag-name">Neovim - Distros</h5>
+                                        </a>
+                                        <span class="badge bg-primary">5 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/nostr-clients/">
+                                            <h5 class="tag-name">nostr - clients</h5>
+                                        </a>
+                                        <span class="badge bg-primary">3 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/nostr-relays/">
+                                            <h5 class="tag-name">nostr - relays</h5>
+                                        </a>
+                                        <span class="badge bg-primary">12 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/obsidian/">
+                                            <h5 class="tag-name">Obsidian</h5>
+                                        </a>
+                                        <span class="badge bg-primary">4 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/postgresql/">
+                                            <h5 class="tag-name">PostgreSQL</h5>
+                                        </a>
+                                        <span class="badge bg-primary">7 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/python-architecture/">
+                                            <h5 class="tag-name">Python - Architecture</h5>
+                                        </a>
+                                        <span class="badge bg-primary">3 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/python-background-tasks/">
+                                            <h5 class="tag-name">Python - Background Tasks</h5>
+                                        </a>
+                                        <span class="badge bg-primary">6 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/python-cli/">
+                                            <h5 class="tag-name">Python - CLI</h5>
+                                        </a>
+                                        <span class="badge bg-primary">5 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/python-gui/">
+                                            <h5 class="tag-name">Python - GUI</h5>
+                                        </a>
+                                        <span class="badge bg-primary">1 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/python-json/">
+                                            <h5 class="tag-name">Python - JSON</h5>
+                                        </a>
+                                        <span class="badge bg-primary">7 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/python-linting/">
+                                            <h5 class="tag-name">Python - Linting</h5>
+                                        </a>
+                                        <span class="badge bg-primary">6 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/python-logging/">
+                                            <h5 class="tag-name">Python - Logging</h5>
+                                        </a>
+                                        <span class="badge bg-primary">4 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/python-orms/">
+                                            <h5 class="tag-name">Python - ORMs</h5>
+                                        </a>
+                                        <span class="badge bg-primary">2 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/python-profilling/">
+                                            <h5 class="tag-name">Python - Profilling</h5>
+                                        </a>
+                                        <span class="badge bg-primary">2 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/python-rpc/">
+                                            <h5 class="tag-name">Python - RPC</h5>
+                                        </a>
+                                        <span class="badge bg-primary">2 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/python-text-parsing/">
+                                            <h5 class="tag-name">Python - Text Parsing</h5>
+                                        </a>
+                                        <span class="badge bg-primary">3 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/python-web-framerworks/">
+                                            <h5 class="tag-name">Python - Web Framerworks</h5>
+                                        </a>
+                                        <span class="badge bg-primary">2 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/python-webassembly/">
+                                            <h5 class="tag-name">Python - WebAssembly</h5>
+                                        </a>
+                                        <span class="badge bg-primary">4 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/shells/">
+                                            <h5 class="tag-name">Shells</h5>
+                                        </a>
+                                        <span class="badge bg-primary">3 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/sqlite/">
+                                            <h5 class="tag-name">SQLite</h5>
+                                        </a>
+                                        <span class="badge bg-primary">3 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/terminals/">
+                                            <h5 class="tag-name">Terminals</h5>
+                                        </a>
+                                        <span class="badge bg-primary">2 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/terraform/">
+                                            <h5 class="tag-name">Terraform</h5>
+                                        </a>
+                                        <span class="badge bg-primary">2 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/vector-databases/">
+                                            <h5 class="tag-name">Vector Databases</h5>
+                                        </a>
+                                        <span class="badge bg-primary">5 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/vpns/">
+                                            <h5 class="tag-name">VPNs</h5>
+                                        </a>
+                                        <span class="badge bg-primary">2 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/web-scrapping/">
+                                            <h5 class="tag-name">Web Scrapping</h5>
+                                        </a>
+                                        <span class="badge bg-primary">4 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/web-scrapping-instagram/">
+                                            <h5 class="tag-name">Web Scrapping - Instagram</h5>
+                                        </a>
+                                        <span class="badge bg-primary">4 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/web-scrapping-whatsapp/">
+                                            <h5 class="tag-name">Web Scrapping - WhatsApp</h5>
+                                        </a>
+                                        <span class="badge bg-primary">7 tools</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="tag-card p-3">
+                                        <a href="/lists/webdriver/">
+                                            <h5 class="tag-name">WebDriver</h5>
+                                        </a>
+                                        <span class="badge bg-primary">3 tools</span>
+                                    </div>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        </div>
+        <script src="/static/bootstrap.min.js" defer></script>
+        <script data-goatcounter="https://toolbox.goatcounter.com/count"
+                async
+                src="//gc.zgo.at/count.js"></script>
+    </body>
+</html>
