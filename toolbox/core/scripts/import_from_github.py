@@ -1,6 +1,6 @@
 import sqlite3
-
-from django.db.utils import IntegrityError
+from collections import Counter
+from urllib.parse import urlparse
 
 from toolbox.core.models import Tool
 
@@ -37,10 +37,21 @@ def is_url_docs(url):
         return False
 
 
+def owner_from_github_url(url):
+    return urlparse(url).path.strip("/").split("/", maxsplit=1)[0]
+
+
+def build_slug(name, url_github, name_counts):
+    if name_counts[name] == 1:
+        return name
+    return f"{owner_from_github_url(url_github)}-{name}"
+
+
 def run():
     conn = sqlite3.connect("./github.sqlite3")
     cursor = conn.execute(SQL)
     rows = cursor.fetchall()
+    name_counts = Counter(name for _, _, name, *_ in rows)
 
     for (
         starred_at,
@@ -53,24 +64,19 @@ def run():
         forks_count,
         pushed_at,
     ) in rows:
+        normalized_url_github = url_github.lower()
         t = Tool(
             archived=archived,
             added_at=starred_at,
             name=name,
             url_docs=homepage if is_url_docs(homepage) else "",
-            url_github=url_github.lower(),
-            slug=name,
+            url_github=normalized_url_github,
+            slug=build_slug(name, normalized_url_github, name_counts),
             stargazers=stargazers_count,
             forks=forks_count,
             last_commit_date=pushed_at,
         )
-        try:
-            t.save()
-        except IntegrityError:
-            # TODO; improve this; it will not work when the user has more than 2
-            #       tools with the same name
-            t.slug = f"{name}2"
-            t.save()
+        t.save()
 
         tags = ["opensource"]
         if language:
