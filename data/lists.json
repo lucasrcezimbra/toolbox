@@ -1698,7 +1698,7 @@
       "slug": "django-models",
       "tools": [
         [
-          "https://github.com/jazzband/django-polymorphic"
+          "https://github.com/django-commons/django-polymorphic"
         ],
         [
           "https://github.com/jazzband/django-model-utils"
