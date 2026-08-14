@@ -22,7 +22,7 @@ package-mode = false
 
 [tool.poetry.group.data.dependencies]
 github-to-sqlite = "2.9"
-sqlite-utils = "3.39"
+sqlite-utils = "4.1.1"
 
 [tool.poetry.group.dev.dependencies]
 model-bakery = "1.23.2"
