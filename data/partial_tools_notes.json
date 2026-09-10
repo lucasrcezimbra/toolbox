@@ -282,7 +282,7 @@
   {
     "fields": {
       "notes": "Based on Bootstrap 5",
-      "url_github": "https://github.com/app-generator/django-admin-volt"
+      "url_github": ""
     },
     "model": "core.tool"
   },
